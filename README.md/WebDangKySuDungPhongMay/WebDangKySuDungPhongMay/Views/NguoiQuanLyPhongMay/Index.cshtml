@@ -1,0 +1,246 @@
+﻿@model IEnumerable<WebDangKySuDungPhongMay.Models.NguoiQuanLyPhongMay>
+@{
+    ViewBag.Title = "Quản lý người quản lý phòng máy";
+}
+
+<div class="container">
+    <h1 class="text-center text-uppercase">Quản lý người quản lý phòng máy</h1>
+
+    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#createModal">
+        Thêm người quản lý
+    </button>
+    @if (ViewData.ModelState.ErrorCount > 0)
+    {
+        <div class="alert alert-danger">
+            <ul>
+                @foreach (var error in ViewData.ModelState.Values.SelectMany(v => v.Errors))
+                {
+                    <li>@error.ErrorMessage</li>
+                }
+            </ul>
+        </div>
+    }
+    <table class="table table-striped mt-3">
+        <thead>
+            <tr>
+                <th>Mã</th>
+                <th>Tên</th>
+                <th>Email</th>
+                <th>Ngày sinh</th>
+                <th>Giới tính</th>
+                <th>Số điện thoại</th>
+                <th>Trạng thái</th>
+                <th>Hành động</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td>@item.MaNguoiQuanLy</td>
+                    <td>@item.TenNguoiQuanLy</td>
+                    <td>@item.Email</td>
+                    <td>@item.NgaySinh.ToShortDateString()</td>
+                    <td>@item.GioiTinh</td>
+                    <td>@item.SoDienThoai</td>
+                    <td>@(item.TrangThai ? "Hoạt động" : "Không hoạt động")</td>
+                    <td>
+                        <button type="button" class="btn btn-warning" data-toggle="modal" data-target="#editModal"
+                                data-id="@item.MaNguoiQuanLy" data-ten="@item.TenNguoiQuanLy" data-email="@item.Email"
+                                data-ngaysinh="@item.NgaySinh.ToString("yyyy-MM-dd")" data-gioitinh="@item.GioiTinh"
+                                data-sodienthoai="@item.SoDienThoai" data-trangthai="@item.TrangThai">
+                            Sửa
+                        </button>
+                        <button type="button" class="btn btn-danger" data-toggle="modal" data-target="#deleteConfirmationModal"
+                                data-id="@item.MaNguoiQuanLy">
+                            Xóa
+                        </button>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+
+    <nav aria-label="Page navigation example">
+        <ul class="pagination justify-content-end">
+            @for (int i = 1; i <= ViewBag.TotalPages; i++)
+            {
+                <li class="page-item @(ViewBag.CurrentPage == i ? "active" : "")">
+                    <a class="page-link" href="?page=@i&pageSize=@ViewBag.PageSize">@i</a>
+                </li>
+            }
+        </ul>
+    </nav>
+
+</div>
+
+<!-- Modal for Create -->
+<div class="modal fade" id="createModal" tabindex="-1" role="dialog" aria-labelledby="createModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <form method="post" asp-action="Create">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="createModalLabel">Thêm người quản lý</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <div class="form-group">
+                        <label for="MaNguoiQuanLy">Mã Người Quản Lý</label>
+                        <input type="text" class="form-control" id="MaNguoiQuanLy" name="MaNguoiQuanLy" required maxlength="50" />
+                    </div>
+                    <div class="form-group">
+                        <label for="TenNguoiQuanLy">Tên Người Quản Lý</label>
+                        <input type="text" class="form-control" id="TenNguoiQuanLy" name="TenNguoiQuanLy" required maxlength="100" />
+                    </div>
+                    <div class="form-group">
+                        <label for="MatKhau">Mật Khẩu</label>
+                        <input type="password" class="form-control" id="MatKhau" name="MatKhau" required maxlength="128" />
+                    </div>
+                    <div class="form-group">
+                        <label for="NgaySinh">Ngày Sinh</label>
+                        <input type="date" class="form-control" id="NgaySinh" name="NgaySinh" required />
+                    </div>
+                    <div class="form-group">
+                        <label for="GioiTinh">Giới Tính</label>
+                        <input type="text" class="form-control" id="GioiTinh" name="GioiTinh" required maxlength="10" />
+                    </div>
+                    <div class="form-group">
+                        <label for="Email">Email</label>
+                        <input type="email" class="form-control" id="Email" name="Email" required maxlength="100" />
+                    </div>
+                    <div class="form-group">
+                        <label for="SoDienThoai">Số Điện Thoại</label>
+                        <input type="text" class="form-control" id="SoDienThoai" name="SoDienThoai" maxlength="15" />
+                    </div>
+                    <div class="form-group">
+                        <label for="TrangThai">Trạng Thái</label><br>
+                        <input type="radio" id="TrangThaiHoatDong" name="TrangThai" value="true" checked>
+                        <label for="TrangThaiHoatDong">Hoạt động</label><br>
+                        <input type="radio" id="TrangThaiKhongHoatDong" name="TrangThai" value="false">
+                        <label for="TrangThaiKhongHoatDong">Không hoạt động</label>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Đóng</button>
+                    <button type="submit" class="btn btn-primary">Lưu</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+
+<!-- Modal for Edit -->
+<div class="modal fade" id="editModal" tabindex="-1" role="dialog" aria-labelledby="editModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <form method="post" asp-action="Edit">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="editModalLabel">Sửa người quản lý</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <input type="hidden" id="MaNguoiQuanLy" name="MaNguoiQuanLy" />
+                    <div class="form-group">
+                        <label for="TenNguoiQuanLy">Tên Người Quản Lý</label>
+                        <input type="text" class="form-control" id="TenNguoiQuanLy" name="TenNguoiQuanLy" required maxlength="100" />
+                    </div>
+                    <div class="form-group">
+                        <label for="MatKhau">Mật Khẩu</label>
+                        <input type="password" class="form-control" id="MatKhau" name="MatKhau" maxlength="128" />
+                    </div>
+                    <div class="form-group">
+                        <label for="NgaySinh">Ngày Sinh</label>
+                        <input type="date" class="form-control" id="NgaySinh" name="NgaySinh" required />
+                    </div>
+                    <div class="form-group">
+                        <label for="GioiTinh">Giới Tính</label>
+                        <input type="text" class="form-control" id="GioiTinh" name="GioiTinh" required maxlength="10" />
+                    </div>
+                    <div class="form-group">
+                        <label for="Email">Email</label>
+                        <input type="email" class="form-control" id="Email" name="Email" required maxlength="100" />
+                    </div>
+                    <div class="form-group">
+                        <label for="SoDienThoai">Số Điện Thoại</label>
+                        <input type="text" class="form-control" id="SoDienThoai" name="SoDienThoai" maxlength="15" />
+                    </div>
+                    <div class="form-group">
+                        <label for="TrangThai">Trạng Thái</label><br>
+                        <input type="radio" id="TrangThaiHoatDong" name="TrangThai" value="true">
+                        <label for="TrangThaiHoatDong">Hoạt động</label><br>
+                        <input type="radio" id="TrangThaiKhongHoatDong" name="TrangThai" value="false">
+                        <label for="TrangThaiKhongHoatDong">Không hoạt động</label>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Đóng</button>
+                    <button type="submit" class="btn btn-primary">Lưu</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+
+<!-- Modal for Delete Confirmation -->
+<div class="modal fade" id="deleteConfirmationModal" tabindex="-1" role="dialog" aria-labelledby="deleteConfirmationModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <form method="post" asp-action="Delete">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="deleteConfirmationModalLabel">Xác nhận xóa</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    Bạn có chắc chắn muốn xóa người quản lý này?
+                    <input type="hidden" id="deleteMaNguoiQuanLy" name="id" />
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Đóng</button>
+                    <button type="submit" class="btn btn-danger">Xóa</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    <script>
+        $('#editModal').on('show.bs.modal', function (event) {
+            var button = $(event.relatedTarget);
+            var id = button.data('id');
+            var ten = button.data('ten');
+            var email = button.data('email');
+            var ngaysinh = button.data('ngaysinh');
+            var gioitinh = button.data('gioitinh');
+            var sodienthoai = button.data('sodienthoai');
+            var trangthai = button.data('trangthai');
+
+            var modal = $(this);
+            modal.find('#MaNguoiQuanLy').val(id);
+            modal.find('#TenNguoiQuanLy').val(ten);
+            modal.find('#Email').val(email);
+            modal.find('#NgaySinh').val(ngaysinh);
+            modal.find('#GioiTinh').val(gioitinh);
+            modal.find('#SoDienThoai').val(sodienthoai);
+            if (trangthai) {
+                modal.find('#TrangThaiHoatDong').prop('checked', true);
+            } else {
+                modal.find('#TrangThaiKhongHoatDong').prop('checked', true);
+            }
+        });
+
+        $('#deleteConfirmationModal').on('show.bs.modal', function (event) {
+            var button = $(event.relatedTarget);
+            var id = button.data('id');
+
+            var modal = $(this);
+            modal.find('#deleteMaNguoiQuanLy').val(id);
+        });
+    </script>
+}

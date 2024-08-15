@@ -1,0 +1,78 @@
+﻿@model IEnumerable<WebDangKySuDungPhongMay.Models.ThongBao>
+
+@{
+    ViewBag.Title = "Danh sách thông báo";
+    Layout = "~/Views/Shared/_GiangVienLayout.cshtml";
+}
+
+<h1 class="text-center text-uppercase">Danh sách thông báo</h1>
+
+<table class="table table-striped mt-3">
+    <thead>
+        <tr>
+            <th>Tiêu đề</th>
+            <th>Thời gian đăng</th>
+            <th>Người quản lý</th>
+            <th>Hành động</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var thongBao in Model)
+        {
+            <tr>
+                <td>@thongBao.TieuDe</td>
+                <td>@thongBao.ThoiGianDang</td>
+                <td>@thongBao.NguoiQuanLyPhongMay.TenNguoiQuanLy</td>
+                <td>
+                    <button type="button" class="btn btn-info" data-toggle="modal" data-target="#detailsModal"
+                            data-id="@thongBao.MaThongBao" data-tieude="@thongBao.TieuDe"
+                            data-noidung="@thongBao.NoiDung" data-thoigiandang="@thongBao.ThoiGianDang"
+                            data-nguoiquanly="@thongBao.NguoiQuanLyPhongMay.TenNguoiQuanLy">
+                        Xem
+                    </button>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+<!-- Details Modal -->
+<div class="modal fade" id="detailsModal" tabindex="-1" role="dialog" aria-labelledby="detailsModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="detailsModalLabel">Chi Tiết Thông Báo</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <p><strong>Tiêu đề:</strong> <span id="detailsTieuDe"></span></p>
+                <p><strong>Nội dung:</strong> <span id="detailsNoiDung"></span></p>
+                <p><strong>Thời gian đăng:</strong> <span id="detailsThoiGianDang"></span></p>
+                <p><strong>Người quản lý:</strong> <span id="detailsNguoiQuanLy"></span></p>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Đóng</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    <script>
+        $('#detailsModal').on('show.bs.modal', function (event) {
+            var button = $(event.relatedTarget);
+            var tieude = button.data('tieude');
+            var noidung = button.data('noidung');
+            var thoigiandang = button.data('thoigiandang');
+            var nguoiquanly = button.data('nguoiquanly');
+
+            var modal = $(this);
+            modal.find('#detailsTieuDe').text(tieude);
+            modal.find('#detailsNoiDung').html(noidung); // Use .html() instead of .text()
+            modal.find('#detailsThoiGianDang').text(thoigiandang);
+            modal.find('#detailsNguoiQuanLy').text(nguoiquanly);
+        });
+    </script>
+}

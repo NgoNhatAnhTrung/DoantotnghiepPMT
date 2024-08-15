@@ -1,0 +1,133 @@
+﻿@{
+    ViewBag.Title = "Chi tiết lớp học phần";
+}
+
+<div class="container">
+    <h1 class="text-center text-uppercase">Chi tiết lớp học phần: @ViewBag.TenLopHocPhan</h1>
+    @if (ViewData.ModelState.ErrorCount > 0)
+    {
+        <div class="alert alert-danger">
+            <ul>
+                @foreach (var error in ViewData.ModelState.Values.SelectMany(v => v.Errors))
+                {
+                    <li>@error.ErrorMessage</li>
+                }
+            </ul>
+        </div>
+    }
+    <h3>Danh sách sinh viên</h3>
+    <table class="table table-striped">
+        <thead>
+            <tr>
+                <th>Mã sinh viên</th>
+                <th>Tên sinh viên</th>
+                <th>Hành động</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in (IEnumerable<WebDangKySuDungPhongMay.Models.SinhVienLopHocPhan>)ViewBag.SinhVienLopHocPhans)
+            {
+                <tr>
+                    <td>@item.MaSinhVien</td>
+                    <td>@item.SinhVien.TenSinhVien</td>
+                    <td>
+                        <button type="button" class="btn btn-danger" data-toggle="modal" data-target="#deleteConfirmationModal" data-id="@item.Id">
+                            Xóa
+                        </button>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+
+    <!-- Pagination -->
+    <nav aria-label="Page navigation example">
+        <ul class="pagination">
+            @for (int i = 1; i <= ViewBag.TotalPages; i++)
+            {
+                <li class="page-item @(ViewBag.CurrentPage == i ? "active" : "")">
+                    <a class="page-link" href="@Url.Action("Details", new { id = ViewBag.MaLopHocPhan, page = i, pageSize = ViewBag.PageSize })">@i</a>
+                </li>
+            }
+        </ul>
+    </nav>
+
+    <h3>Thêm sinh viên vào lớp học phần</h3>
+    <!-- Button trigger modal -->
+    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#addStudentModal">
+        Thêm sinh viên
+    </button>
+
+    <!-- Modal for Adding Student -->
+    <div class="modal fade" id="addStudentModal" tabindex="-1" role="dialog" aria-labelledby="addStudentModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <form asp-action="AddSinhVien" method="post">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="addStudentModalLabel">Thêm sinh viên vào lớp học phần</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <input type="hidden" name="MaLopHocPhan" value="@ViewBag.MaLopHocPhan" />
+                        <div class="form-group">
+                            <label for="SelectedSinhVien">Chọn sinh viên</label>
+                            <select class="form-control" id="SelectedSinhVien" name="SelectedSinhVien">
+                                <option value="">Chọn sinh viên</option>
+                                @foreach (var item in (IEnumerable<SelectListItem>)ViewBag.SinhViens)
+                                {
+                                    <option value="@item.Value">@item.Text</option>
+                                }
+                            </select>
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Đóng</button>
+                        <button type="submit" class="btn btn-primary">Thêm</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal for Delete Confirmation -->
+    <div class="modal fade" id="deleteConfirmationModal" tabindex="-1" role="dialog" aria-labelledby="deleteConfirmationModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="deleteConfirmationModalLabel">Xác nhận xóa</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    Bạn có chắc chắn muốn xóa sinh viên này khỏi lớp học phần?
+                </div>
+                <div class="modal-footer">
+                    <form id="deleteForm" asp-action="RemoveSinhVien" method="post" style="display:inline">
+                        <input type="hidden" name="id" id="deleteId" />
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Đóng</button>
+                        <button type="submit" class="btn btn-danger">Xóa</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Back to Class List Button -->
+    <a class="btn btn-info" asp-action="Index" asp-controller="LopHocPhan">Trở về danh sách lớp học phần</a>
+</div>
+
+@section Scripts {
+    <script>
+        $(document).ready(function () {
+            $('#deleteConfirmationModal').on('show.bs.modal', function (event) {
+                var button = $(event.relatedTarget);
+                var id = button.data('id');
+                var modal = $(this);
+                modal.find('#deleteId').val(id);
+            });
+        });
+    </script>
+}

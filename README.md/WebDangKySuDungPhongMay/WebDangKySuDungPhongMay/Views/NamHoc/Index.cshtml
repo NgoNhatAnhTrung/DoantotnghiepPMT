@@ -1,0 +1,163 @@
+﻿@model IEnumerable<WebDangKySuDungPhongMay.Models.NamHoc>
+@{
+    ViewBag.Title = "Quản lý năm học";
+}
+
+<div class="container">
+    <h1 class="text-center text-uppercase">Quản lý năm học</h1>
+
+    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#createModal">
+        Thêm năm học
+    </button>
+
+    <table class="table table-striped mt-3">
+        <thead>
+            <tr>
+                <th>Mã</th>
+                <th>Năm bắt đầu</th>
+                <th>Năm kết thúc</th>
+                <th>Hành động</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td>@item.MaNamHoc</td>
+                    <td>@item.NamBatDau</td>
+                    <td>@item.NamKetThuc</td>
+                    <td>
+                        <button type="button" class="btn btn-warning" data-toggle="modal" data-target="#editModal"
+                                data-id="@item.MaNamHoc" data-nambatdau="@item.NamBatDau" data-namketthuc="@item.NamKetThuc">
+                            Sửa
+                        </button>
+                        <button type="button" class="btn btn-danger" data-toggle="modal" data-target="#deleteConfirmationModal"
+                                data-id="@item.MaNamHoc">
+                            Xóa
+                        </button>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+
+    <nav aria-label="Page navigation example">
+        <ul class="pagination">
+            @for (int i = 1; i <= ViewBag.TotalPages; i++)
+            {
+                <li class="page-item @(ViewBag.CurrentPage == i ? "active" : "")">
+                    <a class="page-link" href="?page=@i&pageSize=@ViewBag.PageSize">@i</a>
+                </li>
+            }
+        </ul>
+    </nav>
+</div>
+
+<!-- Modal for Create -->
+<div class="modal fade" id="createModal" tabindex="-1" role="dialog" aria-labelledby="createModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <form method="post" asp-action="Create">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="createModalLabel">Thêm năm học</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <div class="form-group">
+                        <label for="NamBatDau">Năm bắt đầu</label>
+                        <input type="number" class="form-control" id="NamBatDau" name="NamBatDau" required />
+                    </div>
+                    <div class="form-group">
+                        <label for="NamKetThuc">Năm kết thúc</label>
+                        <input type="number" class="form-control" id="NamKetThuc" name="NamKetThuc" required />
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Đóng</button>
+                    <button type="submit" class="btn btn-primary">Lưu</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+
+<!-- Modal for Edit -->
+<div class="modal fade" id="editModal" tabindex="-1" role="dialog" aria-labelledby="editModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <form method="post" asp-action="Edit">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="editModalLabel">Sửa năm học</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <input type="hidden" id="MaNamHoc" name="MaNamHoc" />
+                    <div class="form-group">
+                        <label for="NamBatDau">Năm bắt đầu</label>
+                        <input type="number" class="form-control" id="NamBatDau" name="NamBatDau" required />
+                    </div>
+                    <div class="form-group">
+                        <label for="NamKetThuc">Năm kết thúc</label>
+                        <input type="number" class="form-control" id="NamKetThuc" name="NamKetThuc" required />
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Đóng</button>
+                    <button type="submit" class="btn btn-primary">Lưu</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+
+<!-- Modal for Delete Confirmation -->
+<div class="modal fade" id="deleteConfirmationModal" tabindex="-1" role="dialog" aria-labelledby="deleteConfirmationModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <form method="post" asp-action="Delete">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="deleteConfirmationModalLabel">Xác nhận xóa</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    Bạn có chắc chắn muốn xóa năm học này?
+                    <input type="hidden" id="deleteMaNamHoc" name="id" />
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Đóng</button>
+                    <button type="submit" class="btn btn-danger">Xóa</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    <script>
+        $('#editModal').on('show.bs.modal', function (event) {
+            var button = $(event.relatedTarget);
+            var id = button.data('id');
+            var namBatDau = button.data('nambatdau');
+            var namKetThuc = button.data('namketthuc');
+
+            var modal = $(this);
+            modal.find('#MaNamHoc').val(id);
+            modal.find('#NamBatDau').val(namBatDau);
+            modal.find('#NamKetThuc').val(namKetThuc);
+        });
+
+        $('#deleteConfirmationModal').on('show.bs.modal', function (event) {
+            var button = $(event.relatedTarget);
+            var id = button.data('id');
+
+            var modal = $(this);
+            modal.find('#deleteMaNamHoc').val(id);
+        });
+    </script>
+}

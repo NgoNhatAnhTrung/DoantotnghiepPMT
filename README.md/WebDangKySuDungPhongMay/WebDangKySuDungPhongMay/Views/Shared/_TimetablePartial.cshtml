@@ -1,0 +1,26 @@
+﻿@model WebDangKySuDungPhongMay.ViewModels.LopHocPhanTimetableViewModel
+
+<h3>Thời khóa biểu của lớp: @Model.TenMonHoc (@Model.MaLopHocPhan)</h3>
+
+<table class="table table-bordered">
+    <thead>
+        <tr>
+            <th>Thứ</th>
+            <th>Ngày</th>
+            <th>Tiết bắt đầu</th>
+            <th>Tiết kết thúc</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var entry in Model.TimetableEntries)
+        {
+            <tr>
+               
+                <td>@entry.DayOfWeek</td>
+                <td>@entry.Date.ToString("dd/MM/yyyy")</td>
+                <td>@entry.StartTime</td>
+                <td>@entry.EndTime</td>
+            </tr>
+        }
+    </tbody>
+</table>

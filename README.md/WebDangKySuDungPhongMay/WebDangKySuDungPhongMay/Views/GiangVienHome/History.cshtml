@@ -1,0 +1,46 @@
+﻿@model IEnumerable<WebDangKySuDungPhongMay.Models.PhieuDangKyGV>
+
+@{
+    ViewBag.Title = "Lịch sử đăng ký";
+    Layout = "~/Views/Shared/_GiangVienLayout.cshtml";
+}
+
+<h1 class="text-center text-uppercase">Lịch sử đăng ký</h1>
+
+<table class="table table-striped">
+    <thead>
+        <tr>
+            <th>Lớp học phần</th>
+            <th>Môn học</th>
+            <th>Học kỳ</th>
+            <th>Năm học</th>
+            <th>Ngày sử dụng</th>
+            <th>Tiết bắt đầu</th>
+            <th>Tiết kết thúc</th>
+            <th>Lý do</th>
+            <th>Phòng máy</th>
+            <th>Tình trạng phòng</th>
+           
+            <th>Trạng thái</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var phieu in Model)
+        {
+            <tr>
+                <td>@phieu.LopHocPhan.MaLopHocPhan</td>
+                <td>@phieu.LopHocPhan.MonHoc.TenMonHoc</td>
+                <td>@phieu.LopHocPhan.HocKy?.TenHocKy</td>
+                <td>@(phieu.LopHocPhan.NamHoc?.NamBatDau + "-" + phieu.LopHocPhan.NamHoc?.NamKetThuc)</td>
+                <td>@phieu.NgaySuDung.ToShortDateString()</td>
+                <td>@phieu.TietBatDau</td>
+                <td>@phieu.TietKetThuc</td>
+                <td>@phieu.LyDo</td>
+                <td>@phieu.PhongMay.MaPhongMay</td>
+                <td>@phieu.PhongMay.TinhTrangPhongMay</td>
+             
+                <td>@(phieu.TrangThai ? "Đã duyệt" : "Chưa duyệt")</td>
+            </tr>
+        }
+    </tbody>
+</table>

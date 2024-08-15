@@ -1,0 +1,266 @@
+﻿@model IEnumerable<WebDangKySuDungPhongMay.Models.LopHocPhan>
+@{
+    ViewBag.Title = "Quản lý lớp học phần";
+}
+
+<div class="container">
+    <h1 class="text-center text-uppercase">Quản lý lớp học phần</h1>
+
+    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#createModal">
+        Thêm lớp học phần
+    </button>
+
+    @if (ViewData.ModelState.ErrorCount > 0)
+    {
+        <div class="alert alert-danger">
+            <ul>
+                @foreach (var error in ViewData.ModelState.Values.SelectMany(v => v.Errors))
+                {
+                    <li>@error.ErrorMessage</li>
+                }
+            </ul>
+        </div>
+    }
+
+    <table class="table table-striped mt-3">
+        <thead>
+            <tr>
+                <th>Mã</th>
+                <th>Học kỳ</th>
+                <th>Năm học</th>
+                <th>Môn học</th>
+                <th>Giảng viên</th>
+                <th>Số sinh viên tối đa</th>
+                <th>Hành động</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td>@item.MaLopHocPhan</td>
+                    <td>@item.HocKy?.TenHocKy</td>
+                    <td>@(item.NamHoc?.NamBatDau + "-" + item.NamHoc?.NamKetThuc)</td>
+                    <td>@item.MonHoc?.TenMonHoc</td>
+                    <td>@item.GiangVien?.HoTen</td>
+                    <td>@item.SoSinhVienToiDa</td>
+                    <td>
+                        <a class="btn btn-info" href="@Url.Action("Details", "LopHocPhan", new { id = item.MaLopHocPhan })">Chi tiết</a>
+                        <button type="button" class="btn btn-warning" data-toggle="modal" data-target="#editModal"
+                                data-id="@item.MaLopHocPhan" data-hocky="@item.MaHocKy" data-namhoc="@item.MaNamHoc"
+                                data-monhoc="@item.MaMonHoc" data-giangvien="@item.MaGiangVien" data-sosinhvien="@item.SoSinhVienToiDa">
+                            Sửa
+                        </button>
+                        <button type="button" class="btn btn-danger" data-toggle="modal" data-target="#deleteConfirmationModal"
+                                data-id="@item.MaLopHocPhan">
+                            Xóa
+                        </button>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+
+    <nav aria-label="Page navigation example">
+        <ul class="pagination justify-content-end">
+            @for (int i = 1; i <= ViewBag.TotalPages; i++)
+            {
+                <li class="page-item @(ViewBag.CurrentPage == i ? "active" : "")">
+                    <a class="page-link" href="?page=@i&pageSize=@ViewBag.PageSize">@i</a>
+                </li>
+            }
+        </ul>
+    </nav>
+
+</div>
+
+<!-- Modal for Create -->
+<div class="modal fade" id="createModal" tabindex="-1" role="dialog" aria-labelledby="createModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <form method="post" asp-action="Create">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="createModalLabel">Thêm lớp học phần</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <div class="form-group">
+                        <label for="MaLopHocPhan">Mã lớp học phần</label>
+                        <input type="text" class="form-control" id="MaLopHocPhan" name="MaLopHocPhan" required maxlength="50" />
+                    </div>
+                    <div class="form-group">
+                        <label for="MaHocKy">Học kỳ</label>
+                        <select class="form-control" id="MaHocKy" name="MaHocKy">
+                            <option value="">Chọn học kỳ</option>
+                            @foreach (var item in ViewBag.HocKys)
+                            {
+                                <option value="@item.Value">@item.Text</option>
+                            }
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="MaNamHoc">Năm học</label>
+                        <select class="form-control" id="MaNamHoc" name="MaNamHoc">
+                            <option value="">Chọn năm học</option>
+                            @foreach (var item in ViewBag.NamHocs)
+                            {
+                                <option value="@item.Value">@item.Text</option>
+                            }
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="MaMonHoc">Môn học</label>
+                        <select class="form-control" id="MaMonHoc" name="MaMonHoc" required>
+                            <option value="">Chọn môn học</option>
+                            @foreach (var item in ViewBag.MonHocs)
+                            {
+                                <option value="@item.Value">@item.Text</option>
+                            }
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="MaGiangVien">Giảng viên</label>
+                        <select class="form-control" id="MaGiangVien" name="MaGiangVien">
+                            <option value="">Chọn giảng viên</option>
+                            @foreach (var item in ViewBag.GiangViens)
+                            {
+                                <option value="@item.Value">@item.Text</option>
+                            }
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="SoSinhVienToiDa">Số sinh viên tối đa</label>
+                        <input type="number" class="form-control" id="SoSinhVienToiDa" name="SoSinhVienToiDa" required />
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Đóng</button>
+                    <button type="submit" class="btn btn-primary">Lưu</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+
+<!-- Modal for Edit -->
+<div class="modal fade" id="editModal" tabindex="-1" role="dialog" aria-labelledby="editModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <form method="post" asp-action="Edit">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="editModalLabel">Sửa lớp học phần</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <input type="hidden" id="MaLopHocPhan" name="MaLopHocPhan" />
+                    <div class="form-group">
+                        <label for="MaHocKy">Học kỳ</label>
+                        <select class="form-control" id="MaHocKy" name="MaHocKy">
+                            <option value="">Chọn học kỳ</option>
+                            @foreach (var item in ViewBag.HocKys)
+                            {
+                                <option value="@item.Value">@item.Text</option>
+                            }
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="MaNamHoc">Năm học</label>
+                        <select class="form-control" id="MaNamHoc" name="MaNamHoc">
+                            <option value="">Chọn năm học</option>
+                            @foreach (var item in ViewBag.NamHocs)
+                            {
+                                <option value="@item.Value">@item.Text</option>
+                            }
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="MaMonHoc">Môn học</label>
+                        <select class="form-control" id="MaMonHoc" name="MaMonHoc" required>
+                            <option value="">Chọn môn học</option>
+                            @foreach (var item in ViewBag.MonHocs)
+                            {
+                                <option value="@item.Value">@item.Text</option>
+                            }
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="MaGiangVien">Giảng viên</label>
+                        <select class="form-control" id="MaGiangVien" name="MaGiangVien">
+                            <option value="">Chọn giảng viên</option>
+                            @foreach (var item in ViewBag.GiangViens)
+                            {
+                                <option value="@item.Value">@item.Text</option>
+                            }
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="SoSinhVienToiDa">Số sinh viên tối đa</label>
+                        <input type="number" class="form-control" id="SoSinhVienToiDa" name="SoSinhVienToiDa" required />
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Đóng</button>
+                    <button type="submit" class="btn btn-primary">Lưu</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+
+<!-- Modal for Delete Confirmation -->
+<div class="modal fade" id="deleteConfirmationModal" tabindex="-1" role="dialog" aria-labelledby="deleteConfirmationModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <form method="post" asp-action="Delete">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="deleteConfirmationModalLabel">Xác nhận xóa</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    Bạn có chắc chắn muốn xóa lớp học phần này?
+                    <input type="hidden" id="deleteMaLopHocPhan" name="id" />
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Đóng</button>
+                    <button type="submit" class="btn btn-danger">Xóa</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    <script>
+        $('#editModal').on('show.bs.modal', function (event) {
+            var button = $(event.relatedTarget);
+            var id = button.data('id');
+            var hocky = button.data('hocky');
+            var namhoc = button.data('namhoc');
+            var monhoc = button.data('monhoc');
+            var giangvien = button.data('giangvien');
+            var sosinhvien = button.data('sosinhvien');
+
+            var modal = $(this);
+            modal.find('#MaLopHocPhan').val(id);
+            modal.find('#MaHocKy').val(hocky);
+            modal.find('#MaNamHoc').val(namhoc);
+            modal.find('#MaMonHoc').val(monhoc);
+            modal.find('#MaGiangVien').val(giangvien);
+            modal.find('#SoSinhVienToiDa').val(sosinhvien);
+        });
+
+        $('#deleteConfirmationModal').on('show.bs.modal', function (event) {
+            var button = $(event.relatedTarget);
+            var id = button.data('id');
+
+            var modal = $(this);
+            modal.find('#deleteMaLopHocPhan').val(id);
+        });
+    </script>
+}

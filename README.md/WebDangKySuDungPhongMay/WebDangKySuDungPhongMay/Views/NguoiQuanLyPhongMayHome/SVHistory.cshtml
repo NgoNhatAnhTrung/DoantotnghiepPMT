@@ -1,0 +1,42 @@
+﻿@model IEnumerable<WebDangKySuDungPhongMay.Models.PhieuDangKySV>
+
+@{
+    ViewBag.Title = "Lịch sử phiếu đăng ký sinh viên";
+    Layout = "~/Views/Shared/_NguoiQuanLyLayout.cshtml";
+}
+
+<h1 class="text-center text-uppercase">Lịch sử phiếu đăng ký sinh viên</h1>
+
+<table class="table table-striped">
+    <thead>
+        <tr>
+            <th>Phòng máy</th>
+            <th>Sinh viên</th>
+            <th>Ngày đăng ký</th>
+            <th>Ngày sử dụng</th>
+            <th>Thời gian bắt đầu</th>
+            <th>Thời gian kết thúc</th>
+            <th>Lý do</th>
+   
+        
+            <th>Trạng thái</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var request in Model)
+        {
+            <tr>
+                <td>@request.PhongMay.MaPhongMay</td>
+                <td>@request.SinhVien?.TenSinhVien</td>
+                <td>@request.NgayDangKy.ToShortDateString()</td>
+                <td>@request.NgaySuDung.ToShortDateString()</td>
+                <td>@request.ThoiGianBatDau</td>
+                <td>@request.ThoiGianKetThuc</td>
+                <td>@request.LyDo</td>
+             
+            
+                <td>@(request.TrangThai ? "Đã duyệt" : "Chưa duyệt")</td>
+            </tr>
+        }
+    </tbody>
+</table>

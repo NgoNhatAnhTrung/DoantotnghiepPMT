@@ -1,0 +1,52 @@
+﻿@model IEnumerable<WebDangKySuDungPhongMay.Models.PhieuDangKyGV>
+
+@{
+    ViewBag.Title = "Duyệt phiếu đăng ký giảng viên";
+    Layout = "~/Views/Shared/_NguoiQuanLyLayout.cshtml";
+}
+
+<h1 class="text-center text-uppercase">Duyệt phiếu đăng ký giảng viên</h1>
+
+<table class="table table-striped">
+    <thead>
+        <tr>
+            <th>Lớp học phần</th>
+            <th>Giảng viên</th>
+            <th>Ngày đăng ký</th>
+            <th>Ngày sử dụng</th>
+            <th>Tiết bắt đầu</th>
+            <th>Tiết kết thúc</th>
+            <th>Lý do</th>
+            <th>Phòng máy</th>
+            <th>Trạng thái</th>
+            <th>Hành động</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var request in Model)
+        {
+            <tr>
+                <td>@request.LopHocPhan.MaLopHocPhan</td>
+                <td>@request.GiangVien?.HoTen</td>
+                <td>@request.NgayDangKy.ToShortDateString()</td>
+                <td>@request.NgaySuDung.ToShortDateString()</td>
+                <td>@request.TietBatDau</td>
+                <td>@request.TietKetThuc</td>
+                <td>@request.LyDo</td>
+                <td>@request.PhongMay.MaPhongMay</td>
+             
+                <td>@(request.TrangThai ? "Đã duyệt" : "Chưa duyệt")</td>
+                <td>
+                    <form asp-action="ApproveGVRequest" method="post" style="display:inline;">
+                        <input type="hidden" name="id" value="@request.Id" />
+                        <button type="submit" class="btn btn-success">Duyệt</button>
+                    </form>
+                    <form asp-action="RejectGVRequest" method="post" style="display:inline;">
+                        <input type="hidden" name="id" value="@request.Id" />
+                        <button type="submit" class="btn btn-danger">Từ chối</button>
+                    </form>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

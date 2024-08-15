@@ -1,0 +1,56 @@
+﻿.form-floating-label {
+    position: relative;
+    margin-bottom: 1.5rem;
+}
+
+    .form-floating-label input {
+        border: 1px solid #ced4da;
+        padding: 0.75rem 1rem;
+        border-radius: 0.25rem;
+        width: 100%;
+    }
+
+    .form-floating-label label {
+        position: absolute;
+        top: 50%;
+        left: 1rem;
+        transform: translateY(-50%);
+        background-color: white;
+        padding: 0 0.25rem;
+        color: #495057;
+        transition: 0.2s;
+        pointer-events: none;
+    }
+
+    .form-floating-label input:focus ~ label,
+    .form-floating-label input:not(:placeholder-shown) ~ label {
+        top: 0;
+        transform: translateY(-100%);
+        font-size: 0.85rem;
+        color: #007bff;
+    }
+
+    .form-floating-label input:focus {
+        border-color: #007bff;
+        outline: 0;
+        box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+    }
+.divider:after,
+.divider:before {
+    content: "";
+    flex: 1;
+    height: 1px;
+    background: #eee;
+}
+
+.h-custom {
+    height: calc(100% - 73px);
+}
+
+@media (max-width: 450px) {
+    .h-custom
+
+{
+    height: 100%;
+}
+}

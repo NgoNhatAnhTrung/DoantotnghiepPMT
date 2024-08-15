@@ -1,0 +1,216 @@
+﻿@model IEnumerable<WebDangKySuDungPhongMay.Models.PhongMay>
+@{
+    ViewBag.Title = "Quản lý phòng máy";
+    Layout = "~/Views/Shared/_NguoiQuanLyLayout.cshtml";
+}
+
+<div class="container">
+    <h1 class="text-center text-uppercase">Quản lý phòng máy</h1>
+
+    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#createModal">
+        Thêm phòng máy
+    </button>
+
+    @if (ViewData.ModelState.ErrorCount > 0)
+    {
+        <div class="alert alert-danger">
+            <ul>
+                @foreach (var error in ViewData.ModelState.Values.SelectMany(v => v.Errors))
+                {
+                    <li>@error.ErrorMessage</li>
+                }
+            </ul>
+        </div>
+    }
+
+    <table class="table table-striped mt-3">
+        <thead>
+            <tr>
+                <th>Mã</th>
+                <th>Tình trạng</th>
+                <th>Người quản lý</th>
+                <th>Trạng thái</th>
+                <th>Hành động</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td>@item.MaPhongMay</td>
+                    <td>@item.TinhTrangPhongMay</td>
+                    <td>@item.NguoiQuanLyPhongMay?.TenNguoiQuanLy</td>
+                    <td>@(item.TrangThai ? "Hoạt động" : "Không hoạt động")</td>
+                    <td>
+                        <button type="button" class="btn btn-warning" data-toggle="modal" data-target="#editModal"
+                                data-id="@item.MaPhongMay" data-tinhtrang="@item.TinhTrangPhongMay"
+                                data-nguoiquanly="@item.MaNguoiQuanLy" data-trangthai="@item.TrangThai">
+                            Sửa
+                        </button>
+                        <button type="button" class="btn btn-danger" data-toggle="modal" data-target="#deleteConfirmationModal"
+                                data-id="@item.MaPhongMay">
+                            Xóa
+                        </button>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+
+    <nav aria-label="Page navigation example">
+        <ul class="pagination justify-content-end">
+            @for (int i = 1; i <= ViewBag.TotalPages; i++)
+            {
+                <li class="page-item @(ViewBag.CurrentPage == i ? "active" : "")">
+                    <a class="page-link" href="?page=@i&pageSize=@ViewBag.PageSize">@i</a>
+                </li>
+            }
+        </ul>
+    </nav>
+
+</div>
+
+<!-- Modal for Create -->
+<div class="modal fade" id="createModal" tabindex="-1" role="dialog" aria-labelledby="createModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <form method="post" asp-action="Create">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="createModalLabel">Thêm phòng máy</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <div class="form-group">
+                        <label for="MaPhongMay">Mã Phòng Máy</label>
+                        <input type="text" class="form-control" id="MaPhongMay" name="MaPhongMay" required maxlength="50" />
+                    </div>
+                    <div class="form-group">
+                        <label for="TinhTrangPhongMay">Tình Trạng Phòng Máy</label>
+                        <input type="text" class="form-control" id="TinhTrangPhongMay" name="TinhTrangPhongMay" required maxlength="100" />
+                    </div>
+                    <div class="form-group">
+                        <label for="MaNguoiQuanLy">Người Quản Lý</label>
+                        <select class="form-control" id="MaNguoiQuanLy" name="MaNguoiQuanLy">
+                            <option value="">Chọn người quản lý</option>
+                            @foreach (var item in ViewBag.NguoiQuanLyPhongMays)
+                            {
+                                <option value="@item.Value">@item.Text</option>
+                            }
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="TrangThai">Trạng Thái</label><br>
+                        <input type="radio" id="TrangThaiHoatDong" name="TrangThai" value="true" checked>
+                        <label for="TrangThaiHoatDong">Hoạt động</label><br>
+                        <input type="radio" id="TrangThaiKhongHoatDong" name="TrangThai" value="false">
+                        <label for="TrangThaiKhongHoatDong">Không hoạt động</label>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Đóng</button>
+                    <button type="submit" class="btn btn-primary">Lưu</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+
+<!-- Modal for Edit -->
+<div class="modal fade" id="editModal" tabindex="-1" role="dialog" aria-labelledby="editModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <form method="post" asp-action="Edit">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="editModalLabel">Sửa phòng máy</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <input type="hidden" id="MaPhongMay" name="MaPhongMay" />
+                    <div class="form-group">
+                        <label for="TinhTrangPhongMay">Tình Trạng Phòng Máy</label>
+                        <input type="text" class="form-control" id="TinhTrangPhongMay" name="TinhTrangPhongMay" required maxlength="100" />
+                    </div>
+                    <div class="form-group">
+                        <label for="MaNguoiQuanLy">Người Quản Lý</label>
+                        <select class="form-control" id="MaNguoiQuanLy" name="MaNguoiQuanLy">
+                            <option value="">Chọn người quản lý</option>
+                            @foreach (var item in ViewBag.NguoiQuanLyPhongMays)
+                            {
+                                <option value="@item.Value">@item.Text</option>
+                            }
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="TrangThai">Trạng Thái</label><br>
+                        <input type="radio" id="TrangThaiHoatDong" name="TrangThai" value="true">
+                        <label for="TrangThaiHoatDong">Hoạt động</label><br>
+                        <input type="radio" id="TrangThaiKhongHoatDong" name="TrangThai" value="false">
+                        <label for="TrangThaiKhongHoatDong">Không hoạt động</label>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Đóng</button>
+                    <button type="submit" class="btn btn-primary">Lưu</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+
+<!-- Modal for Delete Confirmation -->
+<div class="modal fade" id="deleteConfirmationModal" tabindex="-1" role="dialog" aria-labelledby="deleteConfirmationModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <form method="post" asp-action="Delete">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="deleteConfirmationModalLabel">Xác nhận xóa</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    Bạn có chắc chắn muốn xóa phòng máy này?
+                    <input type="hidden" id="deleteMaPhongMay" name="id" />
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Đóng</button>
+                    <button type="submit" class="btn btn-danger">Xóa</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    <script>
+        $('#editModal').on('show.bs.modal', function (event) {
+            var button = $(event.relatedTarget);
+            var id = button.data('id');
+            var tinhtrang = button.data('tinhtrang');
+            var nguoiquanly = button.data('nguoiquanly');
+            var trangthai = button.data('trangthai');
+
+            var modal = $(this);
+            modal.find('#MaPhongMay').val(id);
+            modal.find('#TinhTrangPhongMay').val(tinhtrang);
+            modal.find('#MaNguoiQuanLy').val(nguoiquanly);
+            if (trangthai) {
+                modal.find('#TrangThaiHoatDong').prop('checked', true);
+            } else {
+                modal.find('#TrangThaiKhongHoatDong').prop('checked', true);
+            }
+        });
+
+        $('#deleteConfirmationModal').on('show.bs.modal', function (event) {
+            var button = $(event.relatedTarget);
+            var id = button.data('id');
+
+            var modal = $(this);
+            modal.find('#deleteMaPhongMay').val(id);
+        });
+    </script>
+}

@@ -1,0 +1,144 @@
+﻿@model IEnumerable<WebDangKySuDungPhongMay.Models.LopHocPhan>
+
+@{
+    ViewBag.Title = "Danh sách lớp học phần";
+    Layout = "~/Views/Shared/_GiangVienLayout.cshtml";
+}
+
+<h1 class="text-center text-uppercase">Danh sách lớp học phần</h1>
+
+<table class="table table-striped">
+    <thead>
+        <tr>
+            <th>Mã</th>
+            <th>Học kỳ</th>
+            <th>Năm học</th>
+            <th>Môn học</th>
+            <th>Giảng viên</th>
+            <th>Số sinh viên tối đa</th>
+            <th>Hành động</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>@item.MaLopHocPhan</td>
+                <td>@item.HocKy?.TenHocKy</td>
+                <td>@(item.NamHoc?.NamBatDau + "-" + item.NamHoc?.NamKetThuc)</td>
+                <td>@item.MonHoc?.TenMonHoc</td>
+                <td>@item.GiangVien?.HoTen</td>
+                <td>@item.SoSinhVienToiDa</td>
+                <td>
+                    <button class="btn btn-primary" data-toggle="modal" data-target="#registerModal" data-maLopHocPhan="@item.MaLopHocPhan">Đăng ký phòng máy</button>
+                    <button class="btn btn-info" data-toggle="modal" data-target="#timetableModal" data-maLopHocPhan="@item.MaLopHocPhan">Xem thời khóa biểu</button>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+<!-- Modal for Register -->
+<div class="modal fade" id="registerModal" tabindex="-1" role="dialog" aria-labelledby="registerModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+            <form asp-action="Register" method="post">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="registerModalLabel">Đăng ký phòng máy</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <input type="hidden" id="MaLopHocPhan" name="MaLopHocPhan" />
+                    <input type="hidden" id="NgayDangKy" name="NgayDangKy" value="@DateTime.Now" />
+                   <div class="row">
+
+                       <div class="col-md-6">
+                            <div class="form-group">
+                                <label for="MaPhongMay">Phòng máy:</label>
+                                <select class="form-control" id="MaPhongMay" name="MaPhongMay" required>
+                                    @foreach (var item in ViewBag.PhongMays)
+                                    {
+                                        <option value="@item.Value">@item.Text</option>
+                                    }
+                                </select>
+                            </div>
+                            <div class="form-group">
+                                <label for="NgaySuDung">Ngày sử dụng:</label>
+                                <input type="date" class="form-control" id="NgaySuDung" name="NgaySuDung" required />
+                            </div>
+                         
+                            <div class="form-group">
+                                <label for="LyDo">Lý do:</label>
+                                <textarea class="form-control" id="LyDo" name="LyDo" required></textarea>
+                            </div>
+                       </div>
+                       <div class="col-md-6">
+                            <div class="form-group">
+                                <label for="TietBatDau">Tiết bắt đầu:</label>
+                                <input type="number" class="form-control" id="TietBatDau" name="TietBatDau" required />
+                            </div>
+                            <div class="form-group">
+                                <label for="TietKetThuc">Tiết kết thúc:</label>
+                                <input type="number" class="form-control" id="TietKetThuc" name="TietKetThuc" required />
+                            </div>
+                          
+                            <div class="form-group">
+                                <label for="GhiChu">Ghi chú:</label>
+                                <textarea class="form-control" id="GhiChu" name="GhiChu"></textarea>
+                            </div>
+                       </div>
+                   </div>
+                   
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Đóng</button>
+                    <button type="submit" class="btn btn-primary">Đăng ký</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+
+<!-- Modal for Timetable -->
+<div class="modal fade" id="timetableModal" tabindex="-1" role="dialog" aria-labelledby="timetableModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="timetableModalLabel">Thời khóa biểu</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <div id="timetableContent"></div>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Đóng</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    <script>
+        $('#registerModal').on('show.bs.modal', function (event) {
+            var button = $(event.relatedTarget);
+            var maLopHocPhan = button.data('malophocphan');
+            var modal = $(this);
+            modal.find('#MaLopHocPhan').val(maLopHocPhan);
+        });
+
+        $('#timetableModal').on('show.bs.modal', function (event) {
+            var button = $(event.relatedTarget);
+            var maLopHocPhan = button.data('malophocphan');
+            var modal = $(this);
+            var timetableContent = modal.find('#timetableContent');
+            timetableContent.html('Loading...');
+            $.get('@Url.Action("Timetable", "GiangVienHome")', { maLopHocPhan: maLopHocPhan }, function (data) {
+                timetableContent.html(data);
+            });
+        });
+    </script>
+}

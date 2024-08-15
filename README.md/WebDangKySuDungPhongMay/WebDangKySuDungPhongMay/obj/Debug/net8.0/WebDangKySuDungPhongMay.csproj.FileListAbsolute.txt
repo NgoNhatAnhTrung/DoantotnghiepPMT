@@ -1,0 +1,272 @@
+D:\Outsourcing\CSharp\Web\WebDangKySuDungPhongMay\WebDangKySuDungPhongMay\bin\Debug\net8.0\appsettings.Development.json
+D:\Outsourcing\CSharp\Web\WebDangKySuDungPhongMay\WebDangKySuDungPhongMay\bin\Debug\net8.0\appsettings.json
+D:\Outsourcing\CSharp\Web\WebDangKySuDungPhongMay\WebDangKySuDungPhongMay\bin\Debug\net8.0\WebDangKySuDungPhongMay.staticwebassets.runtime.json
+D:\Outsourcing\CSharp\Web\WebDangKySuDungPhongMay\WebDangKySuDungPhongMay\bin\Debug\net8.0\WebDangKySuDungPhongMay.exe
+D:\Outsourcing\CSharp\Web\WebDangKySuDungPhongMay\WebDangKySuDungPhongMay\bin\Debug\net8.0\WebDangKySuDungPhongMay.deps.json
+D:\Outsourcing\CSharp\Web\WebDangKySuDungPhongMay\WebDangKySuDungPhongMay\bin\Debug\net8.0\WebDangKySuDungPhongMay.runtimeconfig.json
+D:\Outsourcing\CSharp\Web\WebDangKySuDungPhongMay\WebDangKySuDungPhongMay\bin\Debug\net8.0\WebDangKySuDungPhongMay.dll
+D:\Outsourcing\CSharp\Web\WebDangKySuDungPhongMay\WebDangKySuDungPhongMay\bin\Debug\net8.0\WebDangKySuDungPhongMay.pdb
+D:\Outsourcing\CSharp\Web\WebDangKySuDungPhongMay\WebDangKySuDungPhongMay\bin\Debug\net8.0\Azure.Core.dll
+D:\Outsourcing\CSharp\Web\WebDangKySuDungPhongMay\WebDangKySuDungPhongMay\bin\Debug\net8.0\Azure.Identity.dll
+D:\Outsourcing\CSharp\Web\WebDangKySuDungPhongMay\WebDangKySuDungPhongMay\bin\Debug\net8.0\Humanizer.dll
+D:\Outsourcing\CSharp\Web\WebDangKySuDungPhongMay\WebDangKySuDungPhongMay\bin\Debug\net8.0\Microsoft.Bcl.AsyncInterfaces.dll
+D:\Outsourcing\CSharp\Web\WebDangKySuDungPhongMay\WebDangKySuDungPhongMay\bin\Debug\net8.0\Microsoft.CodeAnalysis.dll
+D:\Outsourcing\CSharp\Web\WebDangKySuDungPhongMay\WebDangKySuDungPhongMay\bin\Debug\net8.0\Microsoft.CodeAnalysis.CSharp.dll
+D:\Outsourcing\CSharp\Web\WebDangKySuDungPhongMay\WebDangKySuDungPhongMay\bin\Debug\net8.0\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+D:\Outsourcing\CSharp\Web\WebDangKySuDungPhongMay\WebDangKySuDungPhongMay\bin\Debug\net8.0\Microsoft.CodeAnalysis.Workspaces.dll
+D:\Outsourcing\CSharp\Web\WebDangKySuDungPhongMay\WebDangKySuDungPhongMay\bin\Debug\net8.0\Microsoft.Data.SqlClient.dll
+D:\Outsourcing\CSharp\Web\WebDangKySuDungPhongMay\WebDangKySuDungPhongMay\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.dll
+D:\Outsourcing\CSharp\Web\WebDangKySuDungPhongMay\WebDangKySuDungPhongMay\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\Outsourcing\CSharp\Web\WebDangKySuDungPhongMay\WebDangKySuDungPhongMay\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Design.dll
+D:\Outsourcing\CSharp\Web\WebDangKySuDungPhongMay\WebDangKySuDungPhongMay\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Relational.dll
+D:\Outsourcing\CSharp\Web\WebDangKySuDungPhongMay\WebDangKySuDungPhongMay\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+D:\Outsourcing\CSharp\Web\WebDangKySuDungPhongMay\WebDangKySuDungPhongMay\bin\Debug\net8.0\Microsoft.Extensions.DependencyModel.dll
+D:\Outsourcing\CSharp\Web\WebDangKySuDungPhongMay\WebDangKySuDungPhongMay\bin\Debug\net8.0\Microsoft.Identity.Client.dll
+D:\Outsourcing\CSharp\Web\WebDangKySuDungPhongMay\WebDangKySuDungPhongMay\bin\Debug\net8.0\Microsoft.Identity.Client.Extensions.Msal.dll
+D:\Outsourcing\CSharp\Web\WebDangKySuDungPhongMay\WebDangKySuDungPhongMay\bin\Debug\net8.0\Microsoft.IdentityModel.Abstractions.dll
+D:\Outsourcing\CSharp\Web\WebDangKySuDungPhongMay\WebDangKySuDungPhongMay\bin\Debug\net8.0\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\Outsourcing\CSharp\Web\WebDangKySuDungPhongMay\WebDangKySuDungPhongMay\bin\Debug\net8.0\Microsoft.IdentityModel.Logging.dll
+D:\Outsourcing\CSharp\Web\WebDangKySuDungPhongMay\WebDangKySuDungPhongMay\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.dll
+D:\Outsourcing\CSharp\Web\WebDangKySuDungPhongMay\WebDangKySuDungPhongMay\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\Outsourcing\CSharp\Web\WebDangKySuDungPhongMay\WebDangKySuDungPhongMay\bin\Debug\net8.0\Microsoft.IdentityModel.Tokens.dll
+D:\Outsourcing\CSharp\Web\WebDangKySuDungPhongMay\WebDangKySuDungPhongMay\bin\Debug\net8.0\Microsoft.SqlServer.Server.dll
+D:\Outsourcing\CSharp\Web\WebDangKySuDungPhongMay\WebDangKySuDungPhongMay\bin\Debug\net8.0\Microsoft.Win32.SystemEvents.dll
+D:\Outsourcing\CSharp\Web\WebDangKySuDungPhongMay\WebDangKySuDungPhongMay\bin\Debug\net8.0\Mono.TextTemplating.dll
+D:\Outsourcing\CSharp\Web\WebDangKySuDungPhongMay\WebDangKySuDungPhongMay\bin\Debug\net8.0\System.CodeDom.dll
+D:\Outsourcing\CSharp\Web\WebDangKySuDungPhongMay\WebDangKySuDungPhongMay\bin\Debug\net8.0\System.Composition.AttributedModel.dll
+D:\Outsourcing\CSharp\Web\WebDangKySuDungPhongMay\WebDangKySuDungPhongMay\bin\Debug\net8.0\System.Composition.Convention.dll
+D:\Outsourcing\CSharp\Web\WebDangKySuDungPhongMay\WebDangKySuDungPhongMay\bin\Debug\net8.0\System.Composition.Hosting.dll
+D:\Outsourcing\CSharp\Web\WebDangKySuDungPhongMay\WebDangKySuDungPhongMay\bin\Debug\net8.0\System.Composition.Runtime.dll
+D:\Outsourcing\CSharp\Web\WebDangKySuDungPhongMay\WebDangKySuDungPhongMay\bin\Debug\net8.0\System.Composition.TypedParts.dll
+D:\Outsourcing\CSharp\Web\WebDangKySuDungPhongMay\WebDangKySuDungPhongMay\bin\Debug\net8.0\System.Configuration.ConfigurationManager.dll
+D:\Outsourcing\CSharp\Web\WebDangKySuDungPhongMay\WebDangKySuDungPhongMay\bin\Debug\net8.0\System.Drawing.Common.dll
+D:\Outsourcing\CSharp\Web\WebDangKySuDungPhongMay\WebDangKySuDungPhongMay\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll
+D:\Outsourcing\CSharp\Web\WebDangKySuDungPhongMay\WebDangKySuDungPhongMay\bin\Debug\net8.0\System.Memory.Data.dll
+D:\Outsourcing\CSharp\Web\WebDangKySuDungPhongMay\WebDangKySuDungPhongMay\bin\Debug\net8.0\System.Runtime.Caching.dll
+D:\Outsourcing\CSharp\Web\WebDangKySuDungPhongMay\WebDangKySuDungPhongMay\bin\Debug\net8.0\System.Security.Cryptography.ProtectedData.dll
+D:\Outsourcing\CSharp\Web\WebDangKySuDungPhongMay\WebDangKySuDungPhongMay\bin\Debug\net8.0\System.Security.Permissions.dll
+D:\Outsourcing\CSharp\Web\WebDangKySuDungPhongMay\WebDangKySuDungPhongMay\bin\Debug\net8.0\System.Windows.Extensions.dll
+D:\Outsourcing\CSharp\Web\WebDangKySuDungPhongMay\WebDangKySuDungPhongMay\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.resources.dll
+D:\Outsourcing\CSharp\Web\WebDangKySuDungPhongMay\WebDangKySuDungPhongMay\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.resources.dll
+D:\Outsourcing\CSharp\Web\WebDangKySuDungPhongMay\WebDangKySuDungPhongMay\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.resources.dll
+D:\Outsourcing\CSharp\Web\WebDangKySuDungPhongMay\WebDangKySuDungPhongMay\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.resources.dll
+D:\Outsourcing\CSharp\Web\WebDangKySuDungPhongMay\WebDangKySuDungPhongMay\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.resources.dll
+D:\Outsourcing\CSharp\Web\WebDangKySuDungPhongMay\WebDangKySuDungPhongMay\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.resources.dll
+D:\Outsourcing\CSharp\Web\WebDangKySuDungPhongMay\WebDangKySuDungPhongMay\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.resources.dll
+D:\Outsourcing\CSharp\Web\WebDangKySuDungPhongMay\WebDangKySuDungPhongMay\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.resources.dll
+D:\Outsourcing\CSharp\Web\WebDangKySuDungPhongMay\WebDangKySuDungPhongMay\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.resources.dll
+D:\Outsourcing\CSharp\Web\WebDangKySuDungPhongMay\WebDangKySuDungPhongMay\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.resources.dll
+D:\Outsourcing\CSharp\Web\WebDangKySuDungPhongMay\WebDangKySuDungPhongMay\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.resources.dll
+D:\Outsourcing\CSharp\Web\WebDangKySuDungPhongMay\WebDangKySuDungPhongMay\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+D:\Outsourcing\CSharp\Web\WebDangKySuDungPhongMay\WebDangKySuDungPhongMay\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+D:\Outsourcing\CSharp\Web\WebDangKySuDungPhongMay\WebDangKySuDungPhongMay\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Outsourcing\CSharp\Web\WebDangKySuDungPhongMay\WebDangKySuDungPhongMay\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Outsourcing\CSharp\Web\WebDangKySuDungPhongMay\WebDangKySuDungPhongMay\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Outsourcing\CSharp\Web\WebDangKySuDungPhongMay\WebDangKySuDungPhongMay\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Outsourcing\CSharp\Web\WebDangKySuDungPhongMay\WebDangKySuDungPhongMay\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Outsourcing\CSharp\Web\WebDangKySuDungPhongMay\WebDangKySuDungPhongMay\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Outsourcing\CSharp\Web\WebDangKySuDungPhongMay\WebDangKySuDungPhongMay\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Outsourcing\CSharp\Web\WebDangKySuDungPhongMay\WebDangKySuDungPhongMay\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Outsourcing\CSharp\Web\WebDangKySuDungPhongMay\WebDangKySuDungPhongMay\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Outsourcing\CSharp\Web\WebDangKySuDungPhongMay\WebDangKySuDungPhongMay\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Outsourcing\CSharp\Web\WebDangKySuDungPhongMay\WebDangKySuDungPhongMay\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Outsourcing\CSharp\Web\WebDangKySuDungPhongMay\WebDangKySuDungPhongMay\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Outsourcing\CSharp\Web\WebDangKySuDungPhongMay\WebDangKySuDungPhongMay\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Outsourcing\CSharp\Web\WebDangKySuDungPhongMay\WebDangKySuDungPhongMay\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Outsourcing\CSharp\Web\WebDangKySuDungPhongMay\WebDangKySuDungPhongMay\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Outsourcing\CSharp\Web\WebDangKySuDungPhongMay\WebDangKySuDungPhongMay\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Outsourcing\CSharp\Web\WebDangKySuDungPhongMay\WebDangKySuDungPhongMay\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Outsourcing\CSharp\Web\WebDangKySuDungPhongMay\WebDangKySuDungPhongMay\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Outsourcing\CSharp\Web\WebDangKySuDungPhongMay\WebDangKySuDungPhongMay\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Outsourcing\CSharp\Web\WebDangKySuDungPhongMay\WebDangKySuDungPhongMay\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Outsourcing\CSharp\Web\WebDangKySuDungPhongMay\WebDangKySuDungPhongMay\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Outsourcing\CSharp\Web\WebDangKySuDungPhongMay\WebDangKySuDungPhongMay\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Outsourcing\CSharp\Web\WebDangKySuDungPhongMay\WebDangKySuDungPhongMay\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Outsourcing\CSharp\Web\WebDangKySuDungPhongMay\WebDangKySuDungPhongMay\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Outsourcing\CSharp\Web\WebDangKySuDungPhongMay\WebDangKySuDungPhongMay\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Outsourcing\CSharp\Web\WebDangKySuDungPhongMay\WebDangKySuDungPhongMay\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Outsourcing\CSharp\Web\WebDangKySuDungPhongMay\WebDangKySuDungPhongMay\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Outsourcing\CSharp\Web\WebDangKySuDungPhongMay\WebDangKySuDungPhongMay\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Outsourcing\CSharp\Web\WebDangKySuDungPhongMay\WebDangKySuDungPhongMay\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Outsourcing\CSharp\Web\WebDangKySuDungPhongMay\WebDangKySuDungPhongMay\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Outsourcing\CSharp\Web\WebDangKySuDungPhongMay\WebDangKySuDungPhongMay\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Outsourcing\CSharp\Web\WebDangKySuDungPhongMay\WebDangKySuDungPhongMay\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Outsourcing\CSharp\Web\WebDangKySuDungPhongMay\WebDangKySuDungPhongMay\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Outsourcing\CSharp\Web\WebDangKySuDungPhongMay\WebDangKySuDungPhongMay\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Outsourcing\CSharp\Web\WebDangKySuDungPhongMay\WebDangKySuDungPhongMay\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Outsourcing\CSharp\Web\WebDangKySuDungPhongMay\WebDangKySuDungPhongMay\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Outsourcing\CSharp\Web\WebDangKySuDungPhongMay\WebDangKySuDungPhongMay\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Outsourcing\CSharp\Web\WebDangKySuDungPhongMay\WebDangKySuDungPhongMay\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Outsourcing\CSharp\Web\WebDangKySuDungPhongMay\WebDangKySuDungPhongMay\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Outsourcing\CSharp\Web\WebDangKySuDungPhongMay\WebDangKySuDungPhongMay\bin\Debug\net8.0\runtimes\unix\lib\net6.0\Microsoft.Data.SqlClient.dll
+D:\Outsourcing\CSharp\Web\WebDangKySuDungPhongMay\WebDangKySuDungPhongMay\bin\Debug\net8.0\runtimes\win\lib\net6.0\Microsoft.Data.SqlClient.dll
+D:\Outsourcing\CSharp\Web\WebDangKySuDungPhongMay\WebDangKySuDungPhongMay\bin\Debug\net8.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Outsourcing\CSharp\Web\WebDangKySuDungPhongMay\WebDangKySuDungPhongMay\bin\Debug\net8.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Outsourcing\CSharp\Web\WebDangKySuDungPhongMay\WebDangKySuDungPhongMay\bin\Debug\net8.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Outsourcing\CSharp\Web\WebDangKySuDungPhongMay\WebDangKySuDungPhongMay\bin\Debug\net8.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Outsourcing\CSharp\Web\WebDangKySuDungPhongMay\WebDangKySuDungPhongMay\bin\Debug\net8.0\runtimes\win\lib\net6.0\Microsoft.Win32.SystemEvents.dll
+D:\Outsourcing\CSharp\Web\WebDangKySuDungPhongMay\WebDangKySuDungPhongMay\bin\Debug\net8.0\runtimes\unix\lib\net6.0\System.Drawing.Common.dll
+D:\Outsourcing\CSharp\Web\WebDangKySuDungPhongMay\WebDangKySuDungPhongMay\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll
+D:\Outsourcing\CSharp\Web\WebDangKySuDungPhongMay\WebDangKySuDungPhongMay\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
+D:\Outsourcing\CSharp\Web\WebDangKySuDungPhongMay\WebDangKySuDungPhongMay\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
+D:\Outsourcing\CSharp\Web\WebDangKySuDungPhongMay\WebDangKySuDungPhongMay\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
+D:\Outsourcing\CSharp\Web\WebDangKySuDungPhongMay\WebDangKySuDungPhongMay\obj\Debug\net8.0\WebDangKySuDungPhongMay.csproj.AssemblyReference.cache
+D:\Outsourcing\CSharp\Web\WebDangKySuDungPhongMay\WebDangKySuDungPhongMay\obj\Debug\net8.0\WebDangKySuDungPhongMay.GeneratedMSBuildEditorConfig.editorconfig
+D:\Outsourcing\CSharp\Web\WebDangKySuDungPhongMay\WebDangKySuDungPhongMay\obj\Debug\net8.0\WebDangKySuDungPhongMay.AssemblyInfoInputs.cache
+D:\Outsourcing\CSharp\Web\WebDangKySuDungPhongMay\WebDangKySuDungPhongMay\obj\Debug\net8.0\WebDangKySuDungPhongMay.AssemblyInfo.cs
+D:\Outsourcing\CSharp\Web\WebDangKySuDungPhongMay\WebDangKySuDungPhongMay\obj\Debug\net8.0\WebDangKySuDungPhongMay.csproj.CoreCompileInputs.cache
+D:\Outsourcing\CSharp\Web\WebDangKySuDungPhongMay\WebDangKySuDungPhongMay\obj\Debug\net8.0\WebDangKySuDungPhongMay.MvcApplicationPartsAssemblyInfo.cache
+D:\Outsourcing\CSharp\Web\WebDangKySuDungPhongMay\WebDangKySuDungPhongMay\obj\Debug\net8.0\WebDangKySuDungPhongMay.RazorAssemblyInfo.cache
+D:\Outsourcing\CSharp\Web\WebDangKySuDungPhongMay\WebDangKySuDungPhongMay\obj\Debug\net8.0\WebDangKySuDungPhongMay.RazorAssemblyInfo.cs
+D:\Outsourcing\CSharp\Web\WebDangKySuDungPhongMay\WebDangKySuDungPhongMay\obj\Debug\net8.0\staticwebassets.build.json
+D:\Outsourcing\CSharp\Web\WebDangKySuDungPhongMay\WebDangKySuDungPhongMay\obj\Debug\net8.0\staticwebassets.development.json
+D:\Outsourcing\CSharp\Web\WebDangKySuDungPhongMay\WebDangKySuDungPhongMay\obj\Debug\net8.0\staticwebassets\msbuild.WebDangKySuDungPhongMay.Microsoft.AspNetCore.StaticWebAssets.props
+D:\Outsourcing\CSharp\Web\WebDangKySuDungPhongMay\WebDangKySuDungPhongMay\obj\Debug\net8.0\staticwebassets\msbuild.build.WebDangKySuDungPhongMay.props
+D:\Outsourcing\CSharp\Web\WebDangKySuDungPhongMay\WebDangKySuDungPhongMay\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.WebDangKySuDungPhongMay.props
+D:\Outsourcing\CSharp\Web\WebDangKySuDungPhongMay\WebDangKySuDungPhongMay\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.WebDangKySuDungPhongMay.props
+D:\Outsourcing\CSharp\Web\WebDangKySuDungPhongMay\WebDangKySuDungPhongMay\obj\Debug\net8.0\staticwebassets.pack.json
+D:\Outsourcing\CSharp\Web\WebDangKySuDungPhongMay\WebDangKySuDungPhongMay\obj\Debug\net8.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+D:\Outsourcing\CSharp\Web\WebDangKySuDungPhongMay\WebDangKySuDungPhongMay\obj\Debug\net8.0\scopedcss\bundle\WebDangKySuDungPhongMay.styles.css
+D:\Outsourcing\CSharp\Web\WebDangKySuDungPhongMay\WebDangKySuDungPhongMay\obj\Debug\net8.0\scopedcss\projectbundle\WebDangKySuDungPhongMay.bundle.scp.css
+D:\Outsourcing\CSharp\Web\WebDangKySuDungPhongMay\WebDangKySuDungPhongMay\obj\Debug\net8.0\WebDangK.EA08DB0B.Up2Date
+D:\Outsourcing\CSharp\Web\WebDangKySuDungPhongMay\WebDangKySuDungPhongMay\obj\Debug\net8.0\WebDangKySuDungPhongMay.dll
+D:\Outsourcing\CSharp\Web\WebDangKySuDungPhongMay\WebDangKySuDungPhongMay\obj\Debug\net8.0\refint\WebDangKySuDungPhongMay.dll
+D:\Outsourcing\CSharp\Web\WebDangKySuDungPhongMay\WebDangKySuDungPhongMay\obj\Debug\net8.0\WebDangKySuDungPhongMay.pdb
+D:\Outsourcing\CSharp\Web\WebDangKySuDungPhongMay\WebDangKySuDungPhongMay\obj\Debug\net8.0\WebDangKySuDungPhongMay.genruntimeconfig.cache
+D:\Outsourcing\CSharp\Web\WebDangKySuDungPhongMay\WebDangKySuDungPhongMay\obj\Debug\net8.0\ref\WebDangKySuDungPhongMay.dll
+D:\WebDangKySuDungPhongMay (1)\WebDangKySuDungPhongMay\WebDangKySuDungPhongMay\bin\Debug\net8.0\appsettings.Development.json
+D:\WebDangKySuDungPhongMay (1)\WebDangKySuDungPhongMay\WebDangKySuDungPhongMay\bin\Debug\net8.0\appsettings.json
+D:\WebDangKySuDungPhongMay (1)\WebDangKySuDungPhongMay\WebDangKySuDungPhongMay\bin\Debug\net8.0\WebDangKySuDungPhongMay.staticwebassets.runtime.json
+D:\WebDangKySuDungPhongMay (1)\WebDangKySuDungPhongMay\WebDangKySuDungPhongMay\bin\Debug\net8.0\WebDangKySuDungPhongMay.exe
+D:\WebDangKySuDungPhongMay (1)\WebDangKySuDungPhongMay\WebDangKySuDungPhongMay\bin\Debug\net8.0\WebDangKySuDungPhongMay.deps.json
+D:\WebDangKySuDungPhongMay (1)\WebDangKySuDungPhongMay\WebDangKySuDungPhongMay\bin\Debug\net8.0\WebDangKySuDungPhongMay.runtimeconfig.json
+D:\WebDangKySuDungPhongMay (1)\WebDangKySuDungPhongMay\WebDangKySuDungPhongMay\bin\Debug\net8.0\WebDangKySuDungPhongMay.dll
+D:\WebDangKySuDungPhongMay (1)\WebDangKySuDungPhongMay\WebDangKySuDungPhongMay\bin\Debug\net8.0\WebDangKySuDungPhongMay.pdb
+D:\WebDangKySuDungPhongMay (1)\WebDangKySuDungPhongMay\WebDangKySuDungPhongMay\bin\Debug\net8.0\Azure.Core.dll
+D:\WebDangKySuDungPhongMay (1)\WebDangKySuDungPhongMay\WebDangKySuDungPhongMay\bin\Debug\net8.0\Azure.Identity.dll
+D:\WebDangKySuDungPhongMay (1)\WebDangKySuDungPhongMay\WebDangKySuDungPhongMay\bin\Debug\net8.0\Humanizer.dll
+D:\WebDangKySuDungPhongMay (1)\WebDangKySuDungPhongMay\WebDangKySuDungPhongMay\bin\Debug\net8.0\Microsoft.Bcl.AsyncInterfaces.dll
+D:\WebDangKySuDungPhongMay (1)\WebDangKySuDungPhongMay\WebDangKySuDungPhongMay\bin\Debug\net8.0\Microsoft.CodeAnalysis.dll
+D:\WebDangKySuDungPhongMay (1)\WebDangKySuDungPhongMay\WebDangKySuDungPhongMay\bin\Debug\net8.0\Microsoft.CodeAnalysis.CSharp.dll
+D:\WebDangKySuDungPhongMay (1)\WebDangKySuDungPhongMay\WebDangKySuDungPhongMay\bin\Debug\net8.0\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+D:\WebDangKySuDungPhongMay (1)\WebDangKySuDungPhongMay\WebDangKySuDungPhongMay\bin\Debug\net8.0\Microsoft.CodeAnalysis.Workspaces.dll
+D:\WebDangKySuDungPhongMay (1)\WebDangKySuDungPhongMay\WebDangKySuDungPhongMay\bin\Debug\net8.0\Microsoft.Data.SqlClient.dll
+D:\WebDangKySuDungPhongMay (1)\WebDangKySuDungPhongMay\WebDangKySuDungPhongMay\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.dll
+D:\WebDangKySuDungPhongMay (1)\WebDangKySuDungPhongMay\WebDangKySuDungPhongMay\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\WebDangKySuDungPhongMay (1)\WebDangKySuDungPhongMay\WebDangKySuDungPhongMay\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Design.dll
+D:\WebDangKySuDungPhongMay (1)\WebDangKySuDungPhongMay\WebDangKySuDungPhongMay\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Relational.dll
+D:\WebDangKySuDungPhongMay (1)\WebDangKySuDungPhongMay\WebDangKySuDungPhongMay\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+D:\WebDangKySuDungPhongMay (1)\WebDangKySuDungPhongMay\WebDangKySuDungPhongMay\bin\Debug\net8.0\Microsoft.Extensions.DependencyModel.dll
+D:\WebDangKySuDungPhongMay (1)\WebDangKySuDungPhongMay\WebDangKySuDungPhongMay\bin\Debug\net8.0\Microsoft.Identity.Client.dll
+D:\WebDangKySuDungPhongMay (1)\WebDangKySuDungPhongMay\WebDangKySuDungPhongMay\bin\Debug\net8.0\Microsoft.Identity.Client.Extensions.Msal.dll
+D:\WebDangKySuDungPhongMay (1)\WebDangKySuDungPhongMay\WebDangKySuDungPhongMay\bin\Debug\net8.0\Microsoft.IdentityModel.Abstractions.dll
+D:\WebDangKySuDungPhongMay (1)\WebDangKySuDungPhongMay\WebDangKySuDungPhongMay\bin\Debug\net8.0\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\WebDangKySuDungPhongMay (1)\WebDangKySuDungPhongMay\WebDangKySuDungPhongMay\bin\Debug\net8.0\Microsoft.IdentityModel.Logging.dll
+D:\WebDangKySuDungPhongMay (1)\WebDangKySuDungPhongMay\WebDangKySuDungPhongMay\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.dll
+D:\WebDangKySuDungPhongMay (1)\WebDangKySuDungPhongMay\WebDangKySuDungPhongMay\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\WebDangKySuDungPhongMay (1)\WebDangKySuDungPhongMay\WebDangKySuDungPhongMay\bin\Debug\net8.0\Microsoft.IdentityModel.Tokens.dll
+D:\WebDangKySuDungPhongMay (1)\WebDangKySuDungPhongMay\WebDangKySuDungPhongMay\bin\Debug\net8.0\Microsoft.SqlServer.Server.dll
+D:\WebDangKySuDungPhongMay (1)\WebDangKySuDungPhongMay\WebDangKySuDungPhongMay\bin\Debug\net8.0\Microsoft.Win32.SystemEvents.dll
+D:\WebDangKySuDungPhongMay (1)\WebDangKySuDungPhongMay\WebDangKySuDungPhongMay\bin\Debug\net8.0\Mono.TextTemplating.dll
+D:\WebDangKySuDungPhongMay (1)\WebDangKySuDungPhongMay\WebDangKySuDungPhongMay\bin\Debug\net8.0\System.CodeDom.dll
+D:\WebDangKySuDungPhongMay (1)\WebDangKySuDungPhongMay\WebDangKySuDungPhongMay\bin\Debug\net8.0\System.Composition.AttributedModel.dll
+D:\WebDangKySuDungPhongMay (1)\WebDangKySuDungPhongMay\WebDangKySuDungPhongMay\bin\Debug\net8.0\System.Composition.Convention.dll
+D:\WebDangKySuDungPhongMay (1)\WebDangKySuDungPhongMay\WebDangKySuDungPhongMay\bin\Debug\net8.0\System.Composition.Hosting.dll
+D:\WebDangKySuDungPhongMay (1)\WebDangKySuDungPhongMay\WebDangKySuDungPhongMay\bin\Debug\net8.0\System.Composition.Runtime.dll
+D:\WebDangKySuDungPhongMay (1)\WebDangKySuDungPhongMay\WebDangKySuDungPhongMay\bin\Debug\net8.0\System.Composition.TypedParts.dll
+D:\WebDangKySuDungPhongMay (1)\WebDangKySuDungPhongMay\WebDangKySuDungPhongMay\bin\Debug\net8.0\System.Configuration.ConfigurationManager.dll
+D:\WebDangKySuDungPhongMay (1)\WebDangKySuDungPhongMay\WebDangKySuDungPhongMay\bin\Debug\net8.0\System.Drawing.Common.dll
+D:\WebDangKySuDungPhongMay (1)\WebDangKySuDungPhongMay\WebDangKySuDungPhongMay\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll
+D:\WebDangKySuDungPhongMay (1)\WebDangKySuDungPhongMay\WebDangKySuDungPhongMay\bin\Debug\net8.0\System.Memory.Data.dll
+D:\WebDangKySuDungPhongMay (1)\WebDangKySuDungPhongMay\WebDangKySuDungPhongMay\bin\Debug\net8.0\System.Runtime.Caching.dll
+D:\WebDangKySuDungPhongMay (1)\WebDangKySuDungPhongMay\WebDangKySuDungPhongMay\bin\Debug\net8.0\System.Security.Cryptography.ProtectedData.dll
+D:\WebDangKySuDungPhongMay (1)\WebDangKySuDungPhongMay\WebDangKySuDungPhongMay\bin\Debug\net8.0\System.Security.Permissions.dll
+D:\WebDangKySuDungPhongMay (1)\WebDangKySuDungPhongMay\WebDangKySuDungPhongMay\bin\Debug\net8.0\System.Windows.Extensions.dll
+D:\WebDangKySuDungPhongMay (1)\WebDangKySuDungPhongMay\WebDangKySuDungPhongMay\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.resources.dll
+D:\WebDangKySuDungPhongMay (1)\WebDangKySuDungPhongMay\WebDangKySuDungPhongMay\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.resources.dll
+D:\WebDangKySuDungPhongMay (1)\WebDangKySuDungPhongMay\WebDangKySuDungPhongMay\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.resources.dll
+D:\WebDangKySuDungPhongMay (1)\WebDangKySuDungPhongMay\WebDangKySuDungPhongMay\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.resources.dll
+D:\WebDangKySuDungPhongMay (1)\WebDangKySuDungPhongMay\WebDangKySuDungPhongMay\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.resources.dll
+D:\WebDangKySuDungPhongMay (1)\WebDangKySuDungPhongMay\WebDangKySuDungPhongMay\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.resources.dll
+D:\WebDangKySuDungPhongMay (1)\WebDangKySuDungPhongMay\WebDangKySuDungPhongMay\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.resources.dll
+D:\WebDangKySuDungPhongMay (1)\WebDangKySuDungPhongMay\WebDangKySuDungPhongMay\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.resources.dll
+D:\WebDangKySuDungPhongMay (1)\WebDangKySuDungPhongMay\WebDangKySuDungPhongMay\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.resources.dll
+D:\WebDangKySuDungPhongMay (1)\WebDangKySuDungPhongMay\WebDangKySuDungPhongMay\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.resources.dll
+D:\WebDangKySuDungPhongMay (1)\WebDangKySuDungPhongMay\WebDangKySuDungPhongMay\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.resources.dll
+D:\WebDangKySuDungPhongMay (1)\WebDangKySuDungPhongMay\WebDangKySuDungPhongMay\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+D:\WebDangKySuDungPhongMay (1)\WebDangKySuDungPhongMay\WebDangKySuDungPhongMay\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+D:\WebDangKySuDungPhongMay (1)\WebDangKySuDungPhongMay\WebDangKySuDungPhongMay\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\WebDangKySuDungPhongMay (1)\WebDangKySuDungPhongMay\WebDangKySuDungPhongMay\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\WebDangKySuDungPhongMay (1)\WebDangKySuDungPhongMay\WebDangKySuDungPhongMay\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\WebDangKySuDungPhongMay (1)\WebDangKySuDungPhongMay\WebDangKySuDungPhongMay\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\WebDangKySuDungPhongMay (1)\WebDangKySuDungPhongMay\WebDangKySuDungPhongMay\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\WebDangKySuDungPhongMay (1)\WebDangKySuDungPhongMay\WebDangKySuDungPhongMay\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\WebDangKySuDungPhongMay (1)\WebDangKySuDungPhongMay\WebDangKySuDungPhongMay\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\WebDangKySuDungPhongMay (1)\WebDangKySuDungPhongMay\WebDangKySuDungPhongMay\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\WebDangKySuDungPhongMay (1)\WebDangKySuDungPhongMay\WebDangKySuDungPhongMay\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\WebDangKySuDungPhongMay (1)\WebDangKySuDungPhongMay\WebDangKySuDungPhongMay\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\WebDangKySuDungPhongMay (1)\WebDangKySuDungPhongMay\WebDangKySuDungPhongMay\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\WebDangKySuDungPhongMay (1)\WebDangKySuDungPhongMay\WebDangKySuDungPhongMay\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\WebDangKySuDungPhongMay (1)\WebDangKySuDungPhongMay\WebDangKySuDungPhongMay\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\WebDangKySuDungPhongMay (1)\WebDangKySuDungPhongMay\WebDangKySuDungPhongMay\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\WebDangKySuDungPhongMay (1)\WebDangKySuDungPhongMay\WebDangKySuDungPhongMay\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\WebDangKySuDungPhongMay (1)\WebDangKySuDungPhongMay\WebDangKySuDungPhongMay\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\WebDangKySuDungPhongMay (1)\WebDangKySuDungPhongMay\WebDangKySuDungPhongMay\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\WebDangKySuDungPhongMay (1)\WebDangKySuDungPhongMay\WebDangKySuDungPhongMay\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\WebDangKySuDungPhongMay (1)\WebDangKySuDungPhongMay\WebDangKySuDungPhongMay\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\WebDangKySuDungPhongMay (1)\WebDangKySuDungPhongMay\WebDangKySuDungPhongMay\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\WebDangKySuDungPhongMay (1)\WebDangKySuDungPhongMay\WebDangKySuDungPhongMay\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\WebDangKySuDungPhongMay (1)\WebDangKySuDungPhongMay\WebDangKySuDungPhongMay\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\WebDangKySuDungPhongMay (1)\WebDangKySuDungPhongMay\WebDangKySuDungPhongMay\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\WebDangKySuDungPhongMay (1)\WebDangKySuDungPhongMay\WebDangKySuDungPhongMay\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\WebDangKySuDungPhongMay (1)\WebDangKySuDungPhongMay\WebDangKySuDungPhongMay\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\WebDangKySuDungPhongMay (1)\WebDangKySuDungPhongMay\WebDangKySuDungPhongMay\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\WebDangKySuDungPhongMay (1)\WebDangKySuDungPhongMay\WebDangKySuDungPhongMay\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\WebDangKySuDungPhongMay (1)\WebDangKySuDungPhongMay\WebDangKySuDungPhongMay\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\WebDangKySuDungPhongMay (1)\WebDangKySuDungPhongMay\WebDangKySuDungPhongMay\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\WebDangKySuDungPhongMay (1)\WebDangKySuDungPhongMay\WebDangKySuDungPhongMay\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\WebDangKySuDungPhongMay (1)\WebDangKySuDungPhongMay\WebDangKySuDungPhongMay\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\WebDangKySuDungPhongMay (1)\WebDangKySuDungPhongMay\WebDangKySuDungPhongMay\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\WebDangKySuDungPhongMay (1)\WebDangKySuDungPhongMay\WebDangKySuDungPhongMay\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\WebDangKySuDungPhongMay (1)\WebDangKySuDungPhongMay\WebDangKySuDungPhongMay\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\WebDangKySuDungPhongMay (1)\WebDangKySuDungPhongMay\WebDangKySuDungPhongMay\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\WebDangKySuDungPhongMay (1)\WebDangKySuDungPhongMay\WebDangKySuDungPhongMay\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\WebDangKySuDungPhongMay (1)\WebDangKySuDungPhongMay\WebDangKySuDungPhongMay\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\WebDangKySuDungPhongMay (1)\WebDangKySuDungPhongMay\WebDangKySuDungPhongMay\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\WebDangKySuDungPhongMay (1)\WebDangKySuDungPhongMay\WebDangKySuDungPhongMay\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\WebDangKySuDungPhongMay (1)\WebDangKySuDungPhongMay\WebDangKySuDungPhongMay\bin\Debug\net8.0\runtimes\unix\lib\net6.0\Microsoft.Data.SqlClient.dll
+D:\WebDangKySuDungPhongMay (1)\WebDangKySuDungPhongMay\WebDangKySuDungPhongMay\bin\Debug\net8.0\runtimes\win\lib\net6.0\Microsoft.Data.SqlClient.dll
+D:\WebDangKySuDungPhongMay (1)\WebDangKySuDungPhongMay\WebDangKySuDungPhongMay\bin\Debug\net8.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+D:\WebDangKySuDungPhongMay (1)\WebDangKySuDungPhongMay\WebDangKySuDungPhongMay\bin\Debug\net8.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\WebDangKySuDungPhongMay (1)\WebDangKySuDungPhongMay\WebDangKySuDungPhongMay\bin\Debug\net8.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\WebDangKySuDungPhongMay (1)\WebDangKySuDungPhongMay\WebDangKySuDungPhongMay\bin\Debug\net8.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+D:\WebDangKySuDungPhongMay (1)\WebDangKySuDungPhongMay\WebDangKySuDungPhongMay\bin\Debug\net8.0\runtimes\win\lib\net6.0\Microsoft.Win32.SystemEvents.dll
+D:\WebDangKySuDungPhongMay (1)\WebDangKySuDungPhongMay\WebDangKySuDungPhongMay\bin\Debug\net8.0\runtimes\unix\lib\net6.0\System.Drawing.Common.dll
+D:\WebDangKySuDungPhongMay (1)\WebDangKySuDungPhongMay\WebDangKySuDungPhongMay\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll
+D:\WebDangKySuDungPhongMay (1)\WebDangKySuDungPhongMay\WebDangKySuDungPhongMay\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
+D:\WebDangKySuDungPhongMay (1)\WebDangKySuDungPhongMay\WebDangKySuDungPhongMay\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
+D:\WebDangKySuDungPhongMay (1)\WebDangKySuDungPhongMay\WebDangKySuDungPhongMay\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
+D:\WebDangKySuDungPhongMay (1)\WebDangKySuDungPhongMay\WebDangKySuDungPhongMay\obj\Debug\net8.0\WebDangKySuDungPhongMay.csproj.AssemblyReference.cache
+D:\WebDangKySuDungPhongMay (1)\WebDangKySuDungPhongMay\WebDangKySuDungPhongMay\obj\Debug\net8.0\WebDangKySuDungPhongMay.GeneratedMSBuildEditorConfig.editorconfig
+D:\WebDangKySuDungPhongMay (1)\WebDangKySuDungPhongMay\WebDangKySuDungPhongMay\obj\Debug\net8.0\WebDangKySuDungPhongMay.AssemblyInfoInputs.cache
+D:\WebDangKySuDungPhongMay (1)\WebDangKySuDungPhongMay\WebDangKySuDungPhongMay\obj\Debug\net8.0\WebDangKySuDungPhongMay.AssemblyInfo.cs
+D:\WebDangKySuDungPhongMay (1)\WebDangKySuDungPhongMay\WebDangKySuDungPhongMay\obj\Debug\net8.0\WebDangKySuDungPhongMay.csproj.CoreCompileInputs.cache
+D:\WebDangKySuDungPhongMay (1)\WebDangKySuDungPhongMay\WebDangKySuDungPhongMay\obj\Debug\net8.0\WebDangKySuDungPhongMay.MvcApplicationPartsAssemblyInfo.cache
+D:\WebDangKySuDungPhongMay (1)\WebDangKySuDungPhongMay\WebDangKySuDungPhongMay\obj\Debug\net8.0\WebDangKySuDungPhongMay.RazorAssemblyInfo.cache
+D:\WebDangKySuDungPhongMay (1)\WebDangKySuDungPhongMay\WebDangKySuDungPhongMay\obj\Debug\net8.0\WebDangKySuDungPhongMay.RazorAssemblyInfo.cs
+D:\WebDangKySuDungPhongMay (1)\WebDangKySuDungPhongMay\WebDangKySuDungPhongMay\obj\Debug\net8.0\staticwebassets.build.json
+D:\WebDangKySuDungPhongMay (1)\WebDangKySuDungPhongMay\WebDangKySuDungPhongMay\obj\Debug\net8.0\staticwebassets.development.json
+D:\WebDangKySuDungPhongMay (1)\WebDangKySuDungPhongMay\WebDangKySuDungPhongMay\obj\Debug\net8.0\staticwebassets\msbuild.WebDangKySuDungPhongMay.Microsoft.AspNetCore.StaticWebAssets.props
+D:\WebDangKySuDungPhongMay (1)\WebDangKySuDungPhongMay\WebDangKySuDungPhongMay\obj\Debug\net8.0\staticwebassets\msbuild.build.WebDangKySuDungPhongMay.props
+D:\WebDangKySuDungPhongMay (1)\WebDangKySuDungPhongMay\WebDangKySuDungPhongMay\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.WebDangKySuDungPhongMay.props
+D:\WebDangKySuDungPhongMay (1)\WebDangKySuDungPhongMay\WebDangKySuDungPhongMay\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.WebDangKySuDungPhongMay.props
+D:\WebDangKySuDungPhongMay (1)\WebDangKySuDungPhongMay\WebDangKySuDungPhongMay\obj\Debug\net8.0\staticwebassets.pack.json
+D:\WebDangKySuDungPhongMay (1)\WebDangKySuDungPhongMay\WebDangKySuDungPhongMay\obj\Debug\net8.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+D:\WebDangKySuDungPhongMay (1)\WebDangKySuDungPhongMay\WebDangKySuDungPhongMay\obj\Debug\net8.0\scopedcss\bundle\WebDangKySuDungPhongMay.styles.css
+D:\WebDangKySuDungPhongMay (1)\WebDangKySuDungPhongMay\WebDangKySuDungPhongMay\obj\Debug\net8.0\scopedcss\projectbundle\WebDangKySuDungPhongMay.bundle.scp.css
+D:\WebDangKySuDungPhongMay (1)\WebDangKySuDungPhongMay\WebDangKySuDungPhongMay\obj\Debug\net8.0\WebDangK.EA08DB0B.Up2Date
+D:\WebDangKySuDungPhongMay (1)\WebDangKySuDungPhongMay\WebDangKySuDungPhongMay\obj\Debug\net8.0\WebDangKySuDungPhongMay.dll
+D:\WebDangKySuDungPhongMay (1)\WebDangKySuDungPhongMay\WebDangKySuDungPhongMay\obj\Debug\net8.0\refint\WebDangKySuDungPhongMay.dll
+D:\WebDangKySuDungPhongMay (1)\WebDangKySuDungPhongMay\WebDangKySuDungPhongMay\obj\Debug\net8.0\WebDangKySuDungPhongMay.pdb
+D:\WebDangKySuDungPhongMay (1)\WebDangKySuDungPhongMay\WebDangKySuDungPhongMay\obj\Debug\net8.0\WebDangKySuDungPhongMay.genruntimeconfig.cache
+D:\WebDangKySuDungPhongMay (1)\WebDangKySuDungPhongMay\WebDangKySuDungPhongMay\obj\Debug\net8.0\ref\WebDangKySuDungPhongMay.dll

@@ -1,0 +1,42 @@
+﻿@model WebDangKySuDungPhongMay.ViewModels.PhieuDangKySVViewModel
+
+@{
+    ViewBag.Title = "Đăng ký sử dụng phòng máy";
+    Layout = "~/Views/Shared/_SinhVienLayout.cshtml";
+}
+
+<h1 class="text-center text-uppercase">Đăng ký sử dụng phòng máy</h1>
+
+<form asp-action="Register" method="post">
+    <div class="form-group">
+        <label for="NgaySuDung">Ngày sử dụng:</label>
+        <input type="date" class="form-control" id="NgaySuDung" name="NgaySuDung" required />
+    </div>
+    <div class="form-group">
+        <label for="ThoiGianBatDau">Thời gian bắt đầu:</label>
+        <input type="time" class="form-control" id="ThoiGianBatDau" name="ThoiGianBatDau" required />
+    </div>
+    <div class="form-group">
+        <label for="ThoiGianKetThuc">Thời gian kết thúc:</label>
+        <input type="time" class="form-control" id="ThoiGianKetThuc" name="ThoiGianKetThuc" required />
+    </div>
+    <div class="form-group">
+        <label for="LyDo">Lý do:</label>
+        <textarea class="form-control" id="LyDo" name="LyDo" required></textarea>
+    </div>
+    <div class="form-group">
+        <label for="GhiChu">Ghi chú:</label>
+        <textarea class="form-control" id="GhiChu" name="GhiChu"></textarea>
+    </div>
+    <div class="form-group mb-3">
+        <label for="MaPhongMay">Chọn phòng máy:</label>
+        <select class="form-control" id="MaPhongMay" name="MaPhongMay" required>
+            <option value="">Chọn phòng máy</option>
+            @foreach (var item in ViewBag.PhongMays)
+            {
+                <option value="@item.Value">@item.Text</option>
+            }
+        </select>
+    </div>
+    <button type="submit" class="btn btn-primary">Đăng ký</button>
+</form>

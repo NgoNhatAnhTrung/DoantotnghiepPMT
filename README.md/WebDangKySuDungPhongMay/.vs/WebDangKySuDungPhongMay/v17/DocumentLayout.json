@@ -1,0 +1,1589 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\WebDangKySuDungPhongMay (1)\\WebDangKySuDungPhongMay\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{17E310BC-F7A6-4D8E-8247-E744C48A7A44}|WebDangKySuDungPhongMay\\WebDangKySuDungPhongMay.csproj|d:\\webdangkysudungphongmay (1)\\webdangkysudungphongmay\\webdangkysudungphongmay\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{17E310BC-F7A6-4D8E-8247-E744C48A7A44}|WebDangKySuDungPhongMay\\WebDangKySuDungPhongMay.csproj|solutionrelative:webdangkysudungphongmay\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{17E310BC-F7A6-4D8E-8247-E744C48A7A44}|WebDangKySuDungPhongMay\\WebDangKySuDungPhongMay.csproj|d:\\webdangkysudungphongmay (1)\\webdangkysudungphongmay\\webdangkysudungphongmay\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{17E310BC-F7A6-4D8E-8247-E744C48A7A44}|WebDangKySuDungPhongMay\\WebDangKySuDungPhongMay.csproj|solutionrelative:webdangkysudungphongmay\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{17E310BC-F7A6-4D8E-8247-E744C48A7A44}|WebDangKySuDungPhongMay\\WebDangKySuDungPhongMay.csproj|d:\\webdangkysudungphongmay (1)\\webdangkysudungphongmay\\webdangkysudungphongmay\\views\\shared\\_sinhvienlayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{17E310BC-F7A6-4D8E-8247-E744C48A7A44}|WebDangKySuDungPhongMay\\WebDangKySuDungPhongMay.csproj|solutionrelative:webdangkysudungphongmay\\views\\shared\\_sinhvienlayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{17E310BC-F7A6-4D8E-8247-E744C48A7A44}|WebDangKySuDungPhongMay\\WebDangKySuDungPhongMay.csproj|d:\\webdangkysudungphongmay (1)\\webdangkysudungphongmay\\webdangkysudungphongmay\\controllers\\hockycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{17E310BC-F7A6-4D8E-8247-E744C48A7A44}|WebDangKySuDungPhongMay\\WebDangKySuDungPhongMay.csproj|solutionrelative:webdangkysudungphongmay\\controllers\\hockycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{17E310BC-F7A6-4D8E-8247-E744C48A7A44}|WebDangKySuDungPhongMay\\WebDangKySuDungPhongMay.csproj|d:\\webdangkysudungphongmay (1)\\webdangkysudungphongmay\\webdangkysudungphongmay\\controllers\\giangviencontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{17E310BC-F7A6-4D8E-8247-E744C48A7A44}|WebDangKySuDungPhongMay\\WebDangKySuDungPhongMay.csproj|solutionrelative:webdangkysudungphongmay\\controllers\\giangviencontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{17E310BC-F7A6-4D8E-8247-E744C48A7A44}|WebDangKySuDungPhongMay\\WebDangKySuDungPhongMay.csproj|d:\\webdangkysudungphongmay (1)\\webdangkysudungphongmay\\webdangkysudungphongmay\\views\\home\\changepassword.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{17E310BC-F7A6-4D8E-8247-E744C48A7A44}|WebDangKySuDungPhongMay\\WebDangKySuDungPhongMay.csproj|solutionrelative:webdangkysudungphongmay\\views\\home\\changepassword.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{17E310BC-F7A6-4D8E-8247-E744C48A7A44}|WebDangKySuDungPhongMay\\WebDangKySuDungPhongMay.csproj|d:\\webdangkysudungphongmay (1)\\webdangkysudungphongmay\\webdangkysudungphongmay\\views\\shared\\_giangvienlayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{17E310BC-F7A6-4D8E-8247-E744C48A7A44}|WebDangKySuDungPhongMay\\WebDangKySuDungPhongMay.csproj|solutionrelative:webdangkysudungphongmay\\views\\shared\\_giangvienlayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{17E310BC-F7A6-4D8E-8247-E744C48A7A44}|WebDangKySuDungPhongMay\\WebDangKySuDungPhongMay.csproj|d:\\webdangkysudungphongmay (1)\\webdangkysudungphongmay\\webdangkysudungphongmay\\views\\shared\\_nguoiquanlylayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{17E310BC-F7A6-4D8E-8247-E744C48A7A44}|WebDangKySuDungPhongMay\\WebDangKySuDungPhongMay.csproj|solutionrelative:webdangkysudungphongmay\\views\\shared\\_nguoiquanlylayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{17E310BC-F7A6-4D8E-8247-E744C48A7A44}|WebDangKySuDungPhongMay\\WebDangKySuDungPhongMay.csproj|d:\\webdangkysudungphongmay (1)\\webdangkysudungphongmay\\webdangkysudungphongmay\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{17E310BC-F7A6-4D8E-8247-E744C48A7A44}|WebDangKySuDungPhongMay\\WebDangKySuDungPhongMay.csproj|solutionrelative:webdangkysudungphongmay\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{17E310BC-F7A6-4D8E-8247-E744C48A7A44}|WebDangKySuDungPhongMay\\WebDangKySuDungPhongMay.csproj|d:\\webdangkysudungphongmay (1)\\webdangkysudungphongmay\\webdangkysudungphongmay\\viewmodels\\changepasswordviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{17E310BC-F7A6-4D8E-8247-E744C48A7A44}|WebDangKySuDungPhongMay\\WebDangKySuDungPhongMay.csproj|solutionrelative:webdangkysudungphongmay\\viewmodels\\changepasswordviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{17E310BC-F7A6-4D8E-8247-E744C48A7A44}|WebDangKySuDungPhongMay\\WebDangKySuDungPhongMay.csproj|d:\\webdangkysudungphongmay (1)\\webdangkysudungphongmay\\webdangkysudungphongmay\\views\\home\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{17E310BC-F7A6-4D8E-8247-E744C48A7A44}|WebDangKySuDungPhongMay\\WebDangKySuDungPhongMay.csproj|solutionrelative:webdangkysudungphongmay\\views\\home\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{17E310BC-F7A6-4D8E-8247-E744C48A7A44}|WebDangKySuDungPhongMay\\WebDangKySuDungPhongMay.csproj|d:\\webdangkysudungphongmay (1)\\webdangkysudungphongmay\\webdangkysudungphongmay\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{17E310BC-F7A6-4D8E-8247-E744C48A7A44}|WebDangKySuDungPhongMay\\WebDangKySuDungPhongMay.csproj|solutionrelative:webdangkysudungphongmay\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{17E310BC-F7A6-4D8E-8247-E744C48A7A44}|WebDangKySuDungPhongMay\\WebDangKySuDungPhongMay.csproj|d:\\webdangkysudungphongmay (1)\\webdangkysudungphongmay\\webdangkysudungphongmay\\views\\thongbao\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{17E310BC-F7A6-4D8E-8247-E744C48A7A44}|WebDangKySuDungPhongMay\\WebDangKySuDungPhongMay.csproj|solutionrelative:webdangkysudungphongmay\\views\\thongbao\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{17E310BC-F7A6-4D8E-8247-E744C48A7A44}|WebDangKySuDungPhongMay\\WebDangKySuDungPhongMay.csproj|d:\\webdangkysudungphongmay (1)\\webdangkysudungphongmay\\webdangkysudungphongmay\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{17E310BC-F7A6-4D8E-8247-E744C48A7A44}|WebDangKySuDungPhongMay\\WebDangKySuDungPhongMay.csproj|solutionrelative:webdangkysudungphongmay\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{17E310BC-F7A6-4D8E-8247-E744C48A7A44}|WebDangKySuDungPhongMay\\WebDangKySuDungPhongMay.csproj|d:\\webdangkysudungphongmay (1)\\webdangkysudungphongmay\\webdangkysudungphongmay\\controllers\\monhoccontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{17E310BC-F7A6-4D8E-8247-E744C48A7A44}|WebDangKySuDungPhongMay\\WebDangKySuDungPhongMay.csproj|solutionrelative:webdangkysudungphongmay\\controllers\\monhoccontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{17E310BC-F7A6-4D8E-8247-E744C48A7A44}|WebDangKySuDungPhongMay\\WebDangKySuDungPhongMay.csproj|d:\\webdangkysudungphongmay (1)\\webdangkysudungphongmay\\webdangkysudungphongmay\\views\\giangvienhome\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{17E310BC-F7A6-4D8E-8247-E744C48A7A44}|WebDangKySuDungPhongMay\\WebDangKySuDungPhongMay.csproj|solutionrelative:webdangkysudungphongmay\\views\\giangvienhome\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{17E310BC-F7A6-4D8E-8247-E744C48A7A44}|WebDangKySuDungPhongMay\\WebDangKySuDungPhongMay.csproj|d:\\webdangkysudungphongmay (1)\\webdangkysudungphongmay\\webdangkysudungphongmay\\views\\sinhvienhome\\notification.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{17E310BC-F7A6-4D8E-8247-E744C48A7A44}|WebDangKySuDungPhongMay\\WebDangKySuDungPhongMay.csproj|solutionrelative:webdangkysudungphongmay\\views\\sinhvienhome\\notification.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{17E310BC-F7A6-4D8E-8247-E744C48A7A44}|WebDangKySuDungPhongMay\\WebDangKySuDungPhongMay.csproj|d:\\webdangkysudungphongmay (1)\\webdangkysudungphongmay\\webdangkysudungphongmay\\views\\sinhvienhome\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{17E310BC-F7A6-4D8E-8247-E744C48A7A44}|WebDangKySuDungPhongMay\\WebDangKySuDungPhongMay.csproj|solutionrelative:webdangkysudungphongmay\\views\\sinhvienhome\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{17E310BC-F7A6-4D8E-8247-E744C48A7A44}|WebDangKySuDungPhongMay\\WebDangKySuDungPhongMay.csproj|d:\\webdangkysudungphongmay (1)\\webdangkysudungphongmay\\webdangkysudungphongmay\\views\\nguoiquanlyphongmayhome\\svrequests.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{17E310BC-F7A6-4D8E-8247-E744C48A7A44}|WebDangKySuDungPhongMay\\WebDangKySuDungPhongMay.csproj|solutionrelative:webdangkysudungphongmay\\views\\nguoiquanlyphongmayhome\\svrequests.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{17E310BC-F7A6-4D8E-8247-E744C48A7A44}|WebDangKySuDungPhongMay\\WebDangKySuDungPhongMay.csproj|d:\\webdangkysudungphongmay (1)\\webdangkysudungphongmay\\webdangkysudungphongmay\\views\\nguoiquanlyphongmayhome\\svhistory.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{17E310BC-F7A6-4D8E-8247-E744C48A7A44}|WebDangKySuDungPhongMay\\WebDangKySuDungPhongMay.csproj|solutionrelative:webdangkysudungphongmay\\views\\nguoiquanlyphongmayhome\\svhistory.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{17E310BC-F7A6-4D8E-8247-E744C48A7A44}|WebDangKySuDungPhongMay\\WebDangKySuDungPhongMay.csproj|d:\\webdangkysudungphongmay (1)\\webdangkysudungphongmay\\webdangkysudungphongmay\\views\\shared\\_timetablepartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{17E310BC-F7A6-4D8E-8247-E744C48A7A44}|WebDangKySuDungPhongMay\\WebDangKySuDungPhongMay.csproj|solutionrelative:webdangkysudungphongmay\\views\\shared\\_timetablepartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{17E310BC-F7A6-4D8E-8247-E744C48A7A44}|WebDangKySuDungPhongMay\\WebDangKySuDungPhongMay.csproj|d:\\webdangkysudungphongmay (1)\\webdangkysudungphongmay\\webdangkysudungphongmay\\views\\sinhvienhome\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{17E310BC-F7A6-4D8E-8247-E744C48A7A44}|WebDangKySuDungPhongMay\\WebDangKySuDungPhongMay.csproj|solutionrelative:webdangkysudungphongmay\\views\\sinhvienhome\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{17E310BC-F7A6-4D8E-8247-E744C48A7A44}|WebDangKySuDungPhongMay\\WebDangKySuDungPhongMay.csproj|d:\\webdangkysudungphongmay (1)\\webdangkysudungphongmay\\webdangkysudungphongmay\\views\\giangvienhome\\history.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{17E310BC-F7A6-4D8E-8247-E744C48A7A44}|WebDangKySuDungPhongMay\\WebDangKySuDungPhongMay.csproj|solutionrelative:webdangkysudungphongmay\\views\\giangvienhome\\history.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{17E310BC-F7A6-4D8E-8247-E744C48A7A44}|WebDangKySuDungPhongMay\\WebDangKySuDungPhongMay.csproj|d:\\webdangkysudungphongmay (1)\\webdangkysudungphongmay\\webdangkysudungphongmay\\models\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{17E310BC-F7A6-4D8E-8247-E744C48A7A44}|WebDangKySuDungPhongMay\\WebDangKySuDungPhongMay.csproj|solutionrelative:webdangkysudungphongmay\\models\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{17E310BC-F7A6-4D8E-8247-E744C48A7A44}|WebDangKySuDungPhongMay\\WebDangKySuDungPhongMay.csproj|d:\\webdangkysudungphongmay (1)\\webdangkysudungphongmay\\webdangkysudungphongmay\\views\\nguoiquanlyphongmayhome\\gvhistory.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{17E310BC-F7A6-4D8E-8247-E744C48A7A44}|WebDangKySuDungPhongMay\\WebDangKySuDungPhongMay.csproj|solutionrelative:webdangkysudungphongmay\\views\\nguoiquanlyphongmayhome\\gvhistory.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{17E310BC-F7A6-4D8E-8247-E744C48A7A44}|WebDangKySuDungPhongMay\\WebDangKySuDungPhongMay.csproj|d:\\webdangkysudungphongmay (1)\\webdangkysudungphongmay\\webdangkysudungphongmay\\views\\nguoiquanlyphongmayhome\\gvrequests.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{17E310BC-F7A6-4D8E-8247-E744C48A7A44}|WebDangKySuDungPhongMay\\WebDangKySuDungPhongMay.csproj|solutionrelative:webdangkysudungphongmay\\views\\nguoiquanlyphongmayhome\\gvrequests.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{17E310BC-F7A6-4D8E-8247-E744C48A7A44}|WebDangKySuDungPhongMay\\WebDangKySuDungPhongMay.csproj|d:\\webdangkysudungphongmay (1)\\webdangkysudungphongmay\\webdangkysudungphongmay\\views\\giangvien\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{17E310BC-F7A6-4D8E-8247-E744C48A7A44}|WebDangKySuDungPhongMay\\WebDangKySuDungPhongMay.csproj|solutionrelative:webdangkysudungphongmay\\views\\giangvien\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{17E310BC-F7A6-4D8E-8247-E744C48A7A44}|WebDangKySuDungPhongMay\\WebDangKySuDungPhongMay.csproj|d:\\webdangkysudungphongmay (1)\\webdangkysudungphongmay\\webdangkysudungphongmay\\views\\giangvienhome\\notification.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{17E310BC-F7A6-4D8E-8247-E744C48A7A44}|WebDangKySuDungPhongMay\\WebDangKySuDungPhongMay.csproj|solutionrelative:webdangkysudungphongmay\\views\\giangvienhome\\notification.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{17E310BC-F7A6-4D8E-8247-E744C48A7A44}|WebDangKySuDungPhongMay\\WebDangKySuDungPhongMay.csproj|d:\\webdangkysudungphongmay (1)\\webdangkysudungphongmay\\webdangkysudungphongmay\\views\\nguoiquanlyphongmayhome\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{17E310BC-F7A6-4D8E-8247-E744C48A7A44}|WebDangKySuDungPhongMay\\WebDangKySuDungPhongMay.csproj|solutionrelative:webdangkysudungphongmay\\views\\nguoiquanlyphongmayhome\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{17E310BC-F7A6-4D8E-8247-E744C48A7A44}|WebDangKySuDungPhongMay\\WebDangKySuDungPhongMay.csproj|d:\\webdangkysudungphongmay (1)\\webdangkysudungphongmay\\webdangkysudungphongmay\\controllers\\nguoiquanlyphongmayhomecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{17E310BC-F7A6-4D8E-8247-E744C48A7A44}|WebDangKySuDungPhongMay\\WebDangKySuDungPhongMay.csproj|solutionrelative:webdangkysudungphongmay\\controllers\\nguoiquanlyphongmayhomecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{17E310BC-F7A6-4D8E-8247-E744C48A7A44}|WebDangKySuDungPhongMay\\WebDangKySuDungPhongMay.csproj|d:\\webdangkysudungphongmay (1)\\webdangkysudungphongmay\\webdangkysudungphongmay\\controllers\\nguoiquanlyphongmaycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{17E310BC-F7A6-4D8E-8247-E744C48A7A44}|WebDangKySuDungPhongMay\\WebDangKySuDungPhongMay.csproj|solutionrelative:webdangkysudungphongmay\\controllers\\nguoiquanlyphongmaycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{17E310BC-F7A6-4D8E-8247-E744C48A7A44}|WebDangKySuDungPhongMay\\WebDangKySuDungPhongMay.csproj|d:\\webdangkysudungphongmay (1)\\webdangkysudungphongmay\\webdangkysudungphongmay\\controllers\\giangvienhomecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{17E310BC-F7A6-4D8E-8247-E744C48A7A44}|WebDangKySuDungPhongMay\\WebDangKySuDungPhongMay.csproj|solutionrelative:webdangkysudungphongmay\\controllers\\giangvienhomecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{17E310BC-F7A6-4D8E-8247-E744C48A7A44}|WebDangKySuDungPhongMay\\WebDangKySuDungPhongMay.csproj|d:\\webdangkysudungphongmay (1)\\webdangkysudungphongmay\\webdangkysudungphongmay\\views\\lophocphan\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{17E310BC-F7A6-4D8E-8247-E744C48A7A44}|WebDangKySuDungPhongMay\\WebDangKySuDungPhongMay.csproj|solutionrelative:webdangkysudungphongmay\\views\\lophocphan\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{17E310BC-F7A6-4D8E-8247-E744C48A7A44}|WebDangKySuDungPhongMay\\WebDangKySuDungPhongMay.csproj|d:\\webdangkysudungphongmay (1)\\webdangkysudungphongmay\\webdangkysudungphongmay\\views\\lophocphan\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{17E310BC-F7A6-4D8E-8247-E744C48A7A44}|WebDangKySuDungPhongMay\\WebDangKySuDungPhongMay.csproj|solutionrelative:webdangkysudungphongmay\\views\\lophocphan\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{17E310BC-F7A6-4D8E-8247-E744C48A7A44}|WebDangKySuDungPhongMay\\WebDangKySuDungPhongMay.csproj|d:\\webdangkysudungphongmay (1)\\webdangkysudungphongmay\\webdangkysudungphongmay\\views\\hocky\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{17E310BC-F7A6-4D8E-8247-E744C48A7A44}|WebDangKySuDungPhongMay\\WebDangKySuDungPhongMay.csproj|solutionrelative:webdangkysudungphongmay\\views\\hocky\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{17E310BC-F7A6-4D8E-8247-E744C48A7A44}|WebDangKySuDungPhongMay\\WebDangKySuDungPhongMay.csproj|d:\\webdangkysudungphongmay (1)\\webdangkysudungphongmay\\webdangkysudungphongmay\\views\\phongmay\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{17E310BC-F7A6-4D8E-8247-E744C48A7A44}|WebDangKySuDungPhongMay\\WebDangKySuDungPhongMay.csproj|solutionrelative:webdangkysudungphongmay\\views\\phongmay\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{17E310BC-F7A6-4D8E-8247-E744C48A7A44}|WebDangKySuDungPhongMay\\WebDangKySuDungPhongMay.csproj|d:\\webdangkysudungphongmay (1)\\webdangkysudungphongmay\\webdangkysudungphongmay\\views\\maytinh\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{17E310BC-F7A6-4D8E-8247-E744C48A7A44}|WebDangKySuDungPhongMay\\WebDangKySuDungPhongMay.csproj|solutionrelative:webdangkysudungphongmay\\views\\maytinh\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{17E310BC-F7A6-4D8E-8247-E744C48A7A44}|WebDangKySuDungPhongMay\\WebDangKySuDungPhongMay.csproj|d:\\webdangkysudungphongmay (1)\\webdangkysudungphongmay\\webdangkysudungphongmay\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{17E310BC-F7A6-4D8E-8247-E744C48A7A44}|WebDangKySuDungPhongMay\\WebDangKySuDungPhongMay.csproj|solutionrelative:webdangkysudungphongmay\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{17E310BC-F7A6-4D8E-8247-E744C48A7A44}|WebDangKySuDungPhongMay\\WebDangKySuDungPhongMay.csproj|d:\\webdangkysudungphongmay (1)\\webdangkysudungphongmay\\webdangkysudungphongmay\\views\\sinhvien\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{17E310BC-F7A6-4D8E-8247-E744C48A7A44}|WebDangKySuDungPhongMay\\WebDangKySuDungPhongMay.csproj|solutionrelative:webdangkysudungphongmay\\views\\sinhvien\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{17E310BC-F7A6-4D8E-8247-E744C48A7A44}|WebDangKySuDungPhongMay\\WebDangKySuDungPhongMay.csproj|d:\\webdangkysudungphongmay (1)\\webdangkysudungphongmay\\webdangkysudungphongmay\\views\\monhoc\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{17E310BC-F7A6-4D8E-8247-E744C48A7A44}|WebDangKySuDungPhongMay\\WebDangKySuDungPhongMay.csproj|solutionrelative:webdangkysudungphongmay\\views\\monhoc\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{17E310BC-F7A6-4D8E-8247-E744C48A7A44}|WebDangKySuDungPhongMay\\WebDangKySuDungPhongMay.csproj|d:\\webdangkysudungphongmay (1)\\webdangkysudungphongmay\\webdangkysudungphongmay\\views\\namhoc\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{17E310BC-F7A6-4D8E-8247-E744C48A7A44}|WebDangKySuDungPhongMay\\WebDangKySuDungPhongMay.csproj|solutionrelative:webdangkysudungphongmay\\views\\namhoc\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{17E310BC-F7A6-4D8E-8247-E744C48A7A44}|WebDangKySuDungPhongMay\\WebDangKySuDungPhongMay.csproj|d:\\webdangkysudungphongmay (1)\\webdangkysudungphongmay\\webdangkysudungphongmay\\views\\nguoiquanlyphongmay\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{17E310BC-F7A6-4D8E-8247-E744C48A7A44}|WebDangKySuDungPhongMay\\WebDangKySuDungPhongMay.csproj|solutionrelative:webdangkysudungphongmay\\views\\nguoiquanlyphongmay\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{17E310BC-F7A6-4D8E-8247-E744C48A7A44}|WebDangKySuDungPhongMay\\WebDangKySuDungPhongMay.csproj|d:\\webdangkysudungphongmay (1)\\webdangkysudungphongmay\\webdangkysudungphongmay\\wwwroot\\css\\login.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{17E310BC-F7A6-4D8E-8247-E744C48A7A44}|WebDangKySuDungPhongMay\\WebDangKySuDungPhongMay.csproj|solutionrelative:webdangkysudungphongmay\\wwwroot\\css\\login.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{17E310BC-F7A6-4D8E-8247-E744C48A7A44}|WebDangKySuDungPhongMay\\WebDangKySuDungPhongMay.csproj|d:\\webdangkysudungphongmay (1)\\webdangkysudungphongmay\\webdangkysudungphongmay\\converters\\dayofweekconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{17E310BC-F7A6-4D8E-8247-E744C48A7A44}|WebDangKySuDungPhongMay\\WebDangKySuDungPhongMay.csproj|solutionrelative:webdangkysudungphongmay\\converters\\dayofweekconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{17E310BC-F7A6-4D8E-8247-E744C48A7A44}|WebDangKySuDungPhongMay\\WebDangKySuDungPhongMay.csproj|d:\\webdangkysudungphongmay (1)\\webdangkysudungphongmay\\webdangkysudungphongmay\\viewmodels\\lophocphantimetableviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{17E310BC-F7A6-4D8E-8247-E744C48A7A44}|WebDangKySuDungPhongMay\\WebDangKySuDungPhongMay.csproj|solutionrelative:webdangkysudungphongmay\\viewmodels\\lophocphantimetableviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{17E310BC-F7A6-4D8E-8247-E744C48A7A44}|WebDangKySuDungPhongMay\\WebDangKySuDungPhongMay.csproj|d:\\webdangkysudungphongmay (1)\\webdangkysudungphongmay\\webdangkysudungphongmay\\viewmodels\\phieudangkysvviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{17E310BC-F7A6-4D8E-8247-E744C48A7A44}|WebDangKySuDungPhongMay\\WebDangKySuDungPhongMay.csproj|solutionrelative:webdangkysudungphongmay\\viewmodels\\phieudangkysvviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{17E310BC-F7A6-4D8E-8247-E744C48A7A44}|WebDangKySuDungPhongMay\\WebDangKySuDungPhongMay.csproj|d:\\webdangkysudungphongmay (1)\\webdangkysudungphongmay\\webdangkysudungphongmay\\controllers\\thongbaocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{17E310BC-F7A6-4D8E-8247-E744C48A7A44}|WebDangKySuDungPhongMay\\WebDangKySuDungPhongMay.csproj|solutionrelative:webdangkysudungphongmay\\controllers\\thongbaocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{17E310BC-F7A6-4D8E-8247-E744C48A7A44}|WebDangKySuDungPhongMay\\WebDangKySuDungPhongMay.csproj|d:\\webdangkysudungphongmay (1)\\webdangkysudungphongmay\\webdangkysudungphongmay\\controllers\\sinhvienhomecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{17E310BC-F7A6-4D8E-8247-E744C48A7A44}|WebDangKySuDungPhongMay\\WebDangKySuDungPhongMay.csproj|solutionrelative:webdangkysudungphongmay\\controllers\\sinhvienhomecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{17E310BC-F7A6-4D8E-8247-E744C48A7A44}|WebDangKySuDungPhongMay\\WebDangKySuDungPhongMay.csproj|d:\\webdangkysudungphongmay (1)\\webdangkysudungphongmay\\webdangkysudungphongmay\\controllers\\sinhviencontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{17E310BC-F7A6-4D8E-8247-E744C48A7A44}|WebDangKySuDungPhongMay\\WebDangKySuDungPhongMay.csproj|solutionrelative:webdangkysudungphongmay\\controllers\\sinhviencontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{17E310BC-F7A6-4D8E-8247-E744C48A7A44}|WebDangKySuDungPhongMay\\WebDangKySuDungPhongMay.csproj|d:\\webdangkysudungphongmay (1)\\webdangkysudungphongmay\\webdangkysudungphongmay\\controllers\\phongmaycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{17E310BC-F7A6-4D8E-8247-E744C48A7A44}|WebDangKySuDungPhongMay\\WebDangKySuDungPhongMay.csproj|solutionrelative:webdangkysudungphongmay\\controllers\\phongmaycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{17E310BC-F7A6-4D8E-8247-E744C48A7A44}|WebDangKySuDungPhongMay\\WebDangKySuDungPhongMay.csproj|d:\\webdangkysudungphongmay (1)\\webdangkysudungphongmay\\webdangkysudungphongmay\\viewmodels\\giangvienviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{17E310BC-F7A6-4D8E-8247-E744C48A7A44}|WebDangKySuDungPhongMay\\WebDangKySuDungPhongMay.csproj|solutionrelative:webdangkysudungphongmay\\viewmodels\\giangvienviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{17E310BC-F7A6-4D8E-8247-E744C48A7A44}|WebDangKySuDungPhongMay\\WebDangKySuDungPhongMay.csproj|d:\\webdangkysudungphongmay (1)\\webdangkysudungphongmay\\webdangkysudungphongmay\\viewmodels\\thongbaoviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{17E310BC-F7A6-4D8E-8247-E744C48A7A44}|WebDangKySuDungPhongMay\\WebDangKySuDungPhongMay.csproj|solutionrelative:webdangkysudungphongmay\\viewmodels\\thongbaoviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{17E310BC-F7A6-4D8E-8247-E744C48A7A44}|WebDangKySuDungPhongMay\\WebDangKySuDungPhongMay.csproj|d:\\webdangkysudungphongmay (1)\\webdangkysudungphongmay\\webdangkysudungphongmay\\viewmodels\\sinhvienviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{17E310BC-F7A6-4D8E-8247-E744C48A7A44}|WebDangKySuDungPhongMay\\WebDangKySuDungPhongMay.csproj|solutionrelative:webdangkysudungphongmay\\viewmodels\\sinhvienviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{17E310BC-F7A6-4D8E-8247-E744C48A7A44}|WebDangKySuDungPhongMay\\WebDangKySuDungPhongMay.csproj|d:\\webdangkysudungphongmay (1)\\webdangkysudungphongmay\\webdangkysudungphongmay\\viewmodels\\loginviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{17E310BC-F7A6-4D8E-8247-E744C48A7A44}|WebDangKySuDungPhongMay\\WebDangKySuDungPhongMay.csproj|solutionrelative:webdangkysudungphongmay\\viewmodels\\loginviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{17E310BC-F7A6-4D8E-8247-E744C48A7A44}|WebDangKySuDungPhongMay\\WebDangKySuDungPhongMay.csproj|d:\\webdangkysudungphongmay (1)\\webdangkysudungphongmay\\webdangkysudungphongmay\\models\\thongbao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{17E310BC-F7A6-4D8E-8247-E744C48A7A44}|WebDangKySuDungPhongMay\\WebDangKySuDungPhongMay.csproj|solutionrelative:webdangkysudungphongmay\\models\\thongbao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{17E310BC-F7A6-4D8E-8247-E744C48A7A44}|WebDangKySuDungPhongMay\\WebDangKySuDungPhongMay.csproj|d:\\webdangkysudungphongmay (1)\\webdangkysudungphongmay\\webdangkysudungphongmay\\models\\sinhvien.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{17E310BC-F7A6-4D8E-8247-E744C48A7A44}|WebDangKySuDungPhongMay\\WebDangKySuDungPhongMay.csproj|solutionrelative:webdangkysudungphongmay\\models\\sinhvien.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{17E310BC-F7A6-4D8E-8247-E744C48A7A44}|WebDangKySuDungPhongMay\\WebDangKySuDungPhongMay.csproj|d:\\webdangkysudungphongmay (1)\\webdangkysudungphongmay\\webdangkysudungphongmay\\viewmodels\\nguoiquanlyphongmayviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{17E310BC-F7A6-4D8E-8247-E744C48A7A44}|WebDangKySuDungPhongMay\\WebDangKySuDungPhongMay.csproj|solutionrelative:webdangkysudungphongmay\\viewmodels\\nguoiquanlyphongmayviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{17E310BC-F7A6-4D8E-8247-E744C48A7A44}|WebDangKySuDungPhongMay\\WebDangKySuDungPhongMay.csproj|d:\\webdangkysudungphongmay (1)\\webdangkysudungphongmay\\webdangkysudungphongmay\\views\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{17E310BC-F7A6-4D8E-8247-E744C48A7A44}|WebDangKySuDungPhongMay\\WebDangKySuDungPhongMay.csproj|solutionrelative:webdangkysudungphongmay\\views\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{17E310BC-F7A6-4D8E-8247-E744C48A7A44}|WebDangKySuDungPhongMay\\WebDangKySuDungPhongMay.csproj|d:\\webdangkysudungphongmay (1)\\webdangkysudungphongmay\\webdangkysudungphongmay\\viewmodels\\phieudangkygvviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{17E310BC-F7A6-4D8E-8247-E744C48A7A44}|WebDangKySuDungPhongMay\\WebDangKySuDungPhongMay.csproj|solutionrelative:webdangkysudungphongmay\\viewmodels\\phieudangkygvviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{17E310BC-F7A6-4D8E-8247-E744C48A7A44}|WebDangKySuDungPhongMay\\WebDangKySuDungPhongMay.csproj|d:\\webdangkysudungphongmay (1)\\webdangkysudungphongmay\\webdangkysudungphongmay\\viewmodels\\lophocphansinhvienviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{17E310BC-F7A6-4D8E-8247-E744C48A7A44}|WebDangKySuDungPhongMay\\WebDangKySuDungPhongMay.csproj|solutionrelative:webdangkysudungphongmay\\viewmodels\\lophocphansinhvienviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{17E310BC-F7A6-4D8E-8247-E744C48A7A44}|WebDangKySuDungPhongMay\\WebDangKySuDungPhongMay.csproj|d:\\webdangkysudungphongmay (1)\\webdangkysudungphongmay\\webdangkysudungphongmay\\viewmodels\\phongmayviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{17E310BC-F7A6-4D8E-8247-E744C48A7A44}|WebDangKySuDungPhongMay\\WebDangKySuDungPhongMay.csproj|solutionrelative:webdangkysudungphongmay\\viewmodels\\phongmayviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{17E310BC-F7A6-4D8E-8247-E744C48A7A44}|WebDangKySuDungPhongMay\\WebDangKySuDungPhongMay.csproj|d:\\webdangkysudungphongmay (1)\\webdangkysudungphongmay\\webdangkysudungphongmay\\controllers\\lophocphancontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{17E310BC-F7A6-4D8E-8247-E744C48A7A44}|WebDangKySuDungPhongMay\\WebDangKySuDungPhongMay.csproj|solutionrelative:webdangkysudungphongmay\\controllers\\lophocphancontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{17E310BC-F7A6-4D8E-8247-E744C48A7A44}|WebDangKySuDungPhongMay\\WebDangKySuDungPhongMay.csproj|d:\\webdangkysudungphongmay (1)\\webdangkysudungphongmay\\webdangkysudungphongmay\\models\\phieudangkysv.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{17E310BC-F7A6-4D8E-8247-E744C48A7A44}|WebDangKySuDungPhongMay\\WebDangKySuDungPhongMay.csproj|solutionrelative:webdangkysudungphongmay\\models\\phieudangkysv.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{17E310BC-F7A6-4D8E-8247-E744C48A7A44}|WebDangKySuDungPhongMay\\WebDangKySuDungPhongMay.csproj|d:\\webdangkysudungphongmay (1)\\webdangkysudungphongmay\\webdangkysudungphongmay\\models\\phongmay.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{17E310BC-F7A6-4D8E-8247-E744C48A7A44}|WebDangKySuDungPhongMay\\WebDangKySuDungPhongMay.csproj|solutionrelative:webdangkysudungphongmay\\models\\phongmay.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{17E310BC-F7A6-4D8E-8247-E744C48A7A44}|WebDangKySuDungPhongMay\\WebDangKySuDungPhongMay.csproj|d:\\webdangkysudungphongmay (1)\\webdangkysudungphongmay\\webdangkysudungphongmay\\controllers\\maytinhcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{17E310BC-F7A6-4D8E-8247-E744C48A7A44}|WebDangKySuDungPhongMay\\WebDangKySuDungPhongMay.csproj|solutionrelative:webdangkysudungphongmay\\controllers\\maytinhcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{17E310BC-F7A6-4D8E-8247-E744C48A7A44}|WebDangKySuDungPhongMay\\WebDangKySuDungPhongMay.csproj|d:\\webdangkysudungphongmay (1)\\webdangkysudungphongmay\\webdangkysudungphongmay\\models\\nguoiquanlyphongmay.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{17E310BC-F7A6-4D8E-8247-E744C48A7A44}|WebDangKySuDungPhongMay\\WebDangKySuDungPhongMay.csproj|solutionrelative:webdangkysudungphongmay\\models\\nguoiquanlyphongmay.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{17E310BC-F7A6-4D8E-8247-E744C48A7A44}|WebDangKySuDungPhongMay\\WebDangKySuDungPhongMay.csproj|d:\\webdangkysudungphongmay (1)\\webdangkysudungphongmay\\webdangkysudungphongmay\\viewmodels\\namhocviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{17E310BC-F7A6-4D8E-8247-E744C48A7A44}|WebDangKySuDungPhongMay\\WebDangKySuDungPhongMay.csproj|solutionrelative:webdangkysudungphongmay\\viewmodels\\namhocviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{17E310BC-F7A6-4D8E-8247-E744C48A7A44}|WebDangKySuDungPhongMay\\WebDangKySuDungPhongMay.csproj|d:\\webdangkysudungphongmay (1)\\webdangkysudungphongmay\\webdangkysudungphongmay\\models\\hocky.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{17E310BC-F7A6-4D8E-8247-E744C48A7A44}|WebDangKySuDungPhongMay\\WebDangKySuDungPhongMay.csproj|solutionrelative:webdangkysudungphongmay\\models\\hocky.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{17E310BC-F7A6-4D8E-8247-E744C48A7A44}|WebDangKySuDungPhongMay\\WebDangKySuDungPhongMay.csproj|d:\\webdangkysudungphongmay (1)\\webdangkysudungphongmay\\webdangkysudungphongmay\\models\\giangvien.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{17E310BC-F7A6-4D8E-8247-E744C48A7A44}|WebDangKySuDungPhongMay\\WebDangKySuDungPhongMay.csproj|solutionrelative:webdangkysudungphongmay\\models\\giangvien.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{17E310BC-F7A6-4D8E-8247-E744C48A7A44}|WebDangKySuDungPhongMay\\WebDangKySuDungPhongMay.csproj|d:\\webdangkysudungphongmay (1)\\webdangkysudungphongmay\\webdangkysudungphongmay\\models\\namhoc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{17E310BC-F7A6-4D8E-8247-E744C48A7A44}|WebDangKySuDungPhongMay\\WebDangKySuDungPhongMay.csproj|solutionrelative:webdangkysudungphongmay\\models\\namhoc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{17E310BC-F7A6-4D8E-8247-E744C48A7A44}|WebDangKySuDungPhongMay\\WebDangKySuDungPhongMay.csproj|d:\\webdangkysudungphongmay (1)\\webdangkysudungphongmay\\webdangkysudungphongmay\\models\\phieudangkygv.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{17E310BC-F7A6-4D8E-8247-E744C48A7A44}|WebDangKySuDungPhongMay\\WebDangKySuDungPhongMay.csproj|solutionrelative:webdangkysudungphongmay\\models\\phieudangkygv.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{17E310BC-F7A6-4D8E-8247-E744C48A7A44}|WebDangKySuDungPhongMay\\WebDangKySuDungPhongMay.csproj|d:\\webdangkysudungphongmay (1)\\webdangkysudungphongmay\\webdangkysudungphongmay\\models\\monhoc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{17E310BC-F7A6-4D8E-8247-E744C48A7A44}|WebDangKySuDungPhongMay\\WebDangKySuDungPhongMay.csproj|solutionrelative:webdangkysudungphongmay\\models\\monhoc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{17E310BC-F7A6-4D8E-8247-E744C48A7A44}|WebDangKySuDungPhongMay\\WebDangKySuDungPhongMay.csproj|d:\\webdangkysudungphongmay (1)\\webdangkysudungphongmay\\webdangkysudungphongmay\\models\\lophocphan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{17E310BC-F7A6-4D8E-8247-E744C48A7A44}|WebDangKySuDungPhongMay\\WebDangKySuDungPhongMay.csproj|solutionrelative:webdangkysudungphongmay\\models\\lophocphan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{17E310BC-F7A6-4D8E-8247-E744C48A7A44}|WebDangKySuDungPhongMay\\WebDangKySuDungPhongMay.csproj|d:\\webdangkysudungphongmay (1)\\webdangkysudungphongmay\\webdangkysudungphongmay\\viewmodels\\lophocphanviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{17E310BC-F7A6-4D8E-8247-E744C48A7A44}|WebDangKySuDungPhongMay\\WebDangKySuDungPhongMay.csproj|solutionrelative:webdangkysudungphongmay\\viewmodels\\lophocphanviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{17E310BC-F7A6-4D8E-8247-E744C48A7A44}|WebDangKySuDungPhongMay\\WebDangKySuDungPhongMay.csproj|d:\\webdangkysudungphongmay (1)\\webdangkysudungphongmay\\webdangkysudungphongmay\\models\\maytinh.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{17E310BC-F7A6-4D8E-8247-E744C48A7A44}|WebDangKySuDungPhongMay\\WebDangKySuDungPhongMay.csproj|solutionrelative:webdangkysudungphongmay\\models\\maytinh.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{17E310BC-F7A6-4D8E-8247-E744C48A7A44}|WebDangKySuDungPhongMay\\WebDangKySuDungPhongMay.csproj|d:\\webdangkysudungphongmay (1)\\webdangkysudungphongmay\\webdangkysudungphongmay\\viewmodels\\maytinhviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{17E310BC-F7A6-4D8E-8247-E744C48A7A44}|WebDangKySuDungPhongMay\\WebDangKySuDungPhongMay.csproj|solutionrelative:webdangkysudungphongmay\\viewmodels\\maytinhviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{17E310BC-F7A6-4D8E-8247-E744C48A7A44}|WebDangKySuDungPhongMay\\WebDangKySuDungPhongMay.csproj|d:\\webdangkysudungphongmay (1)\\webdangkysudungphongmay\\webdangkysudungphongmay\\controllers\\namhoccontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{17E310BC-F7A6-4D8E-8247-E744C48A7A44}|WebDangKySuDungPhongMay\\WebDangKySuDungPhongMay.csproj|solutionrelative:webdangkysudungphongmay\\controllers\\namhoccontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{17E310BC-F7A6-4D8E-8247-E744C48A7A44}|WebDangKySuDungPhongMay\\WebDangKySuDungPhongMay.csproj|d:\\webdangkysudungphongmay (1)\\webdangkysudungphongmay\\webdangkysudungphongmay\\models\\admin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{17E310BC-F7A6-4D8E-8247-E744C48A7A44}|WebDangKySuDungPhongMay\\WebDangKySuDungPhongMay.csproj|solutionrelative:webdangkysudungphongmay\\models\\admin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{17E310BC-F7A6-4D8E-8247-E744C48A7A44}|WebDangKySuDungPhongMay\\WebDangKySuDungPhongMay.csproj|d:\\webdangkysudungphongmay (1)\\webdangkysudungphongmay\\webdangkysudungphongmay\\views\\shared\\_layout.cshtml.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{17E310BC-F7A6-4D8E-8247-E744C48A7A44}|WebDangKySuDungPhongMay\\WebDangKySuDungPhongMay.csproj|solutionrelative:webdangkysudungphongmay\\views\\shared\\_layout.cshtml.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Outsourcing\\CSharp\\Web\\WebDangKySuDungPhongMay\\WebDangKySuDungPhongMay\\Migrations\\20240606043607_UpdateAdmin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Outsourcing\\CSharp\\Web\\WebDangKySuDungPhongMay\\WebDangKySuDungPhongMay\\Migrations\\20240606042535_AddAdmin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{17E310BC-F7A6-4D8E-8247-E744C48A7A44}|WebDangKySuDungPhongMay\\WebDangKySuDungPhongMay.csproj|d:\\webdangkysudungphongmay (1)\\webdangkysudungphongmay\\webdangkysudungphongmay\\models\\sinhvienlophocphan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{17E310BC-F7A6-4D8E-8247-E744C48A7A44}|WebDangKySuDungPhongMay\\WebDangKySuDungPhongMay.csproj|solutionrelative:webdangkysudungphongmay\\models\\sinhvienlophocphan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{17E310BC-F7A6-4D8E-8247-E744C48A7A44}|WebDangKySuDungPhongMay\\WebDangKySuDungPhongMay.csproj|d:\\webdangkysudungphongmay (1)\\webdangkysudungphongmay\\webdangkysudungphongmay\\viewmodels\\monhocviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{17E310BC-F7A6-4D8E-8247-E744C48A7A44}|WebDangKySuDungPhongMay\\WebDangKySuDungPhongMay.csproj|solutionrelative:webdangkysudungphongmay\\viewmodels\\monhocviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{17E310BC-F7A6-4D8E-8247-E744C48A7A44}|WebDangKySuDungPhongMay\\WebDangKySuDungPhongMay.csproj|d:\\webdangkysudungphongmay (1)\\webdangkysudungphongmay\\webdangkysudungphongmay\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{17E310BC-F7A6-4D8E-8247-E744C48A7A44}|WebDangKySuDungPhongMay\\WebDangKySuDungPhongMay.csproj|solutionrelative:webdangkysudungphongmay\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{17E310BC-F7A6-4D8E-8247-E744C48A7A44}|WebDangKySuDungPhongMay\\WebDangKySuDungPhongMay.csproj|d:\\webdangkysudungphongmay (1)\\webdangkysudungphongmay\\webdangkysudungphongmay\\viewmodels\\hockyviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{17E310BC-F7A6-4D8E-8247-E744C48A7A44}|WebDangKySuDungPhongMay\\WebDangKySuDungPhongMay.csproj|solutionrelative:webdangkysudungphongmay\\viewmodels\\hockyviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Outsourcing\\CSharp\\Web\\WebDangKySuDungPhongMay\\WebDangKySuDungPhongMay\\Migrations\\20240606022905_First.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Outsourcing\\CSharp\\Web\\WebDangKySuDungPhongMay\\WebDangKySuDungPhongMay\\Migrations\\20240606022752_First.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Outsourcing\\CSharp\\Web\\WebDangKySuDungPhongMay\\WebDangKySuDungPhongMay\\Migrations\\20240606022705_First.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Outsourcing\\CSharp\\Web\\WebDangKySuDungPhongMay\\WebDangKySuDungPhongMay\\Migrations\\20240606021521_First.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Outsourcing\\CSharp\\Web\\WebDangKySuDungPhongMay\\WebDangKySuDungPhongMay\\Migrations\\20240606021409_First.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{17E310BC-F7A6-4D8E-8247-E744C48A7A44}|WebDangKySuDungPhongMay\\WebDangKySuDungPhongMay.csproj|d:\\webdangkysudungphongmay (1)\\webdangkysudungphongmay\\webdangkysudungphongmay\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{17E310BC-F7A6-4D8E-8247-E744C48A7A44}|WebDangKySuDungPhongMay\\WebDangKySuDungPhongMay.csproj|solutionrelative:webdangkysudungphongmay\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Outsourcing\\CSharp\\Web\\WebDangKySuDungPhongMay\\WebDangKySuDungPhongMay\\Migrations\\20240527122612_First.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{17E310BC-F7A6-4D8E-8247-E744C48A7A44}|WebDangKySuDungPhongMay\\WebDangKySuDungPhongMay.csproj|d:\\webdangkysudungphongmay (1)\\webdangkysudungphongmay\\webdangkysudungphongmay\\views\\shared\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{17E310BC-F7A6-4D8E-8247-E744C48A7A44}|WebDangKySuDungPhongMay\\WebDangKySuDungPhongMay.csproj|solutionrelative:webdangkysudungphongmay\\views\\shared\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{17E310BC-F7A6-4D8E-8247-E744C48A7A44}|WebDangKySuDungPhongMay\\WebDangKySuDungPhongMay.csproj|d:\\webdangkysudungphongmay (1)\\webdangkysudungphongmay\\webdangkysudungphongmay\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{17E310BC-F7A6-4D8E-8247-E744C48A7A44}|WebDangKySuDungPhongMay\\WebDangKySuDungPhongMay.csproj|solutionrelative:webdangkysudungphongmay\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{17E310BC-F7A6-4D8E-8247-E744C48A7A44}|WebDangKySuDungPhongMay\\WebDangKySuDungPhongMay.csproj|d:\\webdangkysudungphongmay (1)\\webdangkysudungphongmay\\webdangkysudungphongmay\\webdangkysudungphongmay.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{17E310BC-F7A6-4D8E-8247-E744C48A7A44}|WebDangKySuDungPhongMay\\WebDangKySuDungPhongMay.csproj|solutionrelative:webdangkysudungphongmay\\webdangkysudungphongmay.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{17E310BC-F7A6-4D8E-8247-E744C48A7A44}|WebDangKySuDungPhongMay\\WebDangKySuDungPhongMay.csproj|d:\\webdangkysudungphongmay (1)\\webdangkysudungphongmay\\webdangkysudungphongmay\\migrations\\20240606064345_second.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{17E310BC-F7A6-4D8E-8247-E744C48A7A44}|WebDangKySuDungPhongMay\\WebDangKySuDungPhongMay.csproj|solutionrelative:webdangkysudungphongmay\\migrations\\20240606064345_second.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{17E310BC-F7A6-4D8E-8247-E744C48A7A44}|WebDangKySuDungPhongMay\\WebDangKySuDungPhongMay.csproj|d:\\webdangkysudungphongmay (1)\\webdangkysudungphongmay\\webdangkysudungphongmay\\migrations\\20240606055726_first.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{17E310BC-F7A6-4D8E-8247-E744C48A7A44}|WebDangKySuDungPhongMay\\WebDangKySuDungPhongMay.csproj|solutionrelative:webdangkysudungphongmay\\migrations\\20240606055726_first.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 11,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c64b9c2-e352-428e-a56d-0ace190b99a6}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{e8b06f52-6d01-11d2-aa7d-00c04f990343}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ChangePassword.cshtml",
+              "DocumentMoniker": "D:\\WebDangKySuDungPhongMay (1)\\WebDangKySuDungPhongMay\\WebDangKySuDungPhongMay\\Views\\Home\\ChangePassword.cshtml",
+              "RelativeDocumentMoniker": "WebDangKySuDungPhongMay\\Views\\Home\\ChangePassword.cshtml",
+              "ToolTip": "D:\\WebDangKySuDungPhongMay (1)\\WebDangKySuDungPhongMay\\WebDangKySuDungPhongMay\\Views\\Home\\ChangePassword.cshtml",
+              "RelativeToolTip": "WebDangKySuDungPhongMay\\Views\\Home\\ChangePassword.cshtml",
+              "ViewState": "AQIAABQAAAAAAAAAAAAAACgAAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-14T04:20:06.603Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "D:\\WebDangKySuDungPhongMay (1)\\WebDangKySuDungPhongMay\\WebDangKySuDungPhongMay\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "WebDangKySuDungPhongMay\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "D:\\WebDangKySuDungPhongMay (1)\\WebDangKySuDungPhongMay\\WebDangKySuDungPhongMay\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "WebDangKySuDungPhongMay\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAABrAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-27T06:28:42.591Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "_NguoiQuanLyLayout.cshtml",
+              "DocumentMoniker": "D:\\WebDangKySuDungPhongMay (1)\\WebDangKySuDungPhongMay\\WebDangKySuDungPhongMay\\Views\\Shared\\_NguoiQuanLyLayout.cshtml",
+              "RelativeDocumentMoniker": "WebDangKySuDungPhongMay\\Views\\Shared\\_NguoiQuanLyLayout.cshtml",
+              "ToolTip": "D:\\WebDangKySuDungPhongMay (1)\\WebDangKySuDungPhongMay\\WebDangKySuDungPhongMay\\Views\\Shared\\_NguoiQuanLyLayout.cshtml",
+              "RelativeToolTip": "WebDangKySuDungPhongMay\\Views\\Shared\\_NguoiQuanLyLayout.cshtml",
+              "ViewState": "AQIAABMAAAAAAAAAAAAAAB8AAAAaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-06T05:32:15.326Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "_SinhVienLayout.cshtml",
+              "DocumentMoniker": "D:\\WebDangKySuDungPhongMay (1)\\WebDangKySuDungPhongMay\\WebDangKySuDungPhongMay\\Views\\Shared\\_SinhVienLayout.cshtml",
+              "RelativeDocumentMoniker": "WebDangKySuDungPhongMay\\Views\\Shared\\_SinhVienLayout.cshtml",
+              "ToolTip": "D:\\WebDangKySuDungPhongMay (1)\\WebDangKySuDungPhongMay\\WebDangKySuDungPhongMay\\Views\\Shared\\_SinhVienLayout.cshtml",
+              "RelativeToolTip": "WebDangKySuDungPhongMay\\Views\\Shared\\_SinhVienLayout.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAABrAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-06T05:31:53.255Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "D:\\WebDangKySuDungPhongMay (1)\\WebDangKySuDungPhongMay\\WebDangKySuDungPhongMay\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "WebDangKySuDungPhongMay\\Controllers\\HomeController.cs",
+              "ToolTip": "D:\\WebDangKySuDungPhongMay (1)\\WebDangKySuDungPhongMay\\WebDangKySuDungPhongMay\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "WebDangKySuDungPhongMay\\Controllers\\HomeController.cs",
+              "ViewState": "AQIAALwAAAAAAAAAAAAAAJwAAAAvAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-06T02:33:43.84Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\WebDangKySuDungPhongMay (1)\\WebDangKySuDungPhongMay\\WebDangKySuDungPhongMay\\appsettings.json",
+              "RelativeDocumentMoniker": "WebDangKySuDungPhongMay\\appsettings.json",
+              "ToolTip": "D:\\WebDangKySuDungPhongMay (1)\\WebDangKySuDungPhongMay\\WebDangKySuDungPhongMay\\appsettings.json",
+              "RelativeToolTip": "WebDangKySuDungPhongMay\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAADAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-05-27T06:22:22.133Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "GiangVienController.cs",
+              "DocumentMoniker": "D:\\WebDangKySuDungPhongMay (1)\\WebDangKySuDungPhongMay\\WebDangKySuDungPhongMay\\Controllers\\GiangVienController.cs",
+              "RelativeDocumentMoniker": "WebDangKySuDungPhongMay\\Controllers\\GiangVienController.cs",
+              "ToolTip": "D:\\WebDangKySuDungPhongMay (1)\\WebDangKySuDungPhongMay\\WebDangKySuDungPhongMay\\Controllers\\GiangVienController.cs",
+              "RelativeToolTip": "WebDangKySuDungPhongMay\\Controllers\\GiangVienController.cs",
+              "ViewState": "AQIAABkAAAAAAAAAAAAmwFkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-06T03:18:33.242Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "HocKyController.cs",
+              "DocumentMoniker": "D:\\WebDangKySuDungPhongMay (1)\\WebDangKySuDungPhongMay\\WebDangKySuDungPhongMay\\Controllers\\HocKyController.cs",
+              "RelativeDocumentMoniker": "WebDangKySuDungPhongMay\\Controllers\\HocKyController.cs",
+              "ToolTip": "D:\\WebDangKySuDungPhongMay (1)\\WebDangKySuDungPhongMay\\WebDangKySuDungPhongMay\\Controllers\\HocKyController.cs",
+              "RelativeToolTip": "WebDangKySuDungPhongMay\\Controllers\\HocKyController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAADQAAAA8AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-06T03:27:22.85Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "_GiangVienLayout.cshtml",
+              "DocumentMoniker": "D:\\WebDangKySuDungPhongMay (1)\\WebDangKySuDungPhongMay\\WebDangKySuDungPhongMay\\Views\\Shared\\_GiangVienLayout.cshtml",
+              "RelativeDocumentMoniker": "WebDangKySuDungPhongMay\\Views\\Shared\\_GiangVienLayout.cshtml",
+              "ToolTip": "D:\\WebDangKySuDungPhongMay (1)\\WebDangKySuDungPhongMay\\WebDangKySuDungPhongMay\\Views\\Shared\\_GiangVienLayout.cshtml",
+              "RelativeToolTip": "WebDangKySuDungPhongMay\\Views\\Shared\\_GiangVienLayout.cshtml",
+              "ViewState": "AQIAABsAAAAAAAAAAAAAAB4AAABzAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-06T05:32:01.775Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ChangePasswordViewModel.cs",
+              "DocumentMoniker": "D:\\WebDangKySuDungPhongMay (1)\\WebDangKySuDungPhongMay\\WebDangKySuDungPhongMay\\ViewModels\\ChangePasswordViewModel.cs",
+              "RelativeDocumentMoniker": "WebDangKySuDungPhongMay\\ViewModels\\ChangePasswordViewModel.cs",
+              "ToolTip": "D:\\WebDangKySuDungPhongMay (1)\\WebDangKySuDungPhongMay\\WebDangKySuDungPhongMay\\ViewModels\\ChangePasswordViewModel.cs",
+              "RelativeToolTip": "WebDangKySuDungPhongMay\\ViewModels\\ChangePasswordViewModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-14T04:18:32.445Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "D:\\WebDangKySuDungPhongMay (1)\\WebDangKySuDungPhongMay\\WebDangKySuDungPhongMay\\Views\\Home\\Login.cshtml",
+              "RelativeDocumentMoniker": "WebDangKySuDungPhongMay\\Views\\Home\\Login.cshtml",
+              "ToolTip": "D:\\WebDangKySuDungPhongMay (1)\\WebDangKySuDungPhongMay\\WebDangKySuDungPhongMay\\Views\\Home\\Login.cshtml",
+              "RelativeToolTip": "WebDangKySuDungPhongMay\\Views\\Home\\Login.cshtml",
+              "ViewState": "AQIAADEAAAAAAAAAAAAAwEkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-06T04:30:58.383Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\WebDangKySuDungPhongMay (1)\\WebDangKySuDungPhongMay\\WebDangKySuDungPhongMay\\Program.cs",
+              "RelativeDocumentMoniker": "WebDangKySuDungPhongMay\\Program.cs",
+              "ToolTip": "D:\\WebDangKySuDungPhongMay (1)\\WebDangKySuDungPhongMay\\WebDangKySuDungPhongMay\\Program.cs",
+              "RelativeToolTip": "WebDangKySuDungPhongMay\\Program.cs",
+              "ViewState": "AQIAABwAAAAAAAAAAAAwwCoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-27T06:22:37.325Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\WebDangKySuDungPhongMay (1)\\WebDangKySuDungPhongMay\\WebDangKySuDungPhongMay\\Views\\ThongBao\\Index.cshtml",
+              "RelativeDocumentMoniker": "WebDangKySuDungPhongMay\\Views\\ThongBao\\Index.cshtml",
+              "ToolTip": "D:\\WebDangKySuDungPhongMay (1)\\WebDangKySuDungPhongMay\\WebDangKySuDungPhongMay\\Views\\ThongBao\\Index.cshtml",
+              "RelativeToolTip": "WebDangKySuDungPhongMay\\Views\\ThongBao\\Index.cshtml",
+              "ViewState": "AQIAABcAAAAAAAAAAAAawCQAAAAzAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-06T07:51:18.461Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\WebDangKySuDungPhongMay (1)\\WebDangKySuDungPhongMay\\WebDangKySuDungPhongMay\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "WebDangKySuDungPhongMay\\Views\\Home\\Index.cshtml",
+              "ToolTip": "D:\\WebDangKySuDungPhongMay (1)\\WebDangKySuDungPhongMay\\WebDangKySuDungPhongMay\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "WebDangKySuDungPhongMay\\Views\\Home\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-06T02:33:54.993Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "MonHocController.cs",
+              "DocumentMoniker": "D:\\WebDangKySuDungPhongMay (1)\\WebDangKySuDungPhongMay\\WebDangKySuDungPhongMay\\Controllers\\MonHocController.cs",
+              "RelativeDocumentMoniker": "WebDangKySuDungPhongMay\\Controllers\\MonHocController.cs",
+              "ToolTip": "D:\\WebDangKySuDungPhongMay (1)\\WebDangKySuDungPhongMay\\WebDangKySuDungPhongMay\\Controllers\\MonHocController.cs",
+              "RelativeToolTip": "WebDangKySuDungPhongMay\\Controllers\\MonHocController.cs",
+              "ViewState": "AQIAABgAAAAAAAAAAAAYwEAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-06T03:34:30.381Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\WebDangKySuDungPhongMay (1)\\WebDangKySuDungPhongMay\\WebDangKySuDungPhongMay\\Views\\GiangVienHome\\Index.cshtml",
+              "RelativeDocumentMoniker": "WebDangKySuDungPhongMay\\Views\\GiangVienHome\\Index.cshtml",
+              "ToolTip": "D:\\WebDangKySuDungPhongMay (1)\\WebDangKySuDungPhongMay\\WebDangKySuDungPhongMay\\Views\\GiangVienHome\\Index.cshtml",
+              "RelativeToolTip": "WebDangKySuDungPhongMay\\Views\\GiangVienHome\\Index.cshtml",
+              "ViewState": "AQIAAHYAAAAAAAAAAAAmwH0AAABAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-06T05:39:17.876Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Notification.cshtml",
+              "DocumentMoniker": "D:\\WebDangKySuDungPhongMay (1)\\WebDangKySuDungPhongMay\\WebDangKySuDungPhongMay\\Views\\SinhVienHome\\Notification.cshtml",
+              "RelativeDocumentMoniker": "WebDangKySuDungPhongMay\\Views\\SinhVienHome\\Notification.cshtml",
+              "ToolTip": "D:\\WebDangKySuDungPhongMay (1)\\WebDangKySuDungPhongMay\\WebDangKySuDungPhongMay\\Views\\SinhVienHome\\Notification.cshtml",
+              "RelativeToolTip": "WebDangKySuDungPhongMay\\Views\\SinhVienHome\\Notification.cshtml",
+              "ViewState": "AQIAAJcAAAAAAAAAAAAAAKYAAAAuAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-06T08:07:56.205Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Register.cshtml",
+              "DocumentMoniker": "D:\\WebDangKySuDungPhongMay (1)\\WebDangKySuDungPhongMay\\WebDangKySuDungPhongMay\\Views\\SinhVienHome\\Register.cshtml",
+              "RelativeDocumentMoniker": "WebDangKySuDungPhongMay\\Views\\SinhVienHome\\Register.cshtml",
+              "ToolTip": "D:\\WebDangKySuDungPhongMay (1)\\WebDangKySuDungPhongMay\\WebDangKySuDungPhongMay\\Views\\SinhVienHome\\Register.cshtml",
+              "RelativeToolTip": "WebDangKySuDungPhongMay\\Views\\SinhVienHome\\Register.cshtml",
+              "ViewState": "AQIAABUAAAAAAAAAAAAIwB4AAAAfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-06T07:26:06.393Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "SVRequests.cshtml",
+              "DocumentMoniker": "D:\\WebDangKySuDungPhongMay (1)\\WebDangKySuDungPhongMay\\WebDangKySuDungPhongMay\\Views\\NguoiQuanLyPhongMayHome\\SVRequests.cshtml",
+              "RelativeDocumentMoniker": "WebDangKySuDungPhongMay\\Views\\NguoiQuanLyPhongMayHome\\SVRequests.cshtml",
+              "ToolTip": "D:\\WebDangKySuDungPhongMay (1)\\WebDangKySuDungPhongMay\\WebDangKySuDungPhongMay\\Views\\NguoiQuanLyPhongMayHome\\SVRequests.cshtml",
+              "RelativeToolTip": "WebDangKySuDungPhongMay\\Views\\NguoiQuanLyPhongMayHome\\SVRequests.cshtml",
+              "ViewState": "AQIAABIAAAAAAAAAAAAAACIAAAAQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-06T07:39:19.066Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "SVHistory.cshtml",
+              "DocumentMoniker": "D:\\WebDangKySuDungPhongMay (1)\\WebDangKySuDungPhongMay\\WebDangKySuDungPhongMay\\Views\\NguoiQuanLyPhongMayHome\\SVHistory.cshtml",
+              "RelativeDocumentMoniker": "WebDangKySuDungPhongMay\\Views\\NguoiQuanLyPhongMayHome\\SVHistory.cshtml",
+              "ToolTip": "D:\\WebDangKySuDungPhongMay (1)\\WebDangKySuDungPhongMay\\WebDangKySuDungPhongMay\\Views\\NguoiQuanLyPhongMayHome\\SVHistory.cshtml",
+              "RelativeToolTip": "WebDangKySuDungPhongMay\\Views\\NguoiQuanLyPhongMayHome\\SVHistory.cshtml",
+              "ViewState": "AQIAABIAAAAAAAAAAAAAACMAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-06T07:42:50.219Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "_TimetablePartial.cshtml",
+              "DocumentMoniker": "D:\\WebDangKySuDungPhongMay (1)\\WebDangKySuDungPhongMay\\WebDangKySuDungPhongMay\\Views\\Shared\\_TimetablePartial.cshtml",
+              "RelativeDocumentMoniker": "WebDangKySuDungPhongMay\\Views\\Shared\\_TimetablePartial.cshtml",
+              "ToolTip": "D:\\WebDangKySuDungPhongMay (1)\\WebDangKySuDungPhongMay\\WebDangKySuDungPhongMay\\Views\\Shared\\_TimetablePartial.cshtml",
+              "RelativeToolTip": "WebDangKySuDungPhongMay\\Views\\Shared\\_TimetablePartial.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAwBMAAAA7AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-14T00:52:57.526Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\WebDangKySuDungPhongMay (1)\\WebDangKySuDungPhongMay\\WebDangKySuDungPhongMay\\Views\\SinhVienHome\\Index.cshtml",
+              "RelativeDocumentMoniker": "WebDangKySuDungPhongMay\\Views\\SinhVienHome\\Index.cshtml",
+              "ToolTip": "D:\\WebDangKySuDungPhongMay (1)\\WebDangKySuDungPhongMay\\WebDangKySuDungPhongMay\\Views\\SinhVienHome\\Index.cshtml",
+              "RelativeToolTip": "WebDangKySuDungPhongMay\\Views\\SinhVienHome\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAADAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-06T05:40:44.892Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "History.cshtml",
+              "DocumentMoniker": "D:\\WebDangKySuDungPhongMay (1)\\WebDangKySuDungPhongMay\\WebDangKySuDungPhongMay\\Views\\GiangVienHome\\History.cshtml",
+              "RelativeDocumentMoniker": "WebDangKySuDungPhongMay\\Views\\GiangVienHome\\History.cshtml",
+              "ToolTip": "D:\\WebDangKySuDungPhongMay (1)\\WebDangKySuDungPhongMay\\WebDangKySuDungPhongMay\\Views\\GiangVienHome\\History.cshtml",
+              "RelativeToolTip": "WebDangKySuDungPhongMay\\Views\\GiangVienHome\\History.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACUAAAAaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-06T06:21:09.344Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "D:\\WebDangKySuDungPhongMay (1)\\WebDangKySuDungPhongMay\\WebDangKySuDungPhongMay\\Models\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "WebDangKySuDungPhongMay\\Models\\ApplicationDbContext.cs",
+              "ToolTip": "D:\\WebDangKySuDungPhongMay (1)\\WebDangKySuDungPhongMay\\WebDangKySuDungPhongMay\\Models\\ApplicationDbContext.cs",
+              "RelativeToolTip": "WebDangKySuDungPhongMay\\Models\\ApplicationDbContext.cs",
+              "ViewState": "AQIAAFUCAAAAAAAAAAAQwGICAAAsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-27T06:02:55.109Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "GVHistory.cshtml",
+              "DocumentMoniker": "D:\\WebDangKySuDungPhongMay (1)\\WebDangKySuDungPhongMay\\WebDangKySuDungPhongMay\\Views\\NguoiQuanLyPhongMayHome\\GVHistory.cshtml",
+              "RelativeDocumentMoniker": "WebDangKySuDungPhongMay\\Views\\NguoiQuanLyPhongMayHome\\GVHistory.cshtml",
+              "ToolTip": "D:\\WebDangKySuDungPhongMay (1)\\WebDangKySuDungPhongMay\\WebDangKySuDungPhongMay\\Views\\NguoiQuanLyPhongMayHome\\GVHistory.cshtml",
+              "RelativeToolTip": "WebDangKySuDungPhongMay\\Views\\NguoiQuanLyPhongMayHome\\GVHistory.cshtml",
+              "ViewState": "AQIAABUAAAAAAAAAAAAAACgAAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-06T07:42:23.602Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "GVRequests.cshtml",
+              "DocumentMoniker": "D:\\WebDangKySuDungPhongMay (1)\\WebDangKySuDungPhongMay\\WebDangKySuDungPhongMay\\Views\\NguoiQuanLyPhongMayHome\\GVRequests.cshtml",
+              "RelativeDocumentMoniker": "WebDangKySuDungPhongMay\\Views\\NguoiQuanLyPhongMayHome\\GVRequests.cshtml",
+              "ToolTip": "D:\\WebDangKySuDungPhongMay (1)\\WebDangKySuDungPhongMay\\WebDangKySuDungPhongMay\\Views\\NguoiQuanLyPhongMayHome\\GVRequests.cshtml",
+              "RelativeToolTip": "WebDangKySuDungPhongMay\\Views\\NguoiQuanLyPhongMayHome\\GVRequests.cshtml",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAAACIAAAAPAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-06T07:38:35.494Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\WebDangKySuDungPhongMay (1)\\WebDangKySuDungPhongMay\\WebDangKySuDungPhongMay\\Views\\GiangVien\\Index.cshtml",
+              "RelativeDocumentMoniker": "WebDangKySuDungPhongMay\\Views\\GiangVien\\Index.cshtml",
+              "ToolTip": "D:\\WebDangKySuDungPhongMay (1)\\WebDangKySuDungPhongMay\\WebDangKySuDungPhongMay\\Views\\GiangVien\\Index.cshtml",
+              "RelativeToolTip": "WebDangKySuDungPhongMay\\Views\\GiangVien\\Index.cshtml",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAAAEYAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-06T03:19:24.978Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "Notification.cshtml",
+              "DocumentMoniker": "D:\\WebDangKySuDungPhongMay (1)\\WebDangKySuDungPhongMay\\WebDangKySuDungPhongMay\\Views\\GiangVienHome\\Notification.cshtml",
+              "RelativeDocumentMoniker": "WebDangKySuDungPhongMay\\Views\\GiangVienHome\\Notification.cshtml",
+              "ToolTip": "D:\\WebDangKySuDungPhongMay (1)\\WebDangKySuDungPhongMay\\WebDangKySuDungPhongMay\\Views\\GiangVienHome\\Notification.cshtml",
+              "RelativeToolTip": "WebDangKySuDungPhongMay\\Views\\GiangVienHome\\Notification.cshtml",
+              "ViewState": "AQIAADUAAAAAAAAAAAAAwE4AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-06T08:06:24.472Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\WebDangKySuDungPhongMay (1)\\WebDangKySuDungPhongMay\\WebDangKySuDungPhongMay\\Views\\NguoiQuanLyPhongMayHome\\Index.cshtml",
+              "RelativeDocumentMoniker": "WebDangKySuDungPhongMay\\Views\\NguoiQuanLyPhongMayHome\\Index.cshtml",
+              "ToolTip": "D:\\WebDangKySuDungPhongMay (1)\\WebDangKySuDungPhongMay\\WebDangKySuDungPhongMay\\Views\\NguoiQuanLyPhongMayHome\\Index.cshtml",
+              "RelativeToolTip": "WebDangKySuDungPhongMay\\Views\\NguoiQuanLyPhongMayHome\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-06T05:41:09.024Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "NguoiQuanLyPhongMayController.cs",
+              "DocumentMoniker": "D:\\WebDangKySuDungPhongMay (1)\\WebDangKySuDungPhongMay\\WebDangKySuDungPhongMay\\Controllers\\NguoiQuanLyPhongMayController.cs",
+              "RelativeDocumentMoniker": "WebDangKySuDungPhongMay\\Controllers\\NguoiQuanLyPhongMayController.cs",
+              "ToolTip": "D:\\WebDangKySuDungPhongMay (1)\\WebDangKySuDungPhongMay\\WebDangKySuDungPhongMay\\Controllers\\NguoiQuanLyPhongMayController.cs",
+              "RelativeToolTip": "WebDangKySuDungPhongMay\\Controllers\\NguoiQuanLyPhongMayController.cs",
+              "ViewState": "AQIAACIAAAAAAAAAAAAmwFkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-06T02:34:12.468Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "NguoiQuanLyPhongMayHomeController.cs",
+              "DocumentMoniker": "D:\\WebDangKySuDungPhongMay (1)\\WebDangKySuDungPhongMay\\WebDangKySuDungPhongMay\\Controllers\\NguoiQuanLyPhongMayHomeController.cs",
+              "RelativeDocumentMoniker": "WebDangKySuDungPhongMay\\Controllers\\NguoiQuanLyPhongMayHomeController.cs",
+              "ToolTip": "D:\\WebDangKySuDungPhongMay (1)\\WebDangKySuDungPhongMay\\WebDangKySuDungPhongMay\\Controllers\\NguoiQuanLyPhongMayHomeController.cs",
+              "RelativeToolTip": "WebDangKySuDungPhongMay\\Controllers\\NguoiQuanLyPhongMayHomeController.cs",
+              "ViewState": "AQIAAGoAAAAAAAAAAAAAwHQAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-06T05:39:29.349Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "D:\\WebDangKySuDungPhongMay (1)\\WebDangKySuDungPhongMay\\WebDangKySuDungPhongMay\\Views\\LopHocPhan\\Details.cshtml",
+              "RelativeDocumentMoniker": "WebDangKySuDungPhongMay\\Views\\LopHocPhan\\Details.cshtml",
+              "ToolTip": "D:\\WebDangKySuDungPhongMay (1)\\WebDangKySuDungPhongMay\\WebDangKySuDungPhongMay\\Views\\LopHocPhan\\Details.cshtml",
+              "RelativeToolTip": "WebDangKySuDungPhongMay\\Views\\LopHocPhan\\Details.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-06T04:02:43.659Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\WebDangKySuDungPhongMay (1)\\WebDangKySuDungPhongMay\\WebDangKySuDungPhongMay\\Views\\LopHocPhan\\Index.cshtml",
+              "RelativeDocumentMoniker": "WebDangKySuDungPhongMay\\Views\\LopHocPhan\\Index.cshtml",
+              "ToolTip": "D:\\WebDangKySuDungPhongMay (1)\\WebDangKySuDungPhongMay\\WebDangKySuDungPhongMay\\Views\\LopHocPhan\\Index.cshtml",
+              "RelativeToolTip": "WebDangKySuDungPhongMay\\Views\\LopHocPhan\\Index.cshtml",
+              "ViewState": "AQIAADcAAAAAAAAAAAAAAEAAAAAxAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-06T03:55:36.245Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "GiangVienHomeController.cs",
+              "DocumentMoniker": "D:\\WebDangKySuDungPhongMay (1)\\WebDangKySuDungPhongMay\\WebDangKySuDungPhongMay\\Controllers\\GiangVienHomeController.cs",
+              "RelativeDocumentMoniker": "WebDangKySuDungPhongMay\\Controllers\\GiangVienHomeController.cs",
+              "ToolTip": "D:\\WebDangKySuDungPhongMay (1)\\WebDangKySuDungPhongMay\\WebDangKySuDungPhongMay\\Controllers\\GiangVienHomeController.cs",
+              "RelativeToolTip": "WebDangKySuDungPhongMay\\Controllers\\GiangVienHomeController.cs",
+              "ViewState": "AQIAAF8AAAAAAAAAAAAuwGkAAAAjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-06T05:39:12.509Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\WebDangKySuDungPhongMay (1)\\WebDangKySuDungPhongMay\\WebDangKySuDungPhongMay\\Views\\HocKy\\Index.cshtml",
+              "RelativeDocumentMoniker": "WebDangKySuDungPhongMay\\Views\\HocKy\\Index.cshtml",
+              "ToolTip": "D:\\WebDangKySuDungPhongMay (1)\\WebDangKySuDungPhongMay\\WebDangKySuDungPhongMay\\Views\\HocKy\\Index.cshtml",
+              "RelativeToolTip": "WebDangKySuDungPhongMay\\Views\\HocKy\\Index.cshtml",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAAAoAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-06T03:27:58.921Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\WebDangKySuDungPhongMay (1)\\WebDangKySuDungPhongMay\\WebDangKySuDungPhongMay\\Views\\PhongMay\\Index.cshtml",
+              "RelativeDocumentMoniker": "WebDangKySuDungPhongMay\\Views\\PhongMay\\Index.cshtml",
+              "ToolTip": "D:\\WebDangKySuDungPhongMay (1)\\WebDangKySuDungPhongMay\\WebDangKySuDungPhongMay\\Views\\PhongMay\\Index.cshtml",
+              "RelativeToolTip": "WebDangKySuDungPhongMay\\Views\\PhongMay\\Index.cshtml",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAcAAAAqAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-06T03:44:30.043Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\WebDangKySuDungPhongMay (1)\\WebDangKySuDungPhongMay\\WebDangKySuDungPhongMay\\Views\\MayTinh\\Index.cshtml",
+              "RelativeDocumentMoniker": "WebDangKySuDungPhongMay\\Views\\MayTinh\\Index.cshtml",
+              "ToolTip": "D:\\WebDangKySuDungPhongMay (1)\\WebDangKySuDungPhongMay\\WebDangKySuDungPhongMay\\Views\\MayTinh\\Index.cshtml",
+              "RelativeToolTip": "WebDangKySuDungPhongMay\\Views\\MayTinh\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAHAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-06T03:50:43.34Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "site.css",
+              "DocumentMoniker": "D:\\WebDangKySuDungPhongMay (1)\\WebDangKySuDungPhongMay\\WebDangKySuDungPhongMay\\wwwroot\\css\\site.css",
+              "RelativeDocumentMoniker": "WebDangKySuDungPhongMay\\wwwroot\\css\\site.css",
+              "ToolTip": "D:\\WebDangKySuDungPhongMay (1)\\WebDangKySuDungPhongMay\\WebDangKySuDungPhongMay\\wwwroot\\css\\site.css",
+              "RelativeToolTip": "WebDangKySuDungPhongMay\\wwwroot\\css\\site.css",
+              "ViewState": "AQIAADAAAAAAAAAAAAAAAEAAAAAVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-06-06T06:06:56.22Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\WebDangKySuDungPhongMay (1)\\WebDangKySuDungPhongMay\\WebDangKySuDungPhongMay\\Views\\SinhVien\\Index.cshtml",
+              "RelativeDocumentMoniker": "WebDangKySuDungPhongMay\\Views\\SinhVien\\Index.cshtml",
+              "ToolTip": "D:\\WebDangKySuDungPhongMay (1)\\WebDangKySuDungPhongMay\\WebDangKySuDungPhongMay\\Views\\SinhVien\\Index.cshtml",
+              "RelativeToolTip": "WebDangKySuDungPhongMay\\Views\\SinhVien\\Index.cshtml",
+              "ViewState": "AQIAADgAAAAAAAAAAAAAAD4AAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-06T03:23:40.822Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\WebDangKySuDungPhongMay (1)\\WebDangKySuDungPhongMay\\WebDangKySuDungPhongMay\\Views\\MonHoc\\Index.cshtml",
+              "RelativeDocumentMoniker": "WebDangKySuDungPhongMay\\Views\\MonHoc\\Index.cshtml",
+              "ToolTip": "D:\\WebDangKySuDungPhongMay (1)\\WebDangKySuDungPhongMay\\WebDangKySuDungPhongMay\\Views\\MonHoc\\Index.cshtml",
+              "RelativeToolTip": "WebDangKySuDungPhongMay\\Views\\MonHoc\\Index.cshtml",
+              "ViewState": "AQIAADAAAAAAAAAAAAAAADkAAAAxAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-06T03:34:39.754Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\WebDangKySuDungPhongMay (1)\\WebDangKySuDungPhongMay\\WebDangKySuDungPhongMay\\Views\\NamHoc\\Index.cshtml",
+              "RelativeDocumentMoniker": "WebDangKySuDungPhongMay\\Views\\NamHoc\\Index.cshtml",
+              "ToolTip": "D:\\WebDangKySuDungPhongMay (1)\\WebDangKySuDungPhongMay\\WebDangKySuDungPhongMay\\Views\\NamHoc\\Index.cshtml",
+              "RelativeToolTip": "WebDangKySuDungPhongMay\\Views\\NamHoc\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAqAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-06T03:31:40.885Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\WebDangKySuDungPhongMay (1)\\WebDangKySuDungPhongMay\\WebDangKySuDungPhongMay\\Views\\NguoiQuanLyPhongMay\\Index.cshtml",
+              "RelativeDocumentMoniker": "WebDangKySuDungPhongMay\\Views\\NguoiQuanLyPhongMay\\Index.cshtml",
+              "ToolTip": "D:\\WebDangKySuDungPhongMay (1)\\WebDangKySuDungPhongMay\\WebDangKySuDungPhongMay\\Views\\NguoiQuanLyPhongMay\\Index.cshtml",
+              "RelativeToolTip": "WebDangKySuDungPhongMay\\Views\\NguoiQuanLyPhongMay\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAHAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-06T02:34:57.923Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "login.css",
+              "DocumentMoniker": "D:\\WebDangKySuDungPhongMay (1)\\WebDangKySuDungPhongMay\\WebDangKySuDungPhongMay\\wwwroot\\css\\login.css",
+              "RelativeDocumentMoniker": "WebDangKySuDungPhongMay\\wwwroot\\css\\login.css",
+              "ToolTip": "D:\\WebDangKySuDungPhongMay (1)\\WebDangKySuDungPhongMay\\WebDangKySuDungPhongMay\\wwwroot\\css\\login.css",
+              "RelativeToolTip": "WebDangKySuDungPhongMay\\wwwroot\\css\\login.css",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAAsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-06-14T01:08:28.961Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "DayOfWeekConverter.cs",
+              "DocumentMoniker": "D:\\WebDangKySuDungPhongMay (1)\\WebDangKySuDungPhongMay\\WebDangKySuDungPhongMay\\Converters\\DayOfWeekConverter.cs",
+              "RelativeDocumentMoniker": "WebDangKySuDungPhongMay\\Converters\\DayOfWeekConverter.cs",
+              "ToolTip": "D:\\WebDangKySuDungPhongMay (1)\\WebDangKySuDungPhongMay\\WebDangKySuDungPhongMay\\Converters\\DayOfWeekConverter.cs",
+              "RelativeToolTip": "WebDangKySuDungPhongMay\\Converters\\DayOfWeekConverter.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAAeAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-14T00:55:35.626Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "LopHocPhanTimetableViewModel.cs",
+              "DocumentMoniker": "D:\\WebDangKySuDungPhongMay (1)\\WebDangKySuDungPhongMay\\WebDangKySuDungPhongMay\\ViewModels\\LopHocPhanTimetableViewModel.cs",
+              "RelativeDocumentMoniker": "WebDangKySuDungPhongMay\\ViewModels\\LopHocPhanTimetableViewModel.cs",
+              "ToolTip": "D:\\WebDangKySuDungPhongMay (1)\\WebDangKySuDungPhongMay\\WebDangKySuDungPhongMay\\ViewModels\\LopHocPhanTimetableViewModel.cs",
+              "RelativeToolTip": "WebDangKySuDungPhongMay\\ViewModels\\LopHocPhanTimetableViewModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAArAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-14T00:51:12.668Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "PhieuDangKySVViewModel.cs",
+              "DocumentMoniker": "D:\\WebDangKySuDungPhongMay (1)\\WebDangKySuDungPhongMay\\WebDangKySuDungPhongMay\\ViewModels\\PhieuDangKySVViewModel.cs",
+              "RelativeDocumentMoniker": "WebDangKySuDungPhongMay\\ViewModels\\PhieuDangKySVViewModel.cs",
+              "ToolTip": "D:\\WebDangKySuDungPhongMay (1)\\WebDangKySuDungPhongMay\\WebDangKySuDungPhongMay\\ViewModels\\PhieuDangKySVViewModel.cs",
+              "RelativeToolTip": "WebDangKySuDungPhongMay\\ViewModels\\PhieuDangKySVViewModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-06T06:17:29.807Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 48,
+              "Title": "SinhVienController.cs",
+              "DocumentMoniker": "D:\\WebDangKySuDungPhongMay (1)\\WebDangKySuDungPhongMay\\WebDangKySuDungPhongMay\\Controllers\\SinhVienController.cs",
+              "RelativeDocumentMoniker": "WebDangKySuDungPhongMay\\Controllers\\SinhVienController.cs",
+              "ToolTip": "D:\\WebDangKySuDungPhongMay (1)\\WebDangKySuDungPhongMay\\WebDangKySuDungPhongMay\\Controllers\\SinhVienController.cs",
+              "RelativeToolTip": "WebDangKySuDungPhongMay\\Controllers\\SinhVienController.cs",
+              "ViewState": "AQIAADsAAAAAAAAAAAAqwFgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-06T03:23:17.675Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 46,
+              "Title": "ThongBaoController.cs",
+              "DocumentMoniker": "D:\\WebDangKySuDungPhongMay (1)\\WebDangKySuDungPhongMay\\WebDangKySuDungPhongMay\\Controllers\\ThongBaoController.cs",
+              "RelativeDocumentMoniker": "WebDangKySuDungPhongMay\\Controllers\\ThongBaoController.cs",
+              "ToolTip": "D:\\WebDangKySuDungPhongMay (1)\\WebDangKySuDungPhongMay\\WebDangKySuDungPhongMay\\Controllers\\ThongBaoController.cs",
+              "RelativeToolTip": "WebDangKySuDungPhongMay\\Controllers\\ThongBaoController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAGAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-06T07:47:57.306Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 47,
+              "Title": "SinhVienHomeController.cs",
+              "DocumentMoniker": "D:\\WebDangKySuDungPhongMay (1)\\WebDangKySuDungPhongMay\\WebDangKySuDungPhongMay\\Controllers\\SinhVienHomeController.cs",
+              "RelativeDocumentMoniker": "WebDangKySuDungPhongMay\\Controllers\\SinhVienHomeController.cs",
+              "ToolTip": "D:\\WebDangKySuDungPhongMay (1)\\WebDangKySuDungPhongMay\\WebDangKySuDungPhongMay\\Controllers\\SinhVienHomeController.cs",
+              "RelativeToolTip": "WebDangKySuDungPhongMay\\Controllers\\SinhVienHomeController.cs",
+              "ViewState": "AQIAADQAAAAAAAAAAAAkwFMAAAA1AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-06T05:39:53.333Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 49,
+              "Title": "PhongMayController.cs",
+              "DocumentMoniker": "D:\\WebDangKySuDungPhongMay (1)\\WebDangKySuDungPhongMay\\WebDangKySuDungPhongMay\\Controllers\\PhongMayController.cs",
+              "RelativeDocumentMoniker": "WebDangKySuDungPhongMay\\Controllers\\PhongMayController.cs",
+              "ToolTip": "D:\\WebDangKySuDungPhongMay (1)\\WebDangKySuDungPhongMay\\WebDangKySuDungPhongMay\\Controllers\\PhongMayController.cs",
+              "RelativeToolTip": "WebDangKySuDungPhongMay\\Controllers\\PhongMayController.cs",
+              "ViewState": "AQIAAB0AAAAAAAAAAAAgwBwAAAAnAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-06T03:43:26.229Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 50,
+              "Title": "GiangVienViewModel.cs",
+              "DocumentMoniker": "D:\\WebDangKySuDungPhongMay (1)\\WebDangKySuDungPhongMay\\WebDangKySuDungPhongMay\\ViewModels\\GiangVienViewModel.cs",
+              "RelativeDocumentMoniker": "WebDangKySuDungPhongMay\\ViewModels\\GiangVienViewModel.cs",
+              "ToolTip": "D:\\WebDangKySuDungPhongMay (1)\\WebDangKySuDungPhongMay\\WebDangKySuDungPhongMay\\ViewModels\\GiangVienViewModel.cs",
+              "RelativeToolTip": "WebDangKySuDungPhongMay\\ViewModels\\GiangVienViewModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-06T03:18:55.693Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 51,
+              "Title": "ThongBaoViewModel.cs",
+              "DocumentMoniker": "D:\\WebDangKySuDungPhongMay (1)\\WebDangKySuDungPhongMay\\WebDangKySuDungPhongMay\\ViewModels\\ThongBaoViewModel.cs",
+              "RelativeDocumentMoniker": "WebDangKySuDungPhongMay\\ViewModels\\ThongBaoViewModel.cs",
+              "ToolTip": "D:\\WebDangKySuDungPhongMay (1)\\WebDangKySuDungPhongMay\\WebDangKySuDungPhongMay\\ViewModels\\ThongBaoViewModel.cs",
+              "RelativeToolTip": "WebDangKySuDungPhongMay\\ViewModels\\ThongBaoViewModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAxAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-06T07:50:36.058Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 52,
+              "Title": "SinhVienViewModel.cs",
+              "DocumentMoniker": "D:\\WebDangKySuDungPhongMay (1)\\WebDangKySuDungPhongMay\\WebDangKySuDungPhongMay\\ViewModels\\SinhVienViewModel.cs",
+              "RelativeDocumentMoniker": "WebDangKySuDungPhongMay\\ViewModels\\SinhVienViewModel.cs",
+              "ToolTip": "D:\\WebDangKySuDungPhongMay (1)\\WebDangKySuDungPhongMay\\WebDangKySuDungPhongMay\\ViewModels\\SinhVienViewModel.cs",
+              "RelativeToolTip": "WebDangKySuDungPhongMay\\ViewModels\\SinhVienViewModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-06T03:22:41.486Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 53,
+              "Title": "LoginViewModel.cs",
+              "DocumentMoniker": "D:\\WebDangKySuDungPhongMay (1)\\WebDangKySuDungPhongMay\\WebDangKySuDungPhongMay\\ViewModels\\LoginViewModel.cs",
+              "RelativeDocumentMoniker": "WebDangKySuDungPhongMay\\ViewModels\\LoginViewModel.cs",
+              "ToolTip": "D:\\WebDangKySuDungPhongMay (1)\\WebDangKySuDungPhongMay\\WebDangKySuDungPhongMay\\ViewModels\\LoginViewModel.cs",
+              "RelativeToolTip": "WebDangKySuDungPhongMay\\ViewModels\\LoginViewModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-06T04:31:08.564Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 54,
+              "Title": "ThongBao.cs",
+              "DocumentMoniker": "D:\\WebDangKySuDungPhongMay (1)\\WebDangKySuDungPhongMay\\WebDangKySuDungPhongMay\\Models\\ThongBao.cs",
+              "RelativeDocumentMoniker": "WebDangKySuDungPhongMay\\Models\\ThongBao.cs",
+              "ToolTip": "D:\\WebDangKySuDungPhongMay (1)\\WebDangKySuDungPhongMay\\WebDangKySuDungPhongMay\\Models\\ThongBao.cs",
+              "RelativeToolTip": "WebDangKySuDungPhongMay\\Models\\ThongBao.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-27T06:01:24.138Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 55,
+              "Title": "SinhVien.cs",
+              "DocumentMoniker": "D:\\WebDangKySuDungPhongMay (1)\\WebDangKySuDungPhongMay\\WebDangKySuDungPhongMay\\Models\\SinhVien.cs",
+              "RelativeDocumentMoniker": "WebDangKySuDungPhongMay\\Models\\SinhVien.cs",
+              "ToolTip": "D:\\WebDangKySuDungPhongMay (1)\\WebDangKySuDungPhongMay\\WebDangKySuDungPhongMay\\Models\\SinhVien.cs",
+              "RelativeToolTip": "WebDangKySuDungPhongMay\\Models\\SinhVien.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAvAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-27T06:00:34.865Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 56,
+              "Title": "NguoiQuanLyPhongMayViewModel.cs",
+              "DocumentMoniker": "D:\\WebDangKySuDungPhongMay (1)\\WebDangKySuDungPhongMay\\WebDangKySuDungPhongMay\\ViewModels\\NguoiQuanLyPhongMayViewModel.cs",
+              "RelativeDocumentMoniker": "WebDangKySuDungPhongMay\\ViewModels\\NguoiQuanLyPhongMayViewModel.cs",
+              "ToolTip": "D:\\WebDangKySuDungPhongMay (1)\\WebDangKySuDungPhongMay\\WebDangKySuDungPhongMay\\ViewModels\\NguoiQuanLyPhongMayViewModel.cs",
+              "RelativeToolTip": "WebDangKySuDungPhongMay\\ViewModels\\NguoiQuanLyPhongMayViewModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-06T02:42:46.902Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 57,
+              "Title": "_ValidationScriptsPartial.cshtml",
+              "DocumentMoniker": "D:\\WebDangKySuDungPhongMay (1)\\WebDangKySuDungPhongMay\\WebDangKySuDungPhongMay\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "RelativeDocumentMoniker": "WebDangKySuDungPhongMay\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "ToolTip": "D:\\WebDangKySuDungPhongMay (1)\\WebDangKySuDungPhongMay\\WebDangKySuDungPhongMay\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "RelativeToolTip": "WebDangKySuDungPhongMay\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-27T06:28:42.306Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 58,
+              "Title": "PhieuDangKyGVViewModel.cs",
+              "DocumentMoniker": "D:\\WebDangKySuDungPhongMay (1)\\WebDangKySuDungPhongMay\\WebDangKySuDungPhongMay\\ViewModels\\PhieuDangKyGVViewModel.cs",
+              "RelativeDocumentMoniker": "WebDangKySuDungPhongMay\\ViewModels\\PhieuDangKyGVViewModel.cs",
+              "ToolTip": "D:\\WebDangKySuDungPhongMay (1)\\WebDangKySuDungPhongMay\\WebDangKySuDungPhongMay\\ViewModels\\PhieuDangKyGVViewModel.cs",
+              "RelativeToolTip": "WebDangKySuDungPhongMay\\ViewModels\\PhieuDangKyGVViewModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAqAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-06T06:15:58.583Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 59,
+              "Title": "LopHocPhanSinhVienViewModel.cs",
+              "DocumentMoniker": "D:\\WebDangKySuDungPhongMay (1)\\WebDangKySuDungPhongMay\\WebDangKySuDungPhongMay\\ViewModels\\LopHocPhanSinhVienViewModel.cs",
+              "RelativeDocumentMoniker": "WebDangKySuDungPhongMay\\ViewModels\\LopHocPhanSinhVienViewModel.cs",
+              "ToolTip": "D:\\WebDangKySuDungPhongMay (1)\\WebDangKySuDungPhongMay\\WebDangKySuDungPhongMay\\ViewModels\\LopHocPhanSinhVienViewModel.cs",
+              "RelativeToolTip": "WebDangKySuDungPhongMay\\ViewModels\\LopHocPhanSinhVienViewModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-06T04:01:28.604Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 60,
+              "Title": "PhongMayViewModel.cs",
+              "DocumentMoniker": "D:\\WebDangKySuDungPhongMay (1)\\WebDangKySuDungPhongMay\\WebDangKySuDungPhongMay\\ViewModels\\PhongMayViewModel.cs",
+              "RelativeDocumentMoniker": "WebDangKySuDungPhongMay\\ViewModels\\PhongMayViewModel.cs",
+              "ToolTip": "D:\\WebDangKySuDungPhongMay (1)\\WebDangKySuDungPhongMay\\WebDangKySuDungPhongMay\\ViewModels\\PhongMayViewModel.cs",
+              "RelativeToolTip": "WebDangKySuDungPhongMay\\ViewModels\\PhongMayViewModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAnAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-06T03:43:40.302Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 61,
+              "Title": "LopHocPhanController.cs",
+              "DocumentMoniker": "D:\\WebDangKySuDungPhongMay (1)\\WebDangKySuDungPhongMay\\WebDangKySuDungPhongMay\\Controllers\\LopHocPhanController.cs",
+              "RelativeDocumentMoniker": "WebDangKySuDungPhongMay\\Controllers\\LopHocPhanController.cs",
+              "ToolTip": "D:\\WebDangKySuDungPhongMay (1)\\WebDangKySuDungPhongMay\\WebDangKySuDungPhongMay\\Controllers\\LopHocPhanController.cs",
+              "RelativeToolTip": "WebDangKySuDungPhongMay\\Controllers\\LopHocPhanController.cs",
+              "ViewState": "AQIAAB4AAAAAAAAAAAAYwDYAAAA2AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-06T03:54:48.793Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 62,
+              "Title": "PhieuDangKySV.cs",
+              "DocumentMoniker": "D:\\WebDangKySuDungPhongMay (1)\\WebDangKySuDungPhongMay\\WebDangKySuDungPhongMay\\Models\\PhieuDangKySV.cs",
+              "RelativeDocumentMoniker": "WebDangKySuDungPhongMay\\Models\\PhieuDangKySV.cs",
+              "ToolTip": "D:\\WebDangKySuDungPhongMay (1)\\WebDangKySuDungPhongMay\\WebDangKySuDungPhongMay\\Models\\PhieuDangKySV.cs",
+              "RelativeToolTip": "WebDangKySuDungPhongMay\\Models\\PhieuDangKySV.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAA1AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-27T05:59:51.326Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 63,
+              "Title": "PhongMay.cs",
+              "DocumentMoniker": "D:\\WebDangKySuDungPhongMay (1)\\WebDangKySuDungPhongMay\\WebDangKySuDungPhongMay\\Models\\PhongMay.cs",
+              "RelativeDocumentMoniker": "WebDangKySuDungPhongMay\\Models\\PhongMay.cs",
+              "ToolTip": "D:\\WebDangKySuDungPhongMay (1)\\WebDangKySuDungPhongMay\\WebDangKySuDungPhongMay\\Models\\PhongMay.cs",
+              "RelativeToolTip": "WebDangKySuDungPhongMay\\Models\\PhongMay.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAA6AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-27T05:59:28.007Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 64,
+              "Title": "MayTinhController.cs",
+              "DocumentMoniker": "D:\\WebDangKySuDungPhongMay (1)\\WebDangKySuDungPhongMay\\WebDangKySuDungPhongMay\\Controllers\\MayTinhController.cs",
+              "RelativeDocumentMoniker": "WebDangKySuDungPhongMay\\Controllers\\MayTinhController.cs",
+              "ToolTip": "D:\\WebDangKySuDungPhongMay (1)\\WebDangKySuDungPhongMay\\WebDangKySuDungPhongMay\\Controllers\\MayTinhController.cs",
+              "RelativeToolTip": "WebDangKySuDungPhongMay\\Controllers\\MayTinhController.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAABwAAAAnAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-06T03:50:28.281Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 65,
+              "Title": "NguoiQuanLyPhongMay.cs",
+              "DocumentMoniker": "D:\\WebDangKySuDungPhongMay (1)\\WebDangKySuDungPhongMay\\WebDangKySuDungPhongMay\\Models\\NguoiQuanLyPhongMay.cs",
+              "RelativeDocumentMoniker": "WebDangKySuDungPhongMay\\Models\\NguoiQuanLyPhongMay.cs",
+              "ToolTip": "D:\\WebDangKySuDungPhongMay (1)\\WebDangKySuDungPhongMay\\WebDangKySuDungPhongMay\\Models\\NguoiQuanLyPhongMay.cs",
+              "RelativeToolTip": "WebDangKySuDungPhongMay\\Models\\NguoiQuanLyPhongMay.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAvAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-27T06:01:03.457Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 66,
+              "Title": "NamHocViewModel.cs",
+              "DocumentMoniker": "D:\\WebDangKySuDungPhongMay (1)\\WebDangKySuDungPhongMay\\WebDangKySuDungPhongMay\\ViewModels\\NamHocViewModel.cs",
+              "RelativeDocumentMoniker": "WebDangKySuDungPhongMay\\ViewModels\\NamHocViewModel.cs",
+              "ToolTip": "D:\\WebDangKySuDungPhongMay (1)\\WebDangKySuDungPhongMay\\WebDangKySuDungPhongMay\\ViewModels\\NamHocViewModel.cs",
+              "RelativeToolTip": "WebDangKySuDungPhongMay\\ViewModels\\NamHocViewModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAqAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-06T03:30:55.717Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 67,
+              "Title": "HocKy.cs",
+              "DocumentMoniker": "D:\\WebDangKySuDungPhongMay (1)\\WebDangKySuDungPhongMay\\WebDangKySuDungPhongMay\\Models\\HocKy.cs",
+              "RelativeDocumentMoniker": "WebDangKySuDungPhongMay\\Models\\HocKy.cs",
+              "ToolTip": "D:\\WebDangKySuDungPhongMay (1)\\WebDangKySuDungPhongMay\\WebDangKySuDungPhongMay\\Models\\HocKy.cs",
+              "RelativeToolTip": "WebDangKySuDungPhongMay\\Models\\HocKy.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-05T16:35:15.412Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 68,
+              "Title": "GiangVien.cs",
+              "DocumentMoniker": "D:\\WebDangKySuDungPhongMay (1)\\WebDangKySuDungPhongMay\\WebDangKySuDungPhongMay\\Models\\GiangVien.cs",
+              "RelativeDocumentMoniker": "WebDangKySuDungPhongMay\\Models\\GiangVien.cs",
+              "ToolTip": "D:\\WebDangKySuDungPhongMay (1)\\WebDangKySuDungPhongMay\\WebDangKySuDungPhongMay\\Models\\GiangVien.cs",
+              "RelativeToolTip": "WebDangKySuDungPhongMay\\Models\\GiangVien.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAABAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-27T06:00:50.645Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 69,
+              "Title": "NamHoc.cs",
+              "DocumentMoniker": "D:\\WebDangKySuDungPhongMay (1)\\WebDangKySuDungPhongMay\\WebDangKySuDungPhongMay\\Models\\NamHoc.cs",
+              "RelativeDocumentMoniker": "WebDangKySuDungPhongMay\\Models\\NamHoc.cs",
+              "ToolTip": "D:\\WebDangKySuDungPhongMay (1)\\WebDangKySuDungPhongMay\\WebDangKySuDungPhongMay\\Models\\NamHoc.cs",
+              "RelativeToolTip": "WebDangKySuDungPhongMay\\Models\\NamHoc.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-05T16:35:57.896Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 70,
+              "Title": "PhieuDangKyGV.cs",
+              "DocumentMoniker": "D:\\WebDangKySuDungPhongMay (1)\\WebDangKySuDungPhongMay\\WebDangKySuDungPhongMay\\Models\\PhieuDangKyGV.cs",
+              "RelativeDocumentMoniker": "WebDangKySuDungPhongMay\\Models\\PhieuDangKyGV.cs",
+              "ToolTip": "D:\\WebDangKySuDungPhongMay (1)\\WebDangKySuDungPhongMay\\WebDangKySuDungPhongMay\\Models\\PhieuDangKyGV.cs",
+              "RelativeToolTip": "WebDangKySuDungPhongMay\\Models\\PhieuDangKyGV.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-27T06:00:24.769Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 72,
+              "Title": "LopHocPhan.cs",
+              "DocumentMoniker": "D:\\WebDangKySuDungPhongMay (1)\\WebDangKySuDungPhongMay\\WebDangKySuDungPhongMay\\Models\\LopHocPhan.cs",
+              "RelativeDocumentMoniker": "WebDangKySuDungPhongMay\\Models\\LopHocPhan.cs",
+              "ToolTip": "D:\\WebDangKySuDungPhongMay (1)\\WebDangKySuDungPhongMay\\WebDangKySuDungPhongMay\\Models\\LopHocPhan.cs",
+              "RelativeToolTip": "WebDangKySuDungPhongMay\\Models\\LopHocPhan.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-05T16:37:15.898Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 71,
+              "Title": "MonHoc.cs",
+              "DocumentMoniker": "D:\\WebDangKySuDungPhongMay (1)\\WebDangKySuDungPhongMay\\WebDangKySuDungPhongMay\\Models\\MonHoc.cs",
+              "RelativeDocumentMoniker": "WebDangKySuDungPhongMay\\Models\\MonHoc.cs",
+              "ToolTip": "D:\\WebDangKySuDungPhongMay (1)\\WebDangKySuDungPhongMay\\WebDangKySuDungPhongMay\\Models\\MonHoc.cs",
+              "RelativeToolTip": "WebDangKySuDungPhongMay\\Models\\MonHoc.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-05T16:36:57.46Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 73,
+              "Title": "LopHocPhanViewModel.cs",
+              "DocumentMoniker": "D:\\WebDangKySuDungPhongMay (1)\\WebDangKySuDungPhongMay\\WebDangKySuDungPhongMay\\ViewModels\\LopHocPhanViewModel.cs",
+              "RelativeDocumentMoniker": "WebDangKySuDungPhongMay\\ViewModels\\LopHocPhanViewModel.cs",
+              "ToolTip": "D:\\WebDangKySuDungPhongMay (1)\\WebDangKySuDungPhongMay\\WebDangKySuDungPhongMay\\ViewModels\\LopHocPhanViewModel.cs",
+              "RelativeToolTip": "WebDangKySuDungPhongMay\\ViewModels\\LopHocPhanViewModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-06T03:55:03.853Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 74,
+              "Title": "MayTinh.cs",
+              "DocumentMoniker": "D:\\WebDangKySuDungPhongMay (1)\\WebDangKySuDungPhongMay\\WebDangKySuDungPhongMay\\Models\\MayTinh.cs",
+              "RelativeDocumentMoniker": "WebDangKySuDungPhongMay\\Models\\MayTinh.cs",
+              "ToolTip": "D:\\WebDangKySuDungPhongMay (1)\\WebDangKySuDungPhongMay\\WebDangKySuDungPhongMay\\Models\\MayTinh.cs",
+              "RelativeToolTip": "WebDangKySuDungPhongMay\\Models\\MayTinh.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-27T05:59:18.675Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 75,
+              "Title": "MayTinhViewModel.cs",
+              "DocumentMoniker": "D:\\WebDangKySuDungPhongMay (1)\\WebDangKySuDungPhongMay\\WebDangKySuDungPhongMay\\ViewModels\\MayTinhViewModel.cs",
+              "RelativeDocumentMoniker": "WebDangKySuDungPhongMay\\ViewModels\\MayTinhViewModel.cs",
+              "ToolTip": "D:\\WebDangKySuDungPhongMay (1)\\WebDangKySuDungPhongMay\\WebDangKySuDungPhongMay\\ViewModels\\MayTinhViewModel.cs",
+              "RelativeToolTip": "WebDangKySuDungPhongMay\\ViewModels\\MayTinhViewModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-06T03:50:00.352Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 95,
+              "Title": "20240606064345_Second.cs",
+              "DocumentMoniker": "D:\\WebDangKySuDungPhongMay (1)\\WebDangKySuDungPhongMay\\WebDangKySuDungPhongMay\\Migrations\\20240606064345_Second.cs",
+              "RelativeDocumentMoniker": "WebDangKySuDungPhongMay\\Migrations\\20240606064345_Second.cs",
+              "ToolTip": "D:\\WebDangKySuDungPhongMay (1)\\WebDangKySuDungPhongMay\\WebDangKySuDungPhongMay\\Migrations\\20240606064345_Second.cs",
+              "RelativeToolTip": "WebDangKySuDungPhongMay\\Migrations\\20240606064345_Second.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-06T06:43:45.493Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 76,
+              "Title": "NamHocController.cs",
+              "DocumentMoniker": "D:\\WebDangKySuDungPhongMay (1)\\WebDangKySuDungPhongMay\\WebDangKySuDungPhongMay\\Controllers\\NamHocController.cs",
+              "RelativeDocumentMoniker": "WebDangKySuDungPhongMay\\Controllers\\NamHocController.cs",
+              "ToolTip": "D:\\WebDangKySuDungPhongMay (1)\\WebDangKySuDungPhongMay\\WebDangKySuDungPhongMay\\Controllers\\NamHocController.cs",
+              "RelativeToolTip": "WebDangKySuDungPhongMay\\Controllers\\NamHocController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAArAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-06T03:31:18.676Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 96,
+              "Title": "20240606055726_First.cs",
+              "DocumentMoniker": "D:\\WebDangKySuDungPhongMay (1)\\WebDangKySuDungPhongMay\\WebDangKySuDungPhongMay\\Migrations\\20240606055726_First.cs",
+              "RelativeDocumentMoniker": "WebDangKySuDungPhongMay\\Migrations\\20240606055726_First.cs",
+              "ToolTip": "D:\\WebDangKySuDungPhongMay (1)\\WebDangKySuDungPhongMay\\WebDangKySuDungPhongMay\\Migrations\\20240606055726_First.cs",
+              "RelativeToolTip": "WebDangKySuDungPhongMay\\Migrations\\20240606055726_First.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-06T05:57:26.338Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 77,
+              "Title": "Admin.cs",
+              "DocumentMoniker": "D:\\WebDangKySuDungPhongMay (1)\\WebDangKySuDungPhongMay\\WebDangKySuDungPhongMay\\Models\\Admin.cs",
+              "RelativeDocumentMoniker": "WebDangKySuDungPhongMay\\Models\\Admin.cs",
+              "ToolTip": "D:\\WebDangKySuDungPhongMay (1)\\WebDangKySuDungPhongMay\\WebDangKySuDungPhongMay\\Models\\Admin.cs",
+              "RelativeToolTip": "WebDangKySuDungPhongMay\\Models\\Admin.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAArAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-06T04:24:23.752Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 78,
+              "Title": "_Layout.cshtml.css",
+              "DocumentMoniker": "D:\\WebDangKySuDungPhongMay (1)\\WebDangKySuDungPhongMay\\WebDangKySuDungPhongMay\\Views\\Shared\\_Layout.cshtml.css",
+              "RelativeDocumentMoniker": "WebDangKySuDungPhongMay\\Views\\Shared\\_Layout.cshtml.css",
+              "ToolTip": "D:\\WebDangKySuDungPhongMay (1)\\WebDangKySuDungPhongMay\\WebDangKySuDungPhongMay\\Views\\Shared\\_Layout.cshtml.css",
+              "RelativeToolTip": "WebDangKySuDungPhongMay\\Views\\Shared\\_Layout.cshtml.css",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-06-06T05:45:03.763Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 79,
+              "Title": "20240606043607_UpdateAdmin.cs",
+              "DocumentMoniker": "D:\\Outsourcing\\CSharp\\Web\\WebDangKySuDungPhongMay\\WebDangKySuDungPhongMay\\Migrations\\20240606043607_UpdateAdmin.cs",
+              "RelativeDocumentMoniker": "..\\..\\Outsourcing\\CSharp\\Web\\WebDangKySuDungPhongMay\\WebDangKySuDungPhongMay\\Migrations\\20240606043607_UpdateAdmin.cs",
+              "ToolTip": "D:\\Outsourcing\\CSharp\\Web\\WebDangKySuDungPhongMay\\WebDangKySuDungPhongMay\\Migrations\\20240606043607_UpdateAdmin.cs",
+              "RelativeToolTip": "..\\..\\Outsourcing\\CSharp\\Web\\WebDangKySuDungPhongMay\\WebDangKySuDungPhongMay\\Migrations\\20240606043607_UpdateAdmin.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-06T04:36:07.884Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 80,
+              "Title": "20240606042535_AddAdmin.cs",
+              "DocumentMoniker": "D:\\Outsourcing\\CSharp\\Web\\WebDangKySuDungPhongMay\\WebDangKySuDungPhongMay\\Migrations\\20240606042535_AddAdmin.cs",
+              "RelativeDocumentMoniker": "..\\..\\Outsourcing\\CSharp\\Web\\WebDangKySuDungPhongMay\\WebDangKySuDungPhongMay\\Migrations\\20240606042535_AddAdmin.cs",
+              "ToolTip": "D:\\Outsourcing\\CSharp\\Web\\WebDangKySuDungPhongMay\\WebDangKySuDungPhongMay\\Migrations\\20240606042535_AddAdmin.cs",
+              "RelativeToolTip": "..\\..\\Outsourcing\\CSharp\\Web\\WebDangKySuDungPhongMay\\WebDangKySuDungPhongMay\\Migrations\\20240606042535_AddAdmin.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-06T04:25:35.18Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 81,
+              "Title": "SinhVienLopHocPhan.cs",
+              "DocumentMoniker": "D:\\WebDangKySuDungPhongMay (1)\\WebDangKySuDungPhongMay\\WebDangKySuDungPhongMay\\Models\\SinhVienLopHocPhan.cs",
+              "RelativeDocumentMoniker": "WebDangKySuDungPhongMay\\Models\\SinhVienLopHocPhan.cs",
+              "ToolTip": "D:\\WebDangKySuDungPhongMay (1)\\WebDangKySuDungPhongMay\\WebDangKySuDungPhongMay\\Models\\SinhVienLopHocPhan.cs",
+              "RelativeToolTip": "WebDangKySuDungPhongMay\\Models\\SinhVienLopHocPhan.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAyAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-05T16:41:08.866Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 82,
+              "Title": "MonHocViewModel.cs",
+              "DocumentMoniker": "D:\\WebDangKySuDungPhongMay (1)\\WebDangKySuDungPhongMay\\WebDangKySuDungPhongMay\\ViewModels\\MonHocViewModel.cs",
+              "RelativeDocumentMoniker": "WebDangKySuDungPhongMay\\ViewModels\\MonHocViewModel.cs",
+              "ToolTip": "D:\\WebDangKySuDungPhongMay (1)\\WebDangKySuDungPhongMay\\WebDangKySuDungPhongMay\\ViewModels\\MonHocViewModel.cs",
+              "RelativeToolTip": "WebDangKySuDungPhongMay\\ViewModels\\MonHocViewModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAvAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-06T03:34:06.073Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 83,
+              "Title": "ErrorViewModel.cs",
+              "DocumentMoniker": "D:\\WebDangKySuDungPhongMay (1)\\WebDangKySuDungPhongMay\\WebDangKySuDungPhongMay\\Models\\ErrorViewModel.cs",
+              "RelativeDocumentMoniker": "WebDangKySuDungPhongMay\\Models\\ErrorViewModel.cs",
+              "ToolTip": "D:\\WebDangKySuDungPhongMay (1)\\WebDangKySuDungPhongMay\\WebDangKySuDungPhongMay\\Models\\ErrorViewModel.cs",
+              "RelativeToolTip": "WebDangKySuDungPhongMay\\Models\\ErrorViewModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-27T05:59:31.18Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 84,
+              "Title": "HocKyViewModel.cs",
+              "DocumentMoniker": "D:\\WebDangKySuDungPhongMay (1)\\WebDangKySuDungPhongMay\\WebDangKySuDungPhongMay\\ViewModels\\HocKyViewModel.cs",
+              "RelativeDocumentMoniker": "WebDangKySuDungPhongMay\\ViewModels\\HocKyViewModel.cs",
+              "ToolTip": "D:\\WebDangKySuDungPhongMay (1)\\WebDangKySuDungPhongMay\\WebDangKySuDungPhongMay\\ViewModels\\HocKyViewModel.cs",
+              "RelativeToolTip": "WebDangKySuDungPhongMay\\ViewModels\\HocKyViewModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-06T03:28:13.78Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 85,
+              "Title": "20240606022905_First.cs",
+              "DocumentMoniker": "D:\\Outsourcing\\CSharp\\Web\\WebDangKySuDungPhongMay\\WebDangKySuDungPhongMay\\Migrations\\20240606022905_First.cs",
+              "RelativeDocumentMoniker": "..\\..\\Outsourcing\\CSharp\\Web\\WebDangKySuDungPhongMay\\WebDangKySuDungPhongMay\\Migrations\\20240606022905_First.cs",
+              "ToolTip": "D:\\Outsourcing\\CSharp\\Web\\WebDangKySuDungPhongMay\\WebDangKySuDungPhongMay\\Migrations\\20240606022905_First.cs",
+              "RelativeToolTip": "..\\..\\Outsourcing\\CSharp\\Web\\WebDangKySuDungPhongMay\\WebDangKySuDungPhongMay\\Migrations\\20240606022905_First.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAACMAAAAlAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-06T02:29:05.281Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 86,
+              "Title": "20240606022752_First.cs",
+              "DocumentMoniker": "D:\\Outsourcing\\CSharp\\Web\\WebDangKySuDungPhongMay\\WebDangKySuDungPhongMay\\Migrations\\20240606022752_First.cs",
+              "RelativeDocumentMoniker": "..\\..\\Outsourcing\\CSharp\\Web\\WebDangKySuDungPhongMay\\WebDangKySuDungPhongMay\\Migrations\\20240606022752_First.cs",
+              "ToolTip": "D:\\Outsourcing\\CSharp\\Web\\WebDangKySuDungPhongMay\\WebDangKySuDungPhongMay\\Migrations\\20240606022752_First.cs",
+              "RelativeToolTip": "..\\..\\Outsourcing\\CSharp\\Web\\WebDangKySuDungPhongMay\\WebDangKySuDungPhongMay\\Migrations\\20240606022752_First.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAqAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-06T02:27:52.444Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 87,
+              "Title": "20240606022705_First.cs",
+              "DocumentMoniker": "D:\\Outsourcing\\CSharp\\Web\\WebDangKySuDungPhongMay\\WebDangKySuDungPhongMay\\Migrations\\20240606022705_First.cs",
+              "RelativeDocumentMoniker": "..\\..\\Outsourcing\\CSharp\\Web\\WebDangKySuDungPhongMay\\WebDangKySuDungPhongMay\\Migrations\\20240606022705_First.cs",
+              "ToolTip": "D:\\Outsourcing\\CSharp\\Web\\WebDangKySuDungPhongMay\\WebDangKySuDungPhongMay\\Migrations\\20240606022705_First.cs",
+              "RelativeToolTip": "..\\..\\Outsourcing\\CSharp\\Web\\WebDangKySuDungPhongMay\\WebDangKySuDungPhongMay\\Migrations\\20240606022705_First.cs",
+              "ViewState": "AQIAABwAAAAAAAAAAAAQwCUAAABNAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-06T02:27:05.165Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 88,
+              "Title": "20240606021521_First.cs",
+              "DocumentMoniker": "D:\\Outsourcing\\CSharp\\Web\\WebDangKySuDungPhongMay\\WebDangKySuDungPhongMay\\Migrations\\20240606021521_First.cs",
+              "RelativeDocumentMoniker": "..\\..\\Outsourcing\\CSharp\\Web\\WebDangKySuDungPhongMay\\WebDangKySuDungPhongMay\\Migrations\\20240606021521_First.cs",
+              "ToolTip": "D:\\Outsourcing\\CSharp\\Web\\WebDangKySuDungPhongMay\\WebDangKySuDungPhongMay\\Migrations\\20240606021521_First.cs",
+              "RelativeToolTip": "..\\..\\Outsourcing\\CSharp\\Web\\WebDangKySuDungPhongMay\\WebDangKySuDungPhongMay\\Migrations\\20240606021521_First.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-06T02:15:21.402Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 89,
+              "Title": "20240606021409_First.cs",
+              "DocumentMoniker": "D:\\Outsourcing\\CSharp\\Web\\WebDangKySuDungPhongMay\\WebDangKySuDungPhongMay\\Migrations\\20240606021409_First.cs",
+              "RelativeDocumentMoniker": "..\\..\\Outsourcing\\CSharp\\Web\\WebDangKySuDungPhongMay\\WebDangKySuDungPhongMay\\Migrations\\20240606021409_First.cs",
+              "ToolTip": "D:\\Outsourcing\\CSharp\\Web\\WebDangKySuDungPhongMay\\WebDangKySuDungPhongMay\\Migrations\\20240606021409_First.cs",
+              "RelativeToolTip": "..\\..\\Outsourcing\\CSharp\\Web\\WebDangKySuDungPhongMay\\WebDangKySuDungPhongMay\\Migrations\\20240606021409_First.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-06T02:14:10.006Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 90,
+              "Title": "_ViewImports.cshtml",
+              "DocumentMoniker": "D:\\WebDangKySuDungPhongMay (1)\\WebDangKySuDungPhongMay\\WebDangKySuDungPhongMay\\Views\\_ViewImports.cshtml",
+              "RelativeDocumentMoniker": "WebDangKySuDungPhongMay\\Views\\_ViewImports.cshtml",
+              "ToolTip": "D:\\WebDangKySuDungPhongMay (1)\\WebDangKySuDungPhongMay\\WebDangKySuDungPhongMay\\Views\\_ViewImports.cshtml",
+              "RelativeToolTip": "WebDangKySuDungPhongMay\\Views\\_ViewImports.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-04T16:26:13.636Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 91,
+              "Title": "20240527122612_First.cs",
+              "DocumentMoniker": "D:\\Outsourcing\\CSharp\\Web\\WebDangKySuDungPhongMay\\WebDangKySuDungPhongMay\\Migrations\\20240527122612_First.cs",
+              "RelativeDocumentMoniker": "..\\..\\Outsourcing\\CSharp\\Web\\WebDangKySuDungPhongMay\\WebDangKySuDungPhongMay\\Migrations\\20240527122612_First.cs",
+              "ToolTip": "D:\\Outsourcing\\CSharp\\Web\\WebDangKySuDungPhongMay\\WebDangKySuDungPhongMay\\Migrations\\20240527122612_First.cs",
+              "RelativeToolTip": "..\\..\\Outsourcing\\CSharp\\Web\\WebDangKySuDungPhongMay\\WebDangKySuDungPhongMay\\Migrations\\20240527122612_First.cs",
+              "ViewState": "AQIAANYAAAAAAAAAAAAQwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-27T12:26:12.618Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 92,
+              "Title": "Error.cshtml",
+              "DocumentMoniker": "D:\\WebDangKySuDungPhongMay (1)\\WebDangKySuDungPhongMay\\WebDangKySuDungPhongMay\\Views\\Shared\\Error.cshtml",
+              "RelativeDocumentMoniker": "WebDangKySuDungPhongMay\\Views\\Shared\\Error.cshtml",
+              "ToolTip": "D:\\WebDangKySuDungPhongMay (1)\\WebDangKySuDungPhongMay\\WebDangKySuDungPhongMay\\Views\\Shared\\Error.cshtml",
+              "RelativeToolTip": "WebDangKySuDungPhongMay\\Views\\Shared\\Error.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-27T10:47:15.214Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 93,
+              "Title": "_ViewStart.cshtml",
+              "DocumentMoniker": "D:\\WebDangKySuDungPhongMay (1)\\WebDangKySuDungPhongMay\\WebDangKySuDungPhongMay\\Views\\_ViewStart.cshtml",
+              "RelativeDocumentMoniker": "WebDangKySuDungPhongMay\\Views\\_ViewStart.cshtml",
+              "ToolTip": "D:\\WebDangKySuDungPhongMay (1)\\WebDangKySuDungPhongMay\\WebDangKySuDungPhongMay\\Views\\_ViewStart.cshtml",
+              "RelativeToolTip": "WebDangKySuDungPhongMay\\Views\\_ViewStart.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-27T06:28:40.822Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 94,
+              "Title": "WebDangKySuDungPhongMay.csproj",
+              "DocumentMoniker": "D:\\WebDangKySuDungPhongMay (1)\\WebDangKySuDungPhongMay\\WebDangKySuDungPhongMay\\WebDangKySuDungPhongMay.csproj",
+              "RelativeDocumentMoniker": "WebDangKySuDungPhongMay\\WebDangKySuDungPhongMay.csproj",
+              "ToolTip": "D:\\WebDangKySuDungPhongMay (1)\\WebDangKySuDungPhongMay\\WebDangKySuDungPhongMay\\WebDangKySuDungPhongMay.csproj",
+              "RelativeToolTip": "WebDangKySuDungPhongMay\\WebDangKySuDungPhongMay.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-05-27T06:03:29.197Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

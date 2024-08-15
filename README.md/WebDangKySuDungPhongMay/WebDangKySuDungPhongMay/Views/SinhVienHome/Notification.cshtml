@@ -1,0 +1,172 @@
+﻿@model IEnumerable<WebDangKySuDungPhongMay.Models.ThongBao>
+
+@{
+    ViewBag.Title = "Danh sách thông báo";
+    Layout = "~/Views/Shared/_SinhVienLayout.cshtml";
+}
+
+<h1 class="text-center text-uppercase">Danh sách thông báo</h1>
+
+<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#createModal">
+    Thêm Thông Báo Mới
+</button>
+
+<table class="table table-striped mt-3">
+    <thead>
+        <tr>
+            <th>Tiêu đề</th>
+            <th>Thời gian đăng</th>
+            <th>Người quản lý</th>
+            <th>Hành động</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var thongBao in Model)
+        {
+            <tr>
+                <td>@thongBao.TieuDe</td>
+                <td>@thongBao.ThoiGianDang.ToShortDateString()</td>
+                <td>@thongBao.NguoiQuanLyPhongMay.TenNguoiQuanLy</td>
+                <td>
+                    <button type="button" class="btn btn-info" data-toggle="modal" data-target="#detailsModal"
+                            data-id="@thongBao.MaThongBao" data-tieude="@thongBao.TieuDe"
+                            data-noidung="@thongBao.NoiDung" data-thoigiandang="@thongBao.ThoiGianDang"
+                            data-nguoiquanly="@thongBao.NguoiQuanLyPhongMay.TenNguoiQuanLy">
+                        Xem
+                    </button>
+
+
+
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+<!-- Create Modal -->
+<div class="modal fade" id="createModal" tabindex="-1" role="dialog" aria-labelledby="createModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <form method="post" asp-action="Create">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="createModalLabel">Thêm Thông Báo Mới</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <div class="form-group">
+                        <label for="TieuDe">Tiêu đề</label>
+                        <input type="text" class="form-control" id="TieuDe" name="TieuDe" required />
+                    </div>
+                    <div class="form-group">
+                        <label for="NoiDung">Nội dung</label>
+                        <textarea class="form-control" id="NoiDung" name="NoiDung" required></textarea>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Đóng</button>
+                    <button type="submit" class="btn btn-primary">Thêm</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+
+<!-- Edit Modal -->
+<div class="modal fade" id="editModal" tabindex="-1" role="dialog" aria-labelledby="editModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <form method="post" asp-action="Edit">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="editModalLabel">Sửa Thông Báo</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <input type="hidden" id="editMaThongBao" name="MaThongBao" />
+                    <div class="form-group">
+                        <label for="editTieuDe">Tiêu đề</label>
+                        <input type="text" class="form-control" id="editTieuDe" name="TieuDe" required />
+                    </div>
+                    <div class="form-group">
+                        <label for="editNoiDung">Nội dung</label>
+                        <textarea class="form-control" id="editNoiDung" name="NoiDung" required></textarea>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Đóng</button>
+                    <button type="submit" class="btn btn-primary">Lưu</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+
+<!-- Delete Modal -->
+<div class="modal fade" id="deleteModal" tabindex="-1" role="dialog" aria-labelledby="deleteModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <form method="post" asp-action="Delete">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="deleteModalLabel">Xóa Thông Báo</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    Bạn có chắc chắn muốn xóa thông báo này?
+                    <input type="hidden" id="deleteMaThongBao" name="id" />
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Đóng</button>
+                    <button type="submit" class="btn btn-danger">Xóa</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+
+<!-- Details Modal -->
+<div class="modal fade" id="detailsModal" tabindex="-1" role="dialog" aria-labelledby="detailsModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="detailsModalLabel">Chi Tiết Thông Báo</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <p><strong>Tiêu đề:</strong> <span id="detailsTieuDe"></span></p>
+                <p><strong>Nội dung:</strong> <span id="detailsNoiDung"></span></p>
+                <p><strong>Thời gian đăng:</strong> <span id="detailsThoiGianDang"></span></p>
+                <p><strong>Người quản lý:</strong> <span id="detailsNguoiQuanLy"></span></p>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Đóng</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    <script>
+
+
+        $('#detailsModal').on('show.bs.modal', function (event) {
+            var button = $(event.relatedTarget);
+            var tieude = button.data('tieude');
+            var noidung = button.data('noidung');
+            var thoigiandang = button.data('thoigiandang');
+            var nguoiquanly = button.data('nguoiquanly');
+
+            var modal = $(this);
+            modal.find('#detailsTieuDe').text(tieude);
+            modal.find('#detailsNoiDung').html(noidung);
+            modal.find('#detailsThoiGianDang').text(thoigiandang);
+            modal.find('#detailsNguoiQuanLy').text(nguoiquanly);
+        });
+    </script>
+}
